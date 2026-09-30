@@ -8,7 +8,12 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "eval:record": "tsx --env-file-if-exists=.env.local eval/record.ts",
+    "eval": "tsx --env-file-if-exists=.env.local eval/run.ts",
+    "eval:report": "tsx eval/report.ts",
+    "eval:check": "tsx eval/check.ts",
+    "eval:agree": "tsx eval/agreement.ts"
   },
   "dependencies": {
     "@react-email/components": "^1.0.12",
@@ -28,6 +33,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^5.0.2"
   }

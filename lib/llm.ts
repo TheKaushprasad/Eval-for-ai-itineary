@@ -54,24 +54,36 @@ ${JSON.stringify(context)}
 Write the itinerary in ${req.currency}.`;
 }
 
-async function call(input: { role: "system" | "user" | "assistant"; content: string }[]): Promise<Itinerary> {
+export type Usage = { model: string; inputTokens: number; outputTokens: number };
+/** Optional token-usage hook; the eval harness uses it to track cost. */
+export type OnUsage = (u: Usage) => void;
+
+async function call(input: { role: "system" | "user" | "assistant"; content: string }[], onUsage?: OnUsage): Promise<Itinerary> {
   const res = await openai().responses.parse({
     model: MODEL,
     input,
     text: { format: zodTextFormat(ItinerarySchema, "itinerary") },
   });
+  if (res.usage) onUsage?.({ model: MODEL, inputTokens: res.usage.input_tokens, outputTokens: res.usage.output_tokens });
   if (!res.output_parsed) throw new Error("The model returned no itinerary");
   return res.output_parsed;
 }
 
-export function generateItinerary(req: TripRequest, context: unknown, limit: number) {
+export function generateItinerary(req: TripRequest, context: unknown, limit: number, onUsage?: OnUsage) {
   return call([
     { role: "system", content: SYSTEM_PROMPT },
     { role: "user", content: buildUserPrompt(req, context, limit) },
-  ]);
+  ], onUsage);
 }
 
-export function reviseForBudget(req: TripRequest, context: unknown, limit: number, draft: Itinerary, overBy: number) {
+export function reviseForBudget(
+  req: TripRequest,
+  context: unknown,
+  limit: number,
+  draft: Itinerary,
+  overBy: number,
+  onUsage?: OnUsage,
+) {
   return call([
     { role: "system", content: SYSTEM_PROMPT },
     { role: "user", content: buildUserPrompt(req, context, limit) },
@@ -80,5 +92,5 @@ export function reviseForBudget(req: TripRequest, context: unknown, limit: numbe
       role: "user",
       content: `The line items add up to ${overBy} ${req.currency} over the ${limit} ${req.currency} limit. Revise the itinerary to fit: pick a cheaper stay or fare, swap paid activities for free ones, or choose cheaper meals, while keeping the traveler's preferences. Keep the same structure and number of days.`,
     },
-  ]);
+  ], onUsage);
 }

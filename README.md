@@ -39,4 +39,8 @@ npm run dev
 
 ## Scripts
 
-`npm run dev` · `npm run build` · `npm test` (Vitest: budget math, schema, pipeline degradation) · `npm run typecheck` · `npm run lint`
+`npm run dev` · `npm run build` · `npm test` (Vitest: budget math, schema, pipeline degradation, eval graders) · `npm run typecheck` · `npm run lint`
+
+## Evaluation
+
+`eval/` holds an eval-driven-development harness: 60 test trips, frozen data snapshots, 14 code checks (grounding, budget, diet, kid safety…), an LLM judge validated against human scores, and a regression gate. `npm run eval:record`, then `npm run eval -- --label <name>`. See [eval/README.md](eval/README.md).
