@@ -3,6 +3,7 @@
 import { formatMoney } from "@/lib/budget";
 import type { Itinerary, ItineraryResult } from "@/lib/schema";
 import BudgetBreakdown from "./BudgetBreakdown";
+import QualityPanel from "./QualityPanel";
 
 const SOURCE_BADGE: Record<string, { text: string; cls: string }> = {
   duffel: { text: "Live fare", cls: "bg-teal-50 text-teal-800 ring-teal-600/20" },
@@ -68,6 +69,8 @@ export default function ItineraryView({ result, onReset }: { result: ItineraryRe
           </ul>
         </details>
       )}
+
+      {result.checks && <QualityPanel checks={result.checks} />}
 
       <BudgetBreakdown budget={it.budget} limit={result.budgetLimit} currency={it.currency} />
 

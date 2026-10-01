@@ -43,6 +43,7 @@ for (const id of ids) {
       revised: r.revised,
       emailed: "skipped",
       warnings: r.warnings,
+      checks: r.checks,
     },
   };
   writeJson(join(EXAMPLES_DIR, `${id}.json`), example);

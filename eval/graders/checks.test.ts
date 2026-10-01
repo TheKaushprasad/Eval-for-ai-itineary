@@ -162,6 +162,11 @@ describe("grounding", () => {
     expect(r.detail).not.toContain("북촌");
   });
 
+  it("doesn't grade the bracket of a generic name", () => {
+    const it = plan({ days: [day(1, [act("Museum of Goa (MoGo)"), act("Fort Aguada")]), day(2), day(3)] });
+    expect(check("grounding", { itinerary: it }).detail).not.toContain("MoGo");
+  });
+
   it("flags invented venues", () => {
     const it = plan({ days: [day(1, [act("Dinner cruise with Zanzibar Seafarers")]), day(2), day(3)] });
     const r = check("grounding", { itinerary: it });

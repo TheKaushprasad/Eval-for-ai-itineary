@@ -253,7 +253,14 @@ function grounding({ req, itinerary, context }: CheckInput) {
     specific++;
     // A parenthesized part is an alternative name or gloss ("북촌한옥마을 (Bukchon Hanok Village)",
     // "Britto's (Baga)"): the venue is grounded if the main name or the gloss matches the data.
-    const parts = [name.replace(/\([^)]*\)/g, " "), ...[...name.matchAll(/\(([^)]*)\)/g)].map((m) => m[1])];
+    const main = name.replace(/\([^)]*\)/g, " ");
+    // A main name made only of generic words and the destination ("Museum of Goa (MoGo)") is a
+    // description; its bracket is a note, not the name, so don't grade the note.
+    if (main.trim() !== name.trim() && !distinctiveTokens(main, exclude).length) {
+      specific--;
+      continue;
+    }
+    const parts = [main, ...[...name.matchAll(/\(([^)]*)\)/g)].map((m) => m[1])];
     const grounded = parts.some((p) => {
       const tokens = distinctiveTokens(p, exclude);
       return tokens.length > 0 && tokens.every((t) => refTokens.has(t));

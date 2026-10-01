@@ -147,6 +147,92 @@
     "emailed": "skipped",
     "warnings": [
       "research: web research disabled for this snapshot (--no-research)"
+    ],
+    "checks": [
+      {
+        "id": "dayCount",
+        "status": "pass",
+        "score": 1,
+        "detail": "1 days planned, 1 requested"
+      },
+      {
+        "id": "dates",
+        "status": "pass",
+        "score": 1,
+        "detail": "every day has the right date and number"
+      },
+      {
+        "id": "nights",
+        "status": "pass",
+        "score": 1,
+        "detail": "0 nights, expected 0"
+      },
+      {
+        "id": "withinBudget",
+        "status": "pass",
+        "score": 1,
+        "detail": "total 2090 vs limit 3000"
+      },
+      {
+        "id": "budgetArithmetic",
+        "status": "pass",
+        "score": 1,
+        "detail": "all sums match"
+      },
+      {
+        "id": "dietCompliance",
+        "status": "pass",
+        "score": 1,
+        "detail": "3 meals ok for vegetarian"
+      },
+      {
+        "id": "kidSafety",
+        "status": "na",
+        "score": null,
+        "detail": "no children"
+      },
+      {
+        "id": "grounding",
+        "status": "fail",
+        "score": 0.8,
+        "detail": "1/5 named venues not in context: Itmad‑ud‑Daula (Baby Taj) and nearby local market stroll"
+      },
+      {
+        "id": "sourceValidity",
+        "status": "na",
+        "score": null,
+        "detail": "no web research in context"
+      },
+      {
+        "id": "weatherAware",
+        "status": "na",
+        "score": null,
+        "detail": "no rainy or very hot days"
+      },
+      {
+        "id": "pace",
+        "status": "pass",
+        "score": 1,
+        "detail": "every full day within 2-4 activities"
+      },
+      {
+        "id": "travelMode",
+        "status": "pass",
+        "score": 1,
+        "detail": "both legs by train"
+      },
+      {
+        "id": "transportSource",
+        "status": "na",
+        "score": null,
+        "detail": "no live fares in context"
+      },
+      {
+        "id": "expectations",
+        "status": "pass",
+        "score": 1,
+        "detail": "1 expectations met"
+      }
     ]
   }
 }

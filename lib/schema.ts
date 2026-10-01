@@ -117,6 +117,8 @@ export type ItineraryResult = {
   revised: boolean;
   emailed: "sent" | "skipped" | "failed";
   warnings: string[];
+  /** Results of the eval harness's code checks on this plan (see lib/quality.ts). */
+  checks?: { id: string; status: "pass" | "fail" | "na"; score: number | null; detail: string }[];
 };
 
 export type ProgressStep =

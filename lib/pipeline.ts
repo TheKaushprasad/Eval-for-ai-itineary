@@ -1,6 +1,7 @@
 import { budgetLimit, checkBudget } from "./budget";
 import { sendItineraryEmail } from "./email";
 import { generateItinerary, reviseForBudget } from "./llm";
+import { RESEARCH_ENABLED } from "./openai";
 import type { ItineraryResult, ProgressStep, StreamEvent, TripRequest } from "./schema";
 import { getFlightProvider } from "./sources/flights";
 import { geocode, type Place } from "./sources/geocode";
@@ -14,6 +15,8 @@ export const defaultDeps = {
   getPlaces,
   getFlightProvider,
   research,
+  /** Web research is paid (OpenAI web_search); when off, the step is skipped rather than failed. */
+  researchEnabled: RESEARCH_ENABLED,
   generateItinerary,
   reviseForBudget,
   sendItineraryEmail,
@@ -78,7 +81,9 @@ export async function runPipeline(req: TripRequest, emit: Emit, deps: Deps = def
             childAges: req.childAges,
           }), (f) => `${f.options.length} offers ${f.from}→${f.to}`)
       : (progress("flights", "skipped", !wantsFlight ? `travel mode is ${req.travelMode}` : "no flight API configured — using web estimates"), null),
-    step("research", () => deps.research(req, returnDate, dest?.countryCode ?? null), (r) => `${r.sources.length} sources`),
+    deps.researchEnabled
+      ? step("research", () => deps.research(req, returnDate, dest?.countryCode ?? null), (r) => `${r.sources.length} sources`)
+      : (progress("research", "skipped", "web research is switched off"), null),
   ]);
 
   // 3. Context for the model, each part tagged with its source.

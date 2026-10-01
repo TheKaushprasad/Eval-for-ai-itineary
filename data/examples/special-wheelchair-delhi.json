@@ -310,6 +310,92 @@
     "emailed": "skipped",
     "warnings": [
       "research: web research disabled for this snapshot (--no-research)"
+    ],
+    "checks": [
+      {
+        "id": "dayCount",
+        "status": "pass",
+        "score": 1,
+        "detail": "4 days planned, 4 requested"
+      },
+      {
+        "id": "dates",
+        "status": "pass",
+        "score": 1,
+        "detail": "every day has the right date and number"
+      },
+      {
+        "id": "nights",
+        "status": "pass",
+        "score": 1,
+        "detail": "3 nights, expected 3"
+      },
+      {
+        "id": "withinBudget",
+        "status": "pass",
+        "score": 1,
+        "detail": "total 31200 vs limit 40000"
+      },
+      {
+        "id": "budgetArithmetic",
+        "status": "fail",
+        "score": 0.571,
+        "detail": "food 7000≠4900; activities 3000≠3100; total 33200≠31200"
+      },
+      {
+        "id": "dietCompliance",
+        "status": "pass",
+        "score": 1,
+        "detail": "10 meals ok for vegetarian"
+      },
+      {
+        "id": "kidSafety",
+        "status": "na",
+        "score": null,
+        "detail": "no children"
+      },
+      {
+        "id": "grounding",
+        "status": "pass",
+        "score": 1,
+        "detail": "all 16 named venues found in context"
+      },
+      {
+        "id": "sourceValidity",
+        "status": "na",
+        "score": null,
+        "detail": "no web research in context"
+      },
+      {
+        "id": "weatherAware",
+        "status": "na",
+        "score": null,
+        "detail": "no rainy or very hot days"
+      },
+      {
+        "id": "pace",
+        "status": "pass",
+        "score": 1,
+        "detail": "every full day within 2-4 activities"
+      },
+      {
+        "id": "travelMode",
+        "status": "pass",
+        "score": 1,
+        "detail": "both legs by flight"
+      },
+      {
+        "id": "transportSource",
+        "status": "na",
+        "score": null,
+        "detail": "no live fares in context"
+      },
+      {
+        "id": "expectations",
+        "status": "pass",
+        "score": 1,
+        "detail": "1 expectations met"
+      }
     ]
   }
 }

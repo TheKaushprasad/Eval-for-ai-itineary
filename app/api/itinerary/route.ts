@@ -1,5 +1,5 @@
 import { guardGeneration } from "@/lib/access";
-import { runPipeline } from "@/lib/pipeline";
+import { planAndGrade } from "@/lib/quality";
 import { TripRequestSchema, type StreamEvent } from "@/lib/schema";
 
 export const maxDuration = 180;
@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     async start(controller) {
       const send = (e: StreamEvent) => controller.enqueue(encoder.encode(`data: ${JSON.stringify(e)}\n\n`));
       try {
-        const data = await runPipeline(parsed.data, send);
+        const data = await planAndGrade(parsed.data, send);
         send({ type: "result", data });
       } catch (e) {
         send({ type: "error", message: e instanceof Error ? e.message : "Something went wrong" });

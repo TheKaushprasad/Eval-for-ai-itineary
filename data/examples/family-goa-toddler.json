@@ -386,6 +386,92 @@
     "emailed": "skipped",
     "warnings": [
       "research: web research disabled for this snapshot (--no-research)"
+    ],
+    "checks": [
+      {
+        "id": "dayCount",
+        "status": "pass",
+        "score": 1,
+        "detail": "5 days planned, 5 requested"
+      },
+      {
+        "id": "dates",
+        "status": "pass",
+        "score": 1,
+        "detail": "every day has the right date and number"
+      },
+      {
+        "id": "nights",
+        "status": "pass",
+        "score": 1,
+        "detail": "4 nights, expected 4"
+      },
+      {
+        "id": "withinBudget",
+        "status": "pass",
+        "score": 1,
+        "detail": "total 65500 vs limit 80000"
+      },
+      {
+        "id": "budgetArithmetic",
+        "status": "pass",
+        "score": 1,
+        "detail": "all sums match"
+      },
+      {
+        "id": "dietCompliance",
+        "status": "na",
+        "score": null,
+        "detail": "no dietary restriction (no-preference)"
+      },
+      {
+        "id": "kidSafety",
+        "status": "pass",
+        "score": 1,
+        "detail": "15 activities ok for kids"
+      },
+      {
+        "id": "grounding",
+        "status": "fail",
+        "score": 0.875,
+        "detail": "1/8 named venues not in context: Relax at Candolim / Santana Beach"
+      },
+      {
+        "id": "sourceValidity",
+        "status": "na",
+        "score": null,
+        "detail": "no web research in context"
+      },
+      {
+        "id": "weatherAware",
+        "status": "na",
+        "score": null,
+        "detail": "no rainy or very hot days"
+      },
+      {
+        "id": "pace",
+        "status": "pass",
+        "score": 1,
+        "detail": "every full day within 2-3 activities"
+      },
+      {
+        "id": "travelMode",
+        "status": "pass",
+        "score": 1,
+        "detail": "both legs by flight"
+      },
+      {
+        "id": "transportSource",
+        "status": "na",
+        "score": null,
+        "detail": "no live fares in context"
+      },
+      {
+        "id": "expectations",
+        "status": "na",
+        "score": null,
+        "detail": "no case-specific expectations"
+      }
     ]
   }
 }

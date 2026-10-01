@@ -12,6 +12,7 @@ const req: TripRequest = {
 function deps(over: Partial<Deps> = {}): Deps {
   return {
     ...defaultDeps,
+    researchEnabled: true,
     geocode: vi.fn(async (q: string) => ({ query: q, name: q, lat: 15, lon: 74, country: "India", countryCode: "IN", bbox: null })),
     getWeather: vi.fn(async () => []),
     getPlaces: vi.fn(async () => ({ attractions: [], restaurants: [], stays: [] })),
@@ -53,6 +54,15 @@ describe("runPipeline", () => {
     const r = await runPipeline(req, () => {}, d);
     expect(r.emailed).toBe("failed");
     expect(r.itinerary.title).toBe("Goa");
+  });
+
+  it("skips research without a warning when it is switched off", async () => {
+    const d = deps({ researchEnabled: false });
+    const events: StreamEvent[] = [];
+    const r = await runPipeline(req, (e) => events.push(e), d);
+    expect(d.research).not.toHaveBeenCalled();
+    expect(r.warnings).toEqual([]);
+    expect(events).toContainEqual(expect.objectContaining({ step: "research", status: "skipped" }));
   });
 
   it("skips flights for train trips", async () => {

@@ -513,8 +513,8 @@
         {
           "id": "grounding",
           "status": "fail",
-          "score": 0.714,
-          "detail": "4/14 named venues not in context: Jantar Mantar; Johari / Bapu Bazaar (Pink City market walk + light shopping); Panna Meena Ka Kund (stepwell); Bapu / Nehru Bazaar market walk & small purchases"
+          "score": 0.692,
+          "detail": "4/13 named venues not in context: Jantar Mantar; Johari / Bapu Bazaar (Pink City market walk + light shopping); Panna Meena Ka Kund (stepwell); Bapu / Nehru Bazaar market walk & small purchases"
         },
         {
           "id": "sourceValidity",
@@ -1397,8 +1397,8 @@
         {
           "id": "grounding",
           "status": "fail",
-          "score": 0.733,
-          "detail": "4/15 named venues not in context: Palolem beach (morning swim & breakfast); Lunch at Palolem / Crystal Goa; Cola / Palolem lazy afternoon; beach cafe (Palolem)"
+          "score": 0.786,
+          "detail": "3/14 named venues not in context: Palolem beach (morning swim & breakfast); Lunch at Palolem / Crystal Goa; Cola / Palolem lazy afternoon"
         },
         {
           "id": "sourceValidity",
@@ -1836,7 +1836,7 @@
           "id": "grounding",
           "status": "pass",
           "score": 1,
-          "detail": "all 12 named venues found in context"
+          "detail": "all 11 named venues found in context"
         },
         {
           "id": "sourceValidity",
@@ -2185,8 +2185,8 @@
         {
           "id": "grounding",
           "status": "fail",
-          "score": 0.421,
-          "detail": "11/19 named venues not in context: Grand Palace & Wat Pho (temple area); Rama VIII Bridge viewpoint and riverside walk; Bank of Thailand Museum or Siriraj Medical Museum (pick preference); Shopping (Pratunam / Platinum Fashion Mall / local markets); Traditional Thai massage or spa (early evening); Plane meal; +5 more"
+          "score": 0.412,
+          "detail": "10/17 named venues not in context: Grand Palace & Wat Pho (temple area); Rama VIII Bridge viewpoint and riverside walk; Bank of Thailand Museum or Siriraj Medical Museum (pick preference); Traditional Thai massage or spa (early evening); Plane meal; Food court / Siam Paragon; +4 more"
         },
         {
           "id": "sourceValidity",
@@ -5823,7 +5823,7 @@
           "id": "grounding",
           "status": "pass",
           "score": 1,
-          "detail": "all 17 named venues found in context"
+          "detail": "all 16 named venues found in context"
         },
         {
           "id": "sourceValidity",
@@ -7052,8 +7052,8 @@
         {
           "id": "grounding",
           "status": "fail",
-          "score": 0.444,
-          "detail": "5/9 named venues not in context: Candolim Beach walk & sunset; Panjim & Fontainhas (Latin Quarter) stroll + Panjim city viewpoint; Morning beach time (Arossim / Candolim depending on preference); Pure-veg restaurant near Candolim (suggest asking hotel reception for current pure-veg options); Café in Fontainhas (tea/coffee + snacks)"
+          "score": 0.429,
+          "detail": "4/7 named venues not in context: Candolim Beach walk & sunset; Panjim & Fontainhas (Latin Quarter) stroll + Panjim city viewpoint; Pure-veg restaurant near Candolim (suggest asking hotel reception for current pure-veg options); Café in Fontainhas (tea/coffee + snacks)"
         },
         {
           "id": "sourceValidity",
@@ -7343,5 +7343,5 @@
       }
     }
   ],
-  "rescoredAt": "2026-10-01T08:01:04.685Z"
+  "rescoredAt": "2026-10-01T09:55:46.299Z"
 }
