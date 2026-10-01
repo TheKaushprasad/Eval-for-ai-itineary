@@ -1,0 +1,624 @@
+{
+  "id": "dur-1day-agra",
+  "requestHash": "d12e207ed958",
+  "recordedAt": "2026-10-01T04:40:48.701Z",
+  "geocode": {
+    "Agra": {
+      "ok": true,
+      "value": {
+        "query": "Agra",
+        "name": "Agra, Uttar Pradesh, 280001, India",
+        "lat": 27.1752554,
+        "lon": 78.0098161,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          27.0152554,
+          27.3352554,
+          77.8498161,
+          78.1698161
+        ]
+      }
+    },
+    "Delhi": {
+      "ok": true,
+      "value": {
+        "query": "Delhi",
+        "name": "Delhi, India",
+        "lat": 28.6328027,
+        "lon": 77.2197713,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          28.4046285,
+          28.8834464,
+          76.8388351,
+          77.3453379
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-02-27",
+        "tMax": 27.6,
+        "tMin": 15.2,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "Taj Mahal",
+          "kind": "attraction",
+          "lat": 27.175009,
+          "lon": 78.0420903,
+          "tags": {
+            "building": "yes",
+            "heritage:operator": "whc",
+            "historic": "tomb",
+            "landmark": "1",
+            "name": "Taj Mahal",
+            "name:am": "ታጅ ማሃል",
+            "name:ar": "تاج محل",
+            "name:arz": "تاج محل",
+            "name:az-Arab": "تاج محل",
+            "name:azb": "تاج محل",
+            "name:ba": "Таж Махал",
+            "name:be": "Тадж-Махал",
+            "name:be-tarask": "Тадж Магал",
+            "name:bg": "Тадж Махал",
+            "name:bn": "তাজমহল",
+            "name:bxr": "Тадж-Махал",
+            "name:ce": "Тадж-Махал",
+            "name:cs": "Tádž Mahal",
+            "name:de": "Tadsch Mahal",
+            "name:el": "Τατζ Μαχάλ",
+            "name:en": "Taj Mahal",
+            "name:fa": "تاج محل",
+            "name:gu": "તાજ મહેલ",
+            "name:he": "טאג' מהאל",
+            "name:hi": "ताज महल",
+            "name:hy": "Թաջ Մահալ",
+            "name:hyw": "Թաժ Մահալ",
+            "name:ja": "タージ・マハル",
+            "name:kab-Arab": "تاج محل",
+            "name:kk": "Тәж Махал",
+            "name:kk-Arab": "ٴتاج ماحال",
+            "name:kn": "ತಾಜ್ ಮಹಲ್",
+            "name:ko": "타지마할",
+            "name:ks": "تاج مَحل",
+            "name:ky": "Таж-Махал",
+            "name:ml": "താജ് മഹൽ",
+            "name:pa": "ਤਾਜ ਮਹਿਲ",
+            "name:pnb": "تاج محل",
+            "name:ps": "تاج محل",
+            "name:ru": "Тадж-Махал",
+            "name:sd": "تاج محل",
+            "name:ta": "தாஜ் மகால்",
+            "name:te": "తాజ్ మహల్",
+            "name:tr": "taç mahal",
+            "name:tw": "泰姬瑪哈陵",
+            "name:uk": "Тадж Махал",
+            "name:ur": "تاج محل",
+            "name:zh": "泰姬陵",
+            "ref:whc": "252",
+            "roof:colour": "white",
+            "start_date": "1632",
+            "survey:date": "2023-06-18",
+            "tomb": "mausoleum",
+            "tourism": "attraction",
+            "website": "https://www.tajmahal.gov.in/",
+            "whc:criteria": "(i)",
+            "whc:inscription_date": "1983",
+            "wheelchair": "yes",
+            "wikidata": "Q9141",
+            "wikipedia": "hi:ताजमहल",
+            "wikipedia:ur": "تاج محل"
+          }
+        },
+        {
+          "name": "Akbar's tomb and mausoleum",
+          "kind": "monument",
+          "lat": 27.2204201,
+          "lon": 77.9503982,
+          "tags": {
+            "alt_name:es": "Mausoleo de Akbar",
+            "building": "yes",
+            "historic": "monument",
+            "name": "Akbar's tomb and mausoleum",
+            "name:de": "Akbar-Mausoleum",
+            "name:es": "Tumba de Akbar",
+            "name:ru": "Гробница Акбара Великого",
+            "name:zh": "阿克巴大帝陵墓",
+            "wikidata": "Q416646",
+            "wikipedia": "en:Tomb of Akbar the Great"
+          }
+        },
+        {
+          "name": "Mariam's Tomb",
+          "kind": "monument",
+          "lat": 27.2153018,
+          "lon": 77.9427206,
+          "tags": {
+            "building": "yes",
+            "historic": "monument",
+            "name": "Mariam's Tomb",
+            "wikidata": "Q7818627",
+            "wikipedia": "en:Tomb of Mariam Zamani"
+          }
+        },
+        {
+          "name": "Agra Fort",
+          "kind": "fort",
+          "lat": 27.1798217,
+          "lon": 78.0210426,
+          "tags": {
+            "addr:city": "Agra",
+            "addr:country": "IN",
+            "addr:state": "Uttar Pradesh",
+            "barrier": "wall",
+            "heritage:operator": "whc",
+            "historic": "fort",
+            "is_in:city": "Agra",
+            "is_in:country": "India",
+            "is_in:country_code": "IN",
+            "is_in:iso_3166_2": "IN-UP 3166 2",
+            "is_in:state": "Uttar Pradesh",
+            "name": "Agra Fort",
+            "name:ar": "قلعة أغرا",
+            "name:bn": "আগ্রা দুর্গ",
+            "name:de": "Rotes Fort",
+            "name:en": "Agra Fort",
+            "name:es": "Fuerte de Agra",
+            "name:fa": "قلعه آگره",
+            "name:fr": "Fort d'Agra",
+            "name:hi": "आगरा का किला",
+            "name:id": "Benteng Agra",
+            "name:ja": "アーグラ城塞",
+            "name:kn": "ಆಗ್ರ ಕೋಟೆ",
+            "name:ko": "아그라성",
+            "name:mai": "आगरा किला",
+            "name:ml": "ആഗ്ര കോട്ട",
+            "name:ru": "Агра-форт",
+            "name:th": "ป้อมอัครา",
+            "name:ur": "قلعہ آگرہ",
+            "name:vi": "Pháo đài Agra",
+            "name:zh": "阿格拉堡",
+            "phone": "+91 562 296 0457",
+            "ref:whc": "251",
+            "source": "bing for detail, Mapbox Satelite for location",
+            "start_date": "1573",
+            "whc:criteria": "(iii)",
+            "whc:inscription_date": "1983",
+            "wikidata": "Q171857",
+            "wikipedia": "en:Agra Fort"
+          }
+        },
+        {
+          "name": "एतमाद-उद-दौला का मक़बरा",
+          "kind": "attraction",
+          "lat": 27.1928678,
+          "lon": 78.0309945,
+          "tags": {
+            "addr:city": "Agra",
+            "addr:state": "Uttar Pradesh",
+            "building": "yes",
+            "historic": "monument",
+            "name": "एतमाद-उद-दौला का मक़बरा",
+            "name:en": "I'timād-ud-Daulah's Tomb",
+            "name:hi": "एतमाद-उद-दौला का मक़बरा",
+            "name:ru": "Гробница Итимад-уд-Даулы",
+            "name:ur": "مقبرہ اعتماد الدولہ",
+            "name:zh": "小泰姬陵",
+            "opening_hours": "Fr-Th 08:00-24:00",
+            "tourism": "attraction",
+            "wikidata": "Q1318766",
+            "wikipedia": "en:Tomb of I'timād-ud-Daulah"
+          }
+        },
+        {
+          "name": "Jhalkaribai Statue",
+          "kind": "monument",
+          "lat": 27.1753047,
+          "lon": 78.0263372,
+          "tags": {
+            "historic": "monument",
+            "name": "Jhalkaribai Statue",
+            "source": "survey;aerial imagery;streetlevel imagery",
+            "wikidata": "Q659396"
+          }
+        },
+        {
+          "name": "Jhansi Rani Laxmibhai Statue",
+          "kind": "monument",
+          "lat": 27.1635521,
+          "lon": 78.0038257,
+          "tags": {
+            "historic": "monument",
+            "name": "Jhansi Rani Laxmibhai Statue",
+            "wikidata": "Q659396"
+          }
+        },
+        {
+          "name": "Chausath Khamba",
+          "kind": "monument",
+          "lat": 27.2121062,
+          "lon": 77.9754843,
+          "tags": {
+            "historic": "monument",
+            "name": "Chausath Khamba"
+          }
+        },
+        {
+          "name": "Tomb of Sadiq Khan",
+          "kind": "monument",
+          "lat": 27.2107306,
+          "lon": 77.9778228,
+          "tags": {
+            "historic": "monument",
+            "name": "Tomb of Sadiq Khan"
+          }
+        },
+        {
+          "name": "Chauburji",
+          "kind": "monument",
+          "lat": 27.1901207,
+          "lon": 78.0325617,
+          "tags": {
+            "historic": "monument",
+            "name": "Chauburji"
+          }
+        },
+        {
+          "name": "Shaheed Smarak",
+          "kind": "memorial",
+          "lat": 27.1983897,
+          "lon": 78.0048416,
+          "tags": {
+            "historic": "memorial",
+            "name": "Shaheed Smarak"
+          }
+        },
+        {
+          "name": "Balkeshwar Ghat",
+          "kind": "beach",
+          "lat": 27.2202244,
+          "lon": 78.0321686,
+          "tags": {
+            "name": "Balkeshwar Ghat",
+            "natural": "beach"
+          }
+        },
+        {
+          "name": "Bhagat Villa",
+          "kind": "attraction",
+          "lat": 27.1997268,
+          "lon": 78.0028277,
+          "tags": {
+            "name": "Bhagat Villa",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Sahil Royal Garden",
+          "kind": "castle",
+          "lat": 27.1824771,
+          "lon": 77.9623113,
+          "tags": {
+            "castle_type": "palace",
+            "historic": "castle",
+            "name": "Sahil Royal Garden"
+          }
+        },
+        {
+          "name": "Jahangir's Palace",
+          "kind": "attraction",
+          "lat": 27.177765,
+          "lon": 78.0231386,
+          "tags": {
+            "name": "Jahangir's Palace",
+            "name:hi": "जहांगीरी महल",
+            "name:ru": "Джахангири-Махал",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Taj Nature Walk",
+          "kind": "zoo",
+          "lat": 27.1702958,
+          "lon": 78.0485763,
+          "tags": {
+            "charge": "150 INR for foreigners",
+            "fee": "yes",
+            "name": "Taj Nature Walk",
+            "opening_hours": "Mo-Su 06:00-19:00",
+            "tourism": "zoo",
+            "wheelchair": "limited",
+            "zoo": "wildlife_park"
+          }
+        },
+        {
+          "name": "ताज महल संग्रहालय",
+          "kind": "museum",
+          "lat": 27.1731379,
+          "lon": 78.0406323,
+          "tags": {
+            "name": "ताज महल संग्रहालय",
+            "name:en": "Taj Mahal Museum",
+            "name:zh": "泰姬陵",
+            "opening_hours": "Mo-Su 00:00-00:00",
+            "phone": "0562-6543823",
+            "tourism": "museum"
+          }
+        },
+        {
+          "name": "Angori Bagh",
+          "kind": "attraction",
+          "lat": 27.1784181,
+          "lon": 78.0230568,
+          "tags": {
+            "name": "Angori Bagh",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Diwan-i-Khas",
+          "kind": "attraction",
+          "lat": 27.178897,
+          "lon": 78.0233646,
+          "tags": {
+            "name": "Diwan-i-Khas",
+            "name:hi": "दीवान-ए-खास",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Khas Mahal",
+          "kind": "attraction",
+          "lat": 27.1784677,
+          "lon": 78.0235623,
+          "tags": {
+            "name": "Khas Mahal",
+            "name:hi": "खास महल",
+            "name:ru": "Кхас-Махал",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Musammun Burj",
+          "kind": "attraction",
+          "lat": 27.1788379,
+          "lon": 78.0236082,
+          "tags": {
+            "name": "Musammun Burj",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Hathi Pol",
+          "kind": "attraction",
+          "lat": 27.1803739,
+          "lon": 78.0186461,
+          "tags": {
+            "name": "Hathi Pol",
+            "name:hi": "हाथी पोल",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "View Point Taj Mahal 50 INR",
+          "kind": "attraction",
+          "lat": 27.1785057,
+          "lon": 78.0405625,
+          "tags": {
+            "name": "View Point Taj Mahal 50 INR",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Akhbari Mahal",
+          "kind": "attraction",
+          "lat": 27.1769871,
+          "lon": 78.023238,
+          "tags": {
+            "name": "Akhbari Mahal",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Hauz-i-Jehangir",
+          "kind": "attraction",
+          "lat": 27.1776634,
+          "lon": 78.0225186,
+          "tags": {
+            "alt_name:en": "Jahangir's Bath Tub",
+            "name": "Hauz-i-Jehangir",
+            "name:en": "Jahangir's Hauz",
+            "start_date": "1610",
+            "tourism": "attraction"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Bikanerwala",
+          "kind": "restaurant",
+          "lat": 27.1591273,
+          "lon": 78.0135204,
+          "tags": {
+            "amenity": "restaurant",
+            "capacity": "50",
+            "cuisine": "regional;indian",
+            "delivery": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Bikanerwala",
+            "smoking": "no",
+            "takeaway": "yes"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "The Coral Tree Boutique Homestay",
+          "kind": "guest_house",
+          "lat": 27.1667334,
+          "lon": 78.0512558,
+          "tags": {
+            "addr:housenumber": "4",
+            "addr:postcode": "282001",
+            "addr:street": "Amar Lok Colony",
+            "alt_name": "The Coral Tree Boutique Homestay",
+            "beds": "12",
+            "guest_house": "bed_and_breakfast",
+            "internet_access": "yes",
+            "internet_access:fee": "no",
+            "name": "The Coral Tree Boutique Homestay",
+            "phone": "+91 98376 09088",
+            "rooms": "6",
+            "tourism": "guest_house",
+            "website": "https://www.thecoraltreehomestay.com"
+          }
+        },
+        {
+          "name": "राइन",
+          "kind": "guest_house",
+          "lat": 27.1633872,
+          "lon": 78.0538102,
+          "tags": {
+            "addr:housenumber": "MIG 12",
+            "addr:postcode": "282001",
+            "addr:street": "Taj East Gate Road",
+            "email": "rhinestay@outlook.com",
+            "internet_access": "wlan",
+            "name": "राइन",
+            "name:en": "Rhine Guest House Correct Location",
+            "name:es": "casa de huéspedes del Rin",
+            "name:ja_rm": "ラインゲストハウス",
+            "opening_hours": "24/7",
+            "operator": "Ryan",
+            "phone": "+919997379977",
+            "tourism": "guest_house",
+            "website": "http://www.rhinestay.com"
+          }
+        },
+        {
+          "name": "The Coral House Homestay by the Taj",
+          "kind": "guest_house",
+          "lat": 27.166644,
+          "lon": 78.0512523,
+          "tags": {
+            "addr:city": "Agra",
+            "addr:housenumber": "5",
+            "addr:postcode": "282001",
+            "addr:street": "Amar Lok Colony",
+            "email": "info@coralcourthomestay.com",
+            "guest_house": "guest_house",
+            "name": "The Coral House Homestay by the Taj",
+            "phone": "+91 7505340604",
+            "tourism": "guest_house",
+            "website": "https://coralcourthomestay.com"
+          }
+        },
+        {
+          "name": "OM Hostel",
+          "kind": "hostel",
+          "lat": 27.1641657,
+          "lon": 78.0537606,
+          "tags": {
+            "addr:street": "Taj East Gate Road",
+            "internet_access": "wlan",
+            "name": "OM Hostel",
+            "opening_hours": "24/7",
+            "phone": "+91 72539 23083",
+            "tourism": "hostel",
+            "website": "https://om-hostel-student-dormitory.business.site/"
+          }
+        },
+        {
+          "name": "Om",
+          "kind": "hostel",
+          "lat": 27.1642277,
+          "lon": 78.0537096,
+          "tags": {
+            "internet_access": "wlan",
+            "name": "Om",
+            "name:en": "OM Hostel",
+            "tourism": "hostel",
+            "website": "https://www.booking.com/Share-0nGpfe"
+          }
+        },
+        {
+          "name": "Hosteller",
+          "kind": "hostel",
+          "lat": 27.1670169,
+          "lon": 78.0507762,
+          "tags": {
+            "addr:city": "Agra",
+            "addr:postcode": "282001",
+            "building": "yes",
+            "email": "booking@thehosteller.com",
+            "internet_access": "wlan",
+            "name": "Hosteller",
+            "operator": "The Hosteller",
+            "tourism": "hostel",
+            "website": "https://www.thehosteller.com/hostels/the-hosteller-agra"
+          }
+        },
+        {
+          "name": "Youth Hostel",
+          "kind": "hostel",
+          "lat": 27.1991292,
+          "lon": 78.0049243,
+          "tags": {
+            "name": "Youth Hostel",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "name": "Hotel Om Sai Palace 09720201112",
+          "kind": "hostel",
+          "lat": 27.1233632,
+          "lon": 78.0043422,
+          "tags": {
+            "name": "Hotel Om Sai Palace 09720201112",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "name": "B N Hostel (Agra College)",
+          "kind": "hostel",
+          "lat": 27.1863397,
+          "lon": 78.000753,
+          "tags": {
+            "name": "B N Hostel (Agra College)",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "name": "sapru hostel",
+          "kind": "hostel",
+          "lat": 27.1875736,
+          "lon": 78.0009025,
+          "tags": {
+            "name": "sapru hostel",
+            "tourism": "hostel"
+          }
+        }
+      ]
+    }
+  }
+}

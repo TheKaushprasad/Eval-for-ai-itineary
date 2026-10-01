@@ -150,6 +150,18 @@ describe("grounding", () => {
     expect(check("grounding", { itinerary: it })).toMatchObject({ status: "pass", score: 1 });
   });
 
+  it("ignores travel legs and airport codes", () => {
+    const it = plan({ days: [day(1, [act("Arrive GOI — transfer to hotel"), act("Travel: Bangalore → Goa")]), day(2), day(3)] });
+    expect(check("grounding", { itinerary: it }).detail).not.toMatch(/GOI|Travel/);
+  });
+
+  it("matches names written in non-Latin scripts", () => {
+    const seoul = { ...context, places: { ...context.places!, attractions: [...context.places!.attractions, { name: "북촌한옥마을" }] } };
+    const it = plan({ days: [day(1, [act("북촌한옥마을 (Bukchon Hanok Village)")]), day(2), day(3)] });
+    const r = check("grounding", { itinerary: it, context: seoul });
+    expect(r.detail).not.toContain("북촌");
+  });
+
   it("flags invented venues", () => {
     const it = plan({ days: [day(1, [act("Dinner cruise with Zanzibar Seafarers")]), day(2), day(3)] });
     const r = check("grounding", { itinerary: it });

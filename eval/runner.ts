@@ -1,3 +1,4 @@
+import { parseProvider } from "@/lib/ai";
 import { defaultDeps, runPipeline, type Deps } from "@/lib/pipeline";
 import { generateItinerary, reviseForBudget, type Usage } from "@/lib/llm";
 import type { Itinerary, TripRequest } from "@/lib/schema";
@@ -17,14 +18,15 @@ export type RunOptions = {
   loadSnapshot?: (id: string) => Snapshot | null;
 };
 
-/** Runs one case through the real pipeline and grades the result. Never throws. */
-export async function runCase(c: EvalCase, opts: RunOptions): Promise<CaseResult> {
-  const llm = opts.llm ?? { generateItinerary, reviseForBudget };
-  const base = {
+/** A result that didn't run (or failed before grading). */
+export function failedResult(c: EvalCase, error: string, latencyMs = 0): CaseResult {
+  return {
     id: c.id,
     category: c.category,
     tags: c.tags,
-    latencyMs: 0,
+    ok: false,
+    error,
+    latencyMs,
     revised: false,
     withinBudget: null,
     computedTotal: null,
@@ -34,7 +36,20 @@ export async function runCase(c: EvalCase, opts: RunOptions): Promise<CaseResult
     costUsd: null,
     warnings: [],
     checks: [],
-  } satisfies Partial<CaseResult>;
+  };
+}
+
+/** Cost of a judge call; `model` is "provider/model". */
+export function judgeCostUsd(j: JudgeResult | undefined) {
+  if (!j) return 0;
+  const [provider, ...model] = j.model.split("/");
+  return costUsd(parseProvider(provider), model.join("/"), j.inputTokens, j.outputTokens) ?? 0;
+}
+
+/** Runs one case through the real pipeline and grades the result. Never throws. */
+export async function runCase(c: EvalCase, opts: RunOptions): Promise<CaseResult> {
+  const llm = opts.llm ?? { generateItinerary, reviseForBudget };
+  const base = failedResult(c, "");
 
   // Capture what the model saw, what it answered, and what that cost.
   const usage: Usage[] = [];
@@ -60,9 +75,9 @@ export async function runCase(c: EvalCase, opts: RunOptions): Promise<CaseResult
     deps = { ...defaultDeps, sendItineraryEmail: async () => {}, ...capture };
   } else {
     const snap = (opts.loadSnapshot ?? readSnapshot)(c.id);
-    if (!snap) return { ...base, ok: false, error: "no snapshot; run npm run eval:record first" };
+    if (!snap) return failedResult(c, "no snapshot; run npm run eval:record first");
     if (snap.requestHash !== requestHash(c.request)) {
-      return { ...base, ok: false, error: "snapshot is stale (case changed); re-record with --force" };
+      return failedResult(c, "snapshot is stale (case changed); re-record with --force");
     }
     deps = replayDeps(snap, capture);
   }
@@ -94,10 +109,11 @@ export async function runCase(c: EvalCase, opts: RunOptions): Promise<CaseResult
     }
 
     // Cost of producing the itinerary only; the judge is eval overhead.
-    const costs = usage.map((u) => costUsd(u.model, u.inputTokens, u.outputTokens));
+    const costs = usage.map((u) => costUsd(u.provider, u.model, u.inputTokens, u.outputTokens));
     return {
       ...base,
       ok: true,
+      error: undefined,
       latencyMs,
       revised: result.revised,
       withinBudget: result.withinBudget,
@@ -110,8 +126,9 @@ export async function runCase(c: EvalCase, opts: RunOptions): Promise<CaseResult
       checks,
       judge: judged,
       itinerary: result.itinerary,
+      rawBudget: raw.budget,
     };
   } catch (e) {
-    return { ...base, ok: false, error: errMessage(e), latencyMs: Date.now() - t0 };
+    return failedResult(c, errMessage(e), Date.now() - t0);
   }
 }

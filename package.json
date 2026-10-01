@@ -13,7 +13,9 @@
     "eval": "tsx --env-file-if-exists=.env.local eval/run.ts",
     "eval:report": "tsx eval/report.ts",
     "eval:check": "tsx eval/check.ts",
-    "eval:agree": "tsx eval/agreement.ts"
+    "eval:agree": "tsx eval/agreement.ts",
+    "eval:examples": "tsx eval/export-examples.ts",
+    "eval:rescore": "tsx eval/rescore.ts"
   },
   "dependencies": {
     "@react-email/components": "^1.0.12",

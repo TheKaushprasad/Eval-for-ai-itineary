@@ -68,8 +68,9 @@ const graded = (id: CheckId, score: number, detail: string, pass = score >= 0.99
 const ratio = (ok: number, total: number) => (total ? ok / total : 1);
 const preview = (xs: string[], n = 6) => xs.slice(0, n).join("; ") + (xs.length > n ? `; +${xs.length - n} more` : "");
 
+// Letters in any script survive, so Korean or Thai venue names can match OSM names written the same way.
 export const normalize = (s: string) =>
-  s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  s.normalize("NFKD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 
 // ---- Structure ----
 
@@ -199,16 +200,22 @@ const GENERIC = new Set(
   tower bridge zoo aquarium gallery art cultural show dance music class cooking workshop experience state area centre center
   monday tuesday wednesday thursday friday saturday sunday january february march april may june july august september
   october november december am pm hrs self own home house nearby authentic traditional famous popular best top sightseeing
-  depart departure overnight sleeper express taxi cab auto rickshaw metro ferry scooter bike cycling`
+  depart departure overnight sleeper express taxi cab auto rickshaw metro ferry scooter bike cycling
+  travel rooftop drinks skyline views private short late slow quick leisurely relaxed lazy light small purchases swim
+  option options similar preference pick gentle calm shallow play packed picnic full half terraces paddy pack packing
+  back walking boat trip external stop courtyards`
     .split(/\s+/)
     .filter(Boolean),
 );
 
 /** Normalized capitalized tokens (proper-noun-ish) that aren't generic or the trip's own origin/destination. */
 function distinctiveTokens(name: string, exclude: Set<string>) {
-  return name
-    .split(/[\s,/()&+–—-]+/)
-    .filter((w) => /^\p{Lu}/u.test(w))
+  const words = name.split(/[\s,/()&+–—-]+/).filter(Boolean);
+  return words
+    // Capitalized words, or words from caseless scripts (Korean, Thai, Devanagari…), look like names.
+    .filter((w) => /^[\p{Lu}\p{Lo}]/u.test(w))
+    // Short all-caps tokens are codes and abbreviations (GOI, BLR, DMR), not venue names.
+    .filter((w) => !/^[\p{Lu}\d]{2,4}$/u.test(w))
     .map(normalize)
     .flatMap((w) => w.split(" "))
     .filter((w) => w.length >= 3 && !/^\d+$/.test(w) && !GENERIC.has(w) && !exclude.has(w) && !/^\d/.test(w));
@@ -234,17 +241,24 @@ function grounding({ req, itinerary, context }: CheckInput) {
   const refTokens = new Set(normalize(referenceText(context, req)).split(" "));
   const exclude = new Set(normalize(`${req.destination} ${req.origin}`).split(" "));
   const named = [
-    ...itinerary.days.flatMap((d) => d.activities.map((a) => a.name)),
+    // Travel legs ("Arrive GOI — transfer to hotel") aren't venues.
+    ...itinerary.days.flatMap((d) => d.activities.map((a) => a.name).filter((n) => !TRAVEL_ACTIVITY.test(normalize(n)))),
     ...itinerary.days.flatMap((d) => d.meals.map((m) => m.place)),
     itinerary.accommodation.name,
   ];
   let specific = 0;
   const ungrounded: string[] = [];
   for (const name of new Set(named)) {
-    const tokens = distinctiveTokens(name, exclude);
-    if (!tokens.length) continue;
+    if (!distinctiveTokens(name, exclude).length) continue;
     specific++;
-    if (!tokens.every((t) => refTokens.has(t))) ungrounded.push(name);
+    // A parenthesized part is an alternative name or gloss ("북촌한옥마을 (Bukchon Hanok Village)",
+    // "Britto's (Baga)"): the venue is grounded if the main name or the gloss matches the data.
+    const parts = [name.replace(/\([^)]*\)/g, " "), ...[...name.matchAll(/\(([^)]*)\)/g)].map((m) => m[1])];
+    const grounded = parts.some((p) => {
+      const tokens = distinctiveTokens(p, exclude);
+      return tokens.length > 0 && tokens.every((t) => refTokens.has(t));
+    });
+    if (!grounded) ungrounded.push(name);
   }
   if (!specific) return na("grounding", "no named venues");
   return graded(
@@ -273,7 +287,7 @@ function sourceValidity({ itinerary, context }: CheckInput) {
 
 // ---- Weather, pace, transport ----
 
-const TRAVEL_ACTIVITY = /\b(flight|fly|train|bus|drive|transfer|check ?in|check ?out|depart|departure|arrive|arrival|journey|return|airport|station)\b/;
+const TRAVEL_ACTIVITY = /\b(travel|flight|fly|train|bus|drive|transfer|check ?in|check ?out|depart|departure|arrive|arrival|journey|return|airport|station)\b/;
 
 function weatherAware({ itinerary, context }: CheckInput) {
   const days = context?.weather?.days;

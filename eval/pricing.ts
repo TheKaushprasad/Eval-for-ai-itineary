@@ -1,6 +1,9 @@
+import type { Provider } from "@/lib/ai";
+
 /**
- * USD per 1M tokens. Check https://openai.com/api/pricing before quoting costs; unknown models
- * report cost as null rather than guessing.
+ * OpenAI USD per 1M tokens. Check https://openai.com/api/pricing before quoting costs; unknown
+ * models report cost as null rather than guessing. Other providers are assumed to be on a free
+ * tier (or local, for Ollama) and cost 0.
  */
 const PRICES: Record<string, { input: number; output: number }> = {
   "gpt-5": { input: 1.25, output: 10 },
@@ -15,7 +18,8 @@ const PRICES: Record<string, { input: number; output: number }> = {
 /** For showing cost per itinerary in rupees; override with EVAL_USD_INR. */
 export const USD_INR = Number(process.env.EVAL_USD_INR) || 88;
 
-export function costUsd(model: string, inputTokens: number, outputTokens: number): number | null {
+export function costUsd(provider: Provider, model: string, inputTokens: number, outputTokens: number): number | null {
+  if (provider !== "openai") return 0;
   // Dated snapshots like "gpt-5-2025-08-07" price like their base model.
   const base = Object.keys(PRICES)
     .sort((a, b) => b.length - a.length)

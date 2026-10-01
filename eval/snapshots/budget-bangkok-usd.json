@@ -1,0 +1,906 @@
+{
+  "id": "budget-bangkok-usd",
+  "requestHash": "3c5e38376b3a",
+  "recordedAt": "2026-10-01T04:39:26.746Z",
+  "geocode": {
+    "Bangkok": {
+      "ok": true,
+      "value": {
+        "query": "Bangkok",
+        "name": "Bangkok, Thailand",
+        "lat": 13.7524938,
+        "lon": 100.4935089,
+        "country": "Thailand",
+        "countryCode": "TH",
+        "bbox": [
+          13.2191019,
+          13.9551693,
+          100.3278772,
+          100.9386039
+        ]
+      }
+    },
+    "Los Angeles": {
+      "ok": true,
+      "value": {
+        "query": "Los Angeles",
+        "name": "Los Angeles, Los Angeles County, California, United States",
+        "lat": 34.0536909,
+        "lon": -118.242766,
+        "country": "United States",
+        "countryCode": "US",
+        "bbox": [
+          33.659541,
+          34.337306,
+          -118.6681798,
+          -118.1552983
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-01-15",
+        "tMax": 33.5,
+        "tMin": 22,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-16",
+        "tMax": 32.7,
+        "tMin": 22.4,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-17",
+        "tMax": 32.7,
+        "tMin": 22.4,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-18",
+        "tMax": 33,
+        "tMin": 21.9,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-19",
+        "tMax": 32.8,
+        "tMin": 21.7,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-20",
+        "tMax": 32.5,
+        "tMin": 21.8,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-21",
+        "tMax": 33.4,
+        "tMin": 22,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "พิพิธภัณฑ์ธนาคารแห่งประเทศไทย",
+          "kind": "museum",
+          "lat": 13.7682842,
+          "lon": 100.4995365,
+          "tags": {
+            "name": "พิพิธภัณฑ์ธนาคารแห่งประเทศไทย",
+            "name:en": "Bank of Thailand Museum",
+            "name:th": "พิพิธภัณฑ์ธนาคารแห่งประเทศไทย",
+            "opening_hours": "Sat-Sun 09:30-16:30",
+            "tourism": "museum",
+            "website": "https://www.botlc.or.th/museum",
+            "wheelchair": "yes",
+            "wikidata": "Q4856189",
+            "wikipedia": "en:Bank of Thailand Museum"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑสถานธรรมชาติวิทยา",
+          "kind": "museum",
+          "lat": 13.7374778,
+          "lon": 100.5300846,
+          "tags": {
+            "level": "1",
+            "name": "พิพิธภัณฑสถานธรรมชาติวิทยา",
+            "name:en": "Museum of Natural History",
+            "name:th": "พิพิธภัณฑสถานธรรมชาติวิทยา",
+            "official_name": "พิพิธภัณฑสถานธรรมชาติวิทยาแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+            "official_name:en": "Museum of Natural History, Chulalongkorn University",
+            "official_name:th": "พิพิธภัณฑสถานธรรมชาติวิทยาแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+            "tourism": "museum",
+            "wikidata": "Q13018177",
+            "wikimedia_commons": "Category:Chulalongkorn University Museum of Natural History",
+            "wikipedia": "th:พิพิธภัณฑสถานธรรมชาติวิทยาแห่งจุฬาลงกรณ์มหาวิทยาลัย"
+          }
+        },
+        {
+          "name": "พระบรมราชานุสาวรีย์ สมเด็จพระเจ้าตากสินมหาราช",
+          "kind": "artwork",
+          "lat": 13.7263148,
+          "lon": 100.4930973,
+          "tags": {
+            "artwork_type": "statue",
+            "historic": "monument",
+            "name": "พระบรมราชานุสาวรีย์ สมเด็จพระเจ้าตากสินมหาราช",
+            "name:en": "King Taksin Monument",
+            "name:th": "พระบรมราชานุสาวรีย์ สมเด็จพระเจ้าตากสินมหาราช",
+            "tourism": "artwork",
+            "wikidata": "Q13017453",
+            "wikimedia_commons": "Category:King Taksin Monument",
+            "wikipedia": "th:พระบรมราชานุสรณ์สมเด็จพระเจ้ากรุงธนบุรี"
+          }
+        },
+        {
+          "name": "Bang Nam Phueng Floating Market",
+          "kind": "attraction",
+          "lat": 13.6802705,
+          "lon": 100.576055,
+          "tags": {
+            "name": "Bang Nam Phueng Floating Market",
+            "name:en": "Bang Nam Pheung Floating Market",
+            "opening_hours": "Sa-Su 08:00-17:00",
+            "shop": "farm",
+            "tourism": "attraction",
+            "wikidata": "Q18398194",
+            "wikimedia_commons": "Category:Bang Nam Phueng Floating Market",
+            "wikipedia": "en:Bang Nam Phueng Floating Market"
+          }
+        },
+        {
+          "name": "สะพานพระราม 8",
+          "kind": "attraction",
+          "lat": 13.7696454,
+          "lon": 100.4958557,
+          "tags": {
+            "man_made": "tower",
+            "name": "สะพานพระราม 8",
+            "name:en": "Rama VIII Bridge",
+            "name:th": "สะพานพระราม 8",
+            "tourism": "attraction",
+            "wikidata": "Q1092231",
+            "wikimedia_commons": "Category:Rama VIII Bridge",
+            "wikipedia": "en:Rama VIII Bridge"
+          }
+        },
+        {
+          "name": "อนุสาวรีย์ทหารอาสา สงครามโลกครั้งที่ 1",
+          "kind": "memorial",
+          "lat": 13.758211,
+          "lon": 100.4932545,
+          "tags": {
+            "historic": "memorial",
+            "image": "https://images.mapillary.com/rF5WS1ezb7VqcDBDxSPpmQ/thumb-2048.jpg",
+            "mapillary": "2990198357879972",
+            "memorial": "war_memorial",
+            "name": "อนุสาวรีย์ทหารอาสา สงครามโลกครั้งที่ 1",
+            "name:en": "Memorial of Expeditionary Force",
+            "name:th": "อนุสาวรีย์ทหารอาสา สงครามโลกครั้งที่ 1",
+            "wikidata": "Q13023636",
+            "wikimedia_commons": "Category:Monument of The Expeditionary Force, Bangkok",
+            "wikipedia": "th:อนุสาวรีย์ทหารอาสา"
+          }
+        },
+        {
+          "name": "บางกอกฟุตซอลอารีนา",
+          "kind": "attraction",
+          "lat": 13.8327241,
+          "lon": 100.8496271,
+          "tags": {
+            "leisure": "stadium",
+            "name": "บางกอกฟุตซอลอารีนา",
+            "name:en": "Bangkok Arena",
+            "name:th": "บางกอกฟุตซอลอารีนา",
+            "sport": "soccer",
+            "tourism": "attraction",
+            "wikidata": "Q4855206",
+            "wikipedia": "en:Bangkok Arena"
+          }
+        },
+        {
+          "name": "ปฐมบรมราชานุสรณ์",
+          "kind": "artwork",
+          "lat": 13.7406467,
+          "lon": 100.4980403,
+          "tags": {
+            "artwork_type": "statue",
+            "historic": "monument",
+            "name": "ปฐมบรมราชานุสรณ์",
+            "name:en": "King Rama I (Phra Buddha Yodfa) Statue",
+            "name:th": "ปฐมบรมราชานุสรณ์",
+            "tourism": "artwork",
+            "wikidata": "Q108821678",
+            "wikipedia": "th:ปฐมบรมราชานุสรณ์"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑ์เทคโนโลยีทางภาพ",
+          "kind": "museum",
+          "lat": 13.7371239,
+          "lon": 100.529853,
+          "tags": {
+            "level": "2",
+            "name": "พิพิธภัณฑ์เทคโนโลยีทางภาพ",
+            "name:en": "Museum of Imaging Technology",
+            "name:th": "พิพิธภัณฑ์เทคโนโลยีทางภาพ",
+            "tourism": "museum",
+            "wikidata": "Q6583138",
+            "wikipedia": "th:พิพิธภัณฑ์เทคโนโลยีทางภาพ"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑ์การแพทย์ศิริราช",
+          "kind": "museum",
+          "lat": 13.7587143,
+          "lon": 100.4854995,
+          "tags": {
+            "addr:floor": "2",
+            "addr:housename": "Forensic Pathology",
+            "name": "พิพิธภัณฑ์การแพทย์ศิริราช",
+            "name:en": "Siriraj Medical Museum",
+            "name:fr": "Musée médicolégal de Songkran Niyosane et musée des Parasites",
+            "name:ru": "Музей медицины Сирирай",
+            "name:tr": "Songkran Niyosane Adli Tıp Müzesi ve Parazit Müzesi",
+            "tourism": "museum",
+            "wikidata": "Q7530338",
+            "wikipedia": "th:พิพิธภัณฑ์การแพทย์ศิริราช"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑ์แรงงานไทย",
+          "kind": "museum",
+          "lat": 13.7530368,
+          "lon": 100.5497571,
+          "tags": {
+            "addr:street": "Ratchathewi Road",
+            "name": "พิพิธภัณฑ์แรงงานไทย",
+            "name:en": "Thai Labour Museum",
+            "phone": "+66 02 251 3173",
+            "tourism": "museum",
+            "wikidata": "Q7709126",
+            "wikipedia": "en:Thai Labour Museum"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑ์ท้องถิ่นกรุงเทพมหานคร เขตสัมพันธวงศ์",
+          "kind": "museum",
+          "lat": 13.7367162,
+          "lon": 100.5110977,
+          "tags": {
+            "name": "พิพิธภัณฑ์ท้องถิ่นกรุงเทพมหานคร เขตสัมพันธวงศ์",
+            "name:en": "Samphanthawong Museum",
+            "name:th": "พิพิธภัณฑ์ท้องถิ่นกรุงเทพมหานคร เขตสัมพันธวงศ์",
+            "tourism": "museum",
+            "wikidata": "Q7410108",
+            "wikipedia": "en:Samphanthawong Museum"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑ์เรือนคำเที่ยง",
+          "kind": "museum",
+          "lat": 13.7391534,
+          "lon": 100.5613203,
+          "tags": {
+            "name": "พิพิธภัณฑ์เรือนคำเที่ยง",
+            "name:en": "Kamthieng House Museum",
+            "name:th": "พิพิธภัณฑ์เรือนคำเที่ยง",
+            "tourism": "museum",
+            "wikidata": "Q6359759",
+            "wikimedia_commons": "Category:Kamthieng House Museum",
+            "wikipedia": "en:Kamthieng House Museum"
+          }
+        },
+        {
+          "name": "ป้อมพระจุล",
+          "kind": "attraction",
+          "lat": 13.54061,
+          "lon": 100.5730471,
+          "tags": {
+            "name": "ป้อมพระจุล",
+            "name:th": "ป้อมพระจุล",
+            "tourism": "attraction",
+            "wikidata": "Q16304373",
+            "wikimedia_commons": "Category:Chulachomklao Fort",
+            "wikipedia": "en:Chulachomklao Fort"
+          }
+        },
+        {
+          "name": "วัดกระทุ่มเสือปลา",
+          "kind": "attraction",
+          "lat": 13.7229806,
+          "lon": 100.6889969,
+          "tags": {
+            "alt_name": "วัดกระทุ่ม",
+            "amenity": "place_of_worship",
+            "denomination": "thai_mahanikaya",
+            "name": "วัดกระทุ่มเสือปลา",
+            "name:en": "Wat Krathum Suea Pla",
+            "name:th": "วัดกระทุ่มเสือปลา",
+            "religion": "buddhist",
+            "tourism": "attraction",
+            "wikidata": "Q99382730",
+            "wikipedia": "th:วัดกระทุ่มเสือปลา"
+          }
+        },
+        {
+          "name": "อนุสาวรีย์หมู",
+          "kind": "memorial",
+          "lat": 13.7498661,
+          "lon": 100.49621,
+          "tags": {
+            "description": "https://photos.app.goo.gl/Q3fGHXqujPrLQ2zw5",
+            "historic": "memorial",
+            "image": "https://images.mapillary.com/d0CAITE50mo2vm8E7CvjLQ/thumb-2048.jpg",
+            "mapillary": "1774945372678854",
+            "name": "อนุสาวรีย์หมู",
+            "name:en": "Pig Memorial",
+            "name:th": "อนุสาวรีย์หมู",
+            "official_name": "อนุสาวรีย์สหชาติ",
+            "official_name:th": "อนุสาวรีย์สหชาติ",
+            "start_date": "1913",
+            "wikidata": "Q2211964",
+            "wikipedia": "th:อนุสาวรีย์หมูและสะพานปีกุน"
+          }
+        },
+        {
+          "name": "อนุสาวรีย์สมเด็จพระนางเจ้าสุนันทากุมารีรัตน์",
+          "kind": "monument",
+          "lat": 13.7484049,
+          "lon": 100.4953406,
+          "tags": {
+            "historic": "monument",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/อนุสาวรีย์สมเด็จพระนางเจ้าสุนันทากุมารีรัตน์_สวนสราญรมย์_01.jpg",
+            "mapillary": "936511030516128",
+            "name": "อนุสาวรีย์สมเด็จพระนางเจ้าสุนันทากุมารีรัตน์",
+            "name:en": "Queen Sunanda Kumariratana Memorial",
+            "name:th": "อนุสาวรีย์สมเด็จพระนางเจ้าสุนันทากุมารีรัตน์",
+            "opening_hours": "Mo-Su 04:30-21:00",
+            "wikidata": "Q134084086"
+          }
+        },
+        {
+          "name": "วัดแพรก",
+          "kind": "attraction",
+          "lat": 13.8146853,
+          "lon": 100.4067541,
+          "tags": {
+            "amenity": "place_of_worship",
+            "name": "วัดแพรก",
+            "name:en": "Praek Temple",
+            "religion": "buddhist",
+            "tourism": "attraction",
+            "wikidata": "Q99641763"
+          }
+        },
+        {
+          "name": "100 tonson gallery",
+          "kind": "gallery",
+          "lat": 13.739048,
+          "lon": 100.54449,
+          "tags": {
+            "name": "100 tonson gallery",
+            "name:en": "100 tonson gallery",
+            "tourism": "gallery",
+            "wikidata": "Q11185055"
+          }
+        },
+        {
+          "name": "มาดามทุสโซ กรุงเทพฯ",
+          "kind": "museum",
+          "lat": 13.7464988,
+          "lon": 100.5317246,
+          "tags": {
+            "air_conditioning": "yes",
+            "level": "5",
+            "name": "มาดามทุสโซ กรุงเทพฯ",
+            "name:en": "Madame Tussaud's Bangkok",
+            "name:th": "มาดามทุสโซ กรุงเทพฯ",
+            "name:zh": "曼谷杜莎夫人蜡像馆",
+            "tourism": "museum",
+            "website": "https://www.madametussauds.com/bangkok"
+          }
+        },
+        {
+          "name": "พิพิธภัณฑ์ธนาคารไทย",
+          "kind": "museum",
+          "lat": 13.8271304,
+          "lon": 100.5647372,
+          "tags": {
+            "addr:housenumber": "9",
+            "addr:postcode": "10900",
+            "addr:street": "ถนนรัชดาภิเษก",
+            "name": "พิพิธภัณฑ์ธนาคารไทย",
+            "name:en": "Thai Bank Museum",
+            "operator": "SCB",
+            "phone": "0 2544 4526",
+            "tourism": "museum",
+            "website": "www.thaibankmuseum.or.th/"
+          }
+        },
+        {
+          "name": "Sea Life Bangkok Ocean World",
+          "kind": "attraction",
+          "lat": 13.7469747,
+          "lon": 100.5351985,
+          "tags": {
+            "addr:housenumber": "991",
+            "addr:street": "Rama 1 Rd",
+            "email": "marketing.bangkok@merlinentertainments.biz",
+            "name": "Sea Life Bangkok Ocean World",
+            "name:ru": "Океанариум Бангкока Морская жизнь",
+            "name:zh": "暹羅海洋世界",
+            "opening_hours": "Mo-Su 10:00-21:00",
+            "phone": "+6626872000",
+            "tourism": "attraction",
+            "website": "https://sealifebangkok.com/"
+          }
+        },
+        {
+          "name": "Muang Boran Ancient Siam",
+          "kind": "attraction",
+          "lat": 13.5410428,
+          "lon": 100.624182,
+          "tags": {
+            "addr:housenumber": "1",
+            "addr:postcode": "10110",
+            "addr:street": "ถนนสุขุมวิท",
+            "name": "Muang Boran Ancient Siam",
+            "name:th": "พิพิธภัณฑ์เมืองโบราณ",
+            "opening_hours": "Mo-Su 09:00-18:00",
+            "phone": "+66 2026 88009",
+            "tourism": "attraction",
+            "website": "http://www.ancientcitygroup.net/ancientsiam/en/"
+          }
+        },
+        {
+          "name": "Airplane Graveyard",
+          "kind": "attraction",
+          "lat": 13.7649576,
+          "lon": 100.6523946,
+          "tags": {
+            "name": "Airplane Graveyard",
+            "tourism": "attraction",
+            "website": "https://airplanegraveyardbangkok.com/"
+          }
+        },
+        {
+          "name": "1PROJECTS",
+          "kind": "gallery",
+          "lat": 13.7302643,
+          "lon": 100.5150098,
+          "tags": {
+            "addr:housenumber": "672/63",
+            "addr:street": "ซอยเจริญกรุง 26",
+            "contact:facebook": "https://www.facebook.com/1PROJECTS/?locale=th_TH",
+            "description": "1PROJECTS organises Asian contemporary art projects. We seek to promote and support Asian emerging contemporary artists locally and internationally at art fairs, overseas galleries or 1PROJECTS’ own gallery space in Bangkok, Thailand.",
+            "email": "info@1projects.org",
+            "name": "1PROJECTS",
+            "phone": "+66 816995298",
+            "tourism": "gallery",
+            "website": "https://www.1projects.org"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Sirocco",
+          "kind": "restaurant",
+          "lat": 13.7212917,
+          "lon": 100.5168726,
+          "tags": {
+            "addr:floor": "63rd",
+            "addr:housename": "State Tower",
+            "addr:housenumber": "1055",
+            "addr:postcode": "10500",
+            "addr:street": "Silom Road",
+            "alt_name:en": "Sirocco Rooftop Restaurant",
+            "alt_name_1:en": "Sirocco Rooftop bar",
+            "amenity": "restaurant",
+            "capacity": "150",
+            "cuisine": "mediterranean",
+            "name": "Sirocco",
+            "name:zh": "热风及空中酒吧",
+            "opening_hours": "18:00-01:00",
+            "opening_hours:kitchen": "18:00-23:30",
+            "outdoor_seating": "terrace",
+            "phone": "(66) 2624-9555",
+            "website": "https://www.lebua.com/sirocco",
+            "wikidata": "Q4923611",
+            "wikipedia": "en:Sirocco (restaurant)"
+          }
+        },
+        {
+          "name": "Ratsstube",
+          "kind": "restaurant",
+          "lat": 13.7244287,
+          "lon": 100.5457047,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "german",
+            "fax": "+6626797274",
+            "name": "Ratsstube",
+            "opening_hours": "Mo-Fr 11:00-14:00,17:30-22:00, Sa-Su 11:00-22:00",
+            "phone": "+6622864258",
+            "smoking": "no",
+            "stars": "5",
+            "website": "http://www.ratsstubebangkok.com/"
+          }
+        },
+        {
+          "name": "Cabbages & Condoms",
+          "kind": "restaurant",
+          "lat": 13.7364794,
+          "lon": 100.557891,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "thai",
+            "name": "Cabbages & Condoms",
+            "name:en": "Cabbages & Condoms",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "website": "https://www.cabbagesandcondoms.com/"
+          }
+        },
+        {
+          "name": "The Family",
+          "kind": "hotel",
+          "lat": 13.7601131,
+          "lon": 100.5027895,
+          "tags": {
+            "addr:housenumber": "1 6",
+            "addr:postcode": "10200",
+            "addr:province": "กรุงเทพมหานคร",
+            "addr:street": "Prachathipatai Rd, Khwaeng Ban Phan Thom, Khet Phra Nakhon, Bangkok 10200, Thaïlande",
+            "amenity": "restaurant",
+            "cuisine": "thai",
+            "name": "The Family",
+            "phone": "+66958960395",
+            "tourism": "hotel",
+            "website": "https://www.facebook.com/thefamilybkk"
+          }
+        },
+        {
+          "name": "Bei Otto",
+          "kind": "restaurant",
+          "lat": 13.7333712,
+          "lon": 100.5640523,
+          "tags": {
+            "addr:housenumber": "1",
+            "addr:postcode": "10110",
+            "addr:street": "Sukhumvit Soi 20",
+            "amenity": "restaurant",
+            "cuisine": "german",
+            "name": "Bei Otto",
+            "opening_hours": "11:00-24:00",
+            "website": "https://www.beiotto.com/"
+          }
+        },
+        {
+          "name": "MK Restaurants",
+          "kind": "restaurant",
+          "lat": 13.7097069,
+          "lon": 100.6017638,
+          "tags": {
+            "amenity": "restaurant",
+            "brand": "MK Restaurants",
+            "brand:wikidata": "Q62075359",
+            "cuisine": "thai",
+            "name": "MK Restaurants",
+            "name:en": "MK Restaurants",
+            "operator": "MK Restaurants",
+            "phone": "1642",
+            "website": "https://www.mkrestaurant.com/"
+          }
+        },
+        {
+          "name": "Outback Steakhouse",
+          "kind": "restaurant",
+          "lat": 13.7469977,
+          "lon": 100.5313636,
+          "tags": {
+            "amenity": "restaurant",
+            "brand": "Outback Steakhouse",
+            "brand:wikidata": "Q1064893",
+            "cuisine": "american;steak",
+            "name": "Outback Steakhouse",
+            "website": "https://outback-sea.com/new/home.php?country=thailand"
+          }
+        },
+        {
+          "name": "Vertigo",
+          "kind": "restaurant",
+          "lat": 13.7234481,
+          "lon": 100.5396902,
+          "tags": {
+            "amenity": "restaurant",
+            "description": "Skybar",
+            "level": "61",
+            "name": "Vertigo",
+            "name:en": "Vertigo Moon Bar",
+            "name:zh": "眩晕餐厅及月球酒吧",
+            "opening_hours": "PH,Mo-Su 18:00-22:30",
+            "website": "https://www.banyantree.com/en/ap-thailand-bangkok/vertigo-and-moon-bar"
+          }
+        },
+        {
+          "name": "การิม โรตี-มะตะบะ",
+          "kind": "restaurant",
+          "lat": 13.7636489,
+          "lon": 100.4957444,
+          "tags": {
+            "amenity": "restaurant",
+            "delivery": "yes",
+            "name": "การิม โรตี-มะตะบะ",
+            "name:en": "Karim Roti-Mataba",
+            "name:th": "การิม โรตี-มะตะบะ",
+            "note": "ตรงข้ามป้อมพระสุเมรุ ถนนพระอาทิตย์   เปิดบริการ : ปิดเฉพาะวันตามประเพณีศาสนา",
+            "opening_hours": "Tu-Su 09:00-22:30",
+            "phone": "0 2282 2119",
+            "source": "bing;sign",
+            "website": "https://www.roti-mataba.net"
+          }
+        },
+        {
+          "name": "Took Lae Dee",
+          "kind": "attraction",
+          "lat": 13.7325924,
+          "lon": 100.5607873,
+          "tags": {
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "name": "Took Lae Dee",
+            "opening_hours": "24/7",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Manna",
+          "kind": "restaurant",
+          "lat": 13.7477023,
+          "lon": 100.5345542,
+          "tags": {
+            "amenity": "restaurant",
+            "level": "0",
+            "name": "Manna"
+          }
+        },
+        {
+          "name": "Zen",
+          "kind": "restaurant",
+          "lat": 13.7281063,
+          "lon": 100.5331414,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "japanese",
+            "name": "Zen"
+          }
+        },
+        {
+          "name": "Zanotti",
+          "kind": "restaurant",
+          "lat": 13.7268964,
+          "lon": 100.5367763,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "italian",
+            "name": "Zanotti"
+          }
+        },
+        {
+          "name": "The Front Page",
+          "kind": "restaurant",
+          "lat": 13.7269776,
+          "lon": 100.5416951,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "The Front Page"
+          }
+        },
+        {
+          "name": "4x4",
+          "kind": "restaurant",
+          "lat": 13.6512144,
+          "lon": 100.4862942,
+          "tags": {
+            "amenity": "restaurant",
+            "created_by": "Potlatch 0.10f",
+            "name": "4x4"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "lebua at State Tower",
+          "kind": "hotel",
+          "lat": 13.7215136,
+          "lon": 100.516885,
+          "tags": {
+            "addr:city": "แขวงสุริยวงศ์",
+            "addr:housenumber": "1055 State Tower",
+            "addr:postcode": "10500",
+            "addr:street": "ถนนสีลม",
+            "ele": "21",
+            "name": "lebua at State Tower",
+            "operator": "lebua Hotels and Resorts",
+            "phone": "+6626249999",
+            "tourism": "hotel",
+            "website": "https://www.lebua.com/state-tower",
+            "wheelchair": "limited",
+            "wikidata": "Q22032271",
+            "wikipedia": "en:Lebua at State Tower"
+          }
+        },
+        {
+          "name": "Baiyoke Suite Hotel",
+          "kind": "hotel",
+          "lat": 13.7528942,
+          "lon": 100.5396364,
+          "tags": {
+            "email": "baiyokesuite@baiyoke.co.th",
+            "fax": "+66 2254 5553",
+            "name": "Baiyoke Suite Hotel",
+            "phone": "+66 2255 7755",
+            "stars": "4",
+            "tourism": "hotel",
+            "website": "https://baiyokesuite.baiyokehotel.com/"
+          }
+        },
+        {
+          "name": "The Family",
+          "kind": "hotel",
+          "lat": 13.7601131,
+          "lon": 100.5027895,
+          "tags": {
+            "addr:housenumber": "1 6",
+            "addr:postcode": "10200",
+            "addr:province": "กรุงเทพมหานคร",
+            "addr:street": "Prachathipatai Rd, Khwaeng Ban Phan Thom, Khet Phra Nakhon, Bangkok 10200, Thaïlande",
+            "amenity": "restaurant",
+            "cuisine": "thai",
+            "name": "The Family",
+            "phone": "+66958960395",
+            "tourism": "hotel",
+            "website": "https://www.facebook.com/thefamilybkk"
+          }
+        },
+        {
+          "name": "Floral Shire Resort",
+          "kind": "hotel",
+          "lat": 13.7181753,
+          "lon": 100.7648962,
+          "tags": {
+            "addr:housenumber": "56",
+            "name": "Floral Shire Resort",
+            "tourism": "hotel",
+            "website": "http://www.floralshireresort.com"
+          }
+        },
+        {
+          "name": "Best Western AMARANTH",
+          "kind": "hotel",
+          "lat": 13.6470752,
+          "lon": 100.7144626,
+          "tags": {
+            "name": "Best Western AMARANTH",
+            "stars": "4",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "MHC Guesthouse",
+          "kind": "guest_house",
+          "lat": 13.7281661,
+          "lon": 100.5719475,
+          "tags": {
+            "addr:housenumber": "8/4",
+            "email": "mhc-guesthouse@hotmail.com",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "MHC Guesthouse",
+            "phone": "+6622599884",
+            "smoking": "no",
+            "tourism": "guest_house",
+            "website": "https://www.mhc-guesthouse.com/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Bossotel Inn",
+          "kind": "hotel",
+          "lat": 13.7212127,
+          "lon": 100.5154612,
+          "tags": {
+            "name": "Bossotel Inn",
+            "tourism": "hotel",
+            "website": "https://www.bossotelinn.com/"
+          }
+        },
+        {
+          "name": "7-Eleven",
+          "kind": "hotel",
+          "lat": 13.7150996,
+          "lon": 100.5146901,
+          "tags": {
+            "alt_name": "7-11",
+            "brand": "7-Eleven",
+            "brand:wikidata": "Q259340",
+            "name": "7-Eleven",
+            "name:en": "7-Eleven",
+            "name:th": "The house of Phraya Jasaen",
+            "operator": "Seven & I Holdings",
+            "shop": "convenience",
+            "tourism": "hotel",
+            "website": "https://www.7eleven.co.th/"
+          }
+        },
+        {
+          "name": "Wendy House",
+          "kind": "guest_house",
+          "lat": 13.7482306,
+          "lon": 100.5296591,
+          "tags": {
+            "breakfast": "buffet",
+            "contact:email": "info@wendyguesthouse.com",
+            "contact:fax": "+66 2 612 3487",
+            "contact:phone": "+66 2 214 1149",
+            "internet_access": "wlan",
+            "name": "Wendy House",
+            "rooms": "38",
+            "tourism": "guest_house",
+            "website": "https://www.wendyguesthouse.com/evos/front/bin/home.phtml"
+          }
+        },
+        {
+          "name": "Orchid Resort",
+          "kind": "hotel",
+          "lat": 13.7195389,
+          "lon": 100.7776203,
+          "tags": {
+            "name": "Orchid Resort",
+            "source": "gps survey",
+            "tourism": "hotel",
+            "website": "http://orchidresort.net/"
+          }
+        }
+      ]
+    }
+  }
+}

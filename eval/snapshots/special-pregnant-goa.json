@@ -1,0 +1,723 @@
+{
+  "id": "special-pregnant-goa",
+  "requestHash": "cb846758ed11",
+  "recordedAt": "2026-10-01T04:43:31.323Z",
+  "geocode": {
+    "Goa": {
+      "ok": true,
+      "value": {
+        "query": "Goa",
+        "name": "Goa, India",
+        "lat": 15.3004543,
+        "lon": 74.0855134,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          14.7529315,
+          15.8007631,
+          73.6756012,
+          74.3361139
+        ]
+      }
+    },
+    "Delhi": {
+      "ok": true,
+      "value": {
+        "query": "Delhi",
+        "name": "Delhi, India",
+        "lat": 28.6328027,
+        "lon": 77.2197713,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          28.4046285,
+          28.8834464,
+          76.8388351,
+          77.3453379
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-01-28",
+        "tMax": 35,
+        "tMin": 18.3,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-29",
+        "tMax": 34.6,
+        "tMin": 18.4,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-30",
+        "tMax": 33.8,
+        "tMin": 18.7,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-31",
+        "tMax": 34,
+        "tMin": 18.9,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: hot and sunny",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "Museum of Christian Art",
+          "kind": "museum",
+          "lat": 15.5012472,
+          "lon": 73.9069533,
+          "tags": {
+            "fee": "yes",
+            "museum": "art",
+            "name": "Museum of Christian Art",
+            "tourism": "museum",
+            "website": "https://www.museumofchristianart.com/",
+            "wikidata": "Q6940795",
+            "wikipedia": "en:Museum of Christian Art"
+          }
+        },
+        {
+          "name": "Curdi",
+          "kind": "attraction",
+          "lat": 15.1650599,
+          "lon": 74.1867386,
+          "tags": {
+            "description": "Submerged village",
+            "name": "Curdi",
+            "name:en": "Curdi",
+            "name:gom": "कुर्डी",
+            "name:mr": "कुर्डी",
+            "place": "locality",
+            "tourism": "attraction",
+            "wikidata": "Q25690904",
+            "wikipedia": "en:Curdi"
+          }
+        },
+        {
+          "name": "Chapora beach",
+          "kind": "beach",
+          "lat": 15.6067975,
+          "lon": 73.7394997,
+          "tags": {
+            "name": "Chapora beach",
+            "natural": "beach",
+            "wikidata": "Q5073350",
+            "wikipedia": "en:Chapora Beach"
+          }
+        },
+        {
+          "name": "Galgibaga Beach",
+          "kind": "beach",
+          "lat": 14.9657705,
+          "lon": 74.0462448,
+          "tags": {
+            "alt_name": "Galjibag Beach;Galgibag Beach",
+            "name": "Galgibaga Beach",
+            "name:hi": "गल्गिबगा बीच",
+            "natural": "beach",
+            "surface": "sand",
+            "wikidata": "Q29467358",
+            "wikipedia": "en:Galgibaga Beach"
+          }
+        },
+        {
+          "name": "Reis Magos Fort",
+          "kind": "attraction",
+          "lat": 15.4964846,
+          "lon": 73.8091247,
+          "tags": {
+            "addr:country": "IN",
+            "addr:postcode": "403114",
+            "addr:street": "Verem, Bardez",
+            "barrier": "wall",
+            "building": "yes",
+            "description:pt": "Arquitetura militar, quinhentista. Forte construído pelos portugueses de planta triangular.",
+            "heritage:website": "http://monumentos.pt/Site/APP_PagesUser/SIPA.aspx?id=24414",
+            "historic": "fort",
+            "name": "Reis Magos Fort",
+            "name:en": "Reis Magos Fort",
+            "name:pt": "Fortaleza dos Reis Magos",
+            "name:ru": "Форт Рейс-Магос",
+            "ref:ipa": "24414",
+            "source": "BingSat",
+            "tourism": "attraction",
+            "website": "http://reismagosfort.com",
+            "wikidata": "Q10283654"
+          }
+        },
+        {
+          "name": "Arossim Beach",
+          "kind": "beach",
+          "lat": 15.3351328,
+          "lon": 73.8929125,
+          "tags": {
+            "name": "Arossim Beach",
+            "natural": "beach",
+            "wikidata": "Q26794004"
+          }
+        },
+        {
+          "name": "Dudhsagar Falls",
+          "kind": "attraction",
+          "lat": 15.3156176,
+          "lon": 74.3142493,
+          "tags": {
+            "name": "Dudhsagar Falls",
+            "name:en": "Dudhsagar Falls",
+            "name:hi": "दूधसागर झरना - गोवा",
+            "name:kn": "ದೂದ್ ಸಾಗರ್ ಜಲಪಾತ",
+            "name:ru": "Водопад Дудхсагар",
+            "name:tr": "Dudhsagar şelalesi",
+            "tourism": "attraction",
+            "waterway": "waterfall",
+            "wikidata": "Q37545"
+          }
+        },
+        {
+          "name": "Betalbatim Beach",
+          "kind": "beach",
+          "lat": 15.2931923,
+          "lon": 73.9077452,
+          "tags": {
+            "name": "Betalbatim Beach",
+            "natural": "beach",
+            "wikidata": "Q26793788"
+          }
+        },
+        {
+          "name": "Cabo de Rama",
+          "kind": "castle",
+          "lat": 15.0886314,
+          "lon": 73.9216425,
+          "tags": {
+            "castle_type": "fortress",
+            "historic": "castle",
+            "name": "Cabo de Rama",
+            "name:en": "Cabo de Rama",
+            "opening_hours": "Mo-Su 09:00-17:30",
+            "wikidata": "Q5015741",
+            "wikipedia:en": "Cabo_de_Rama"
+          }
+        },
+        {
+          "name": "Goa Chitra museum",
+          "kind": "museum",
+          "lat": 15.2648205,
+          "lon": 73.9413442,
+          "tags": {
+            "name": "Goa Chitra museum",
+            "tourism": "museum",
+            "wikidata": "Q5575071"
+          }
+        },
+        {
+          "name": "Harvalem Caves",
+          "kind": "attraction",
+          "lat": 15.5525614,
+          "lon": 74.0230363,
+          "tags": {
+            "alt_name": "Arvalem Caves;Pandava Caves",
+            "name": "Harvalem Caves",
+            "natural": "cave_entrance",
+            "tourism": "attraction",
+            "wikidata": "Q56458765"
+          }
+        },
+        {
+          "name": "Museum of Goa",
+          "kind": "museum",
+          "lat": 15.5256419,
+          "lon": 73.7953062,
+          "tags": {
+            "name": "Museum of Goa",
+            "tourism": "museum",
+            "wikidata": "Q24942720"
+          }
+        },
+        {
+          "name": "Pelourinho Novo",
+          "kind": "monument",
+          "lat": 15.4992361,
+          "lon": 73.913485,
+          "tags": {
+            "alt_name": "Hath Katro Khamb",
+            "historic": "monument",
+            "name": "Pelourinho Novo",
+            "wikidata": "Q139408501"
+          }
+        },
+        {
+          "name": "Small Vagator Beach",
+          "kind": "beach",
+          "lat": 15.5976558,
+          "lon": 73.7336081,
+          "tags": {
+            "name": "Small Vagator Beach",
+            "natural": "beach",
+            "wikidata": "Q3553247"
+          }
+        },
+        {
+          "name": "Patnem Beach",
+          "kind": "beach",
+          "lat": 14.9969971,
+          "lon": 74.0322483,
+          "tags": {
+            "lifeguard": "yes",
+            "name": "Patnem Beach",
+            "name:hi": "पत्नेम बीच",
+            "natural": "beach",
+            "wikidata": "Q124657446"
+          }
+        },
+        {
+          "name": "Mandrem Beach",
+          "kind": "beach",
+          "lat": 15.6600908,
+          "lon": 73.7136985,
+          "tags": {
+            "alt_name": "Junaswada Beach",
+            "name": "Mandrem Beach",
+            "natural": "beach",
+            "wikidata": "Q25346136"
+          }
+        },
+        {
+          "name": "Harmal Beach",
+          "kind": "beach",
+          "lat": 15.6793153,
+          "lon": 73.705762,
+          "tags": {
+            "loc_name:ru": "Малибу",
+            "name": "Harmal Beach",
+            "name:en": "Arambol Beach",
+            "natural": "beach",
+            "wikidata": "Q26794355"
+          }
+        },
+        {
+          "name": "Cola Beach",
+          "kind": "beach",
+          "lat": 15.0592023,
+          "lon": 73.96995,
+          "tags": {
+            "alt_name": "Khola Beach",
+            "name": "Cola Beach",
+            "natural": "beach",
+            "wikidata": "Q107503405"
+          }
+        },
+        {
+          "name": "Mystic Meadows - A conservatory for Bees , Birds & Butterflies",
+          "kind": "attraction",
+          "lat": 15.4297676,
+          "lon": 74.012586,
+          "tags": {
+            "attraction": "butterfly garden",
+            "name": "Mystic Meadows - A conservatory for Bees , Birds & Butterflies",
+            "tourism": "attraction",
+            "website": "http://www.bcogoa.org/"
+          }
+        },
+        {
+          "name": "1901 Goa Ferry Disaster Memorial",
+          "kind": "memorial",
+          "lat": 15.5012119,
+          "lon": 73.8250425,
+          "tags": {
+            "description": "Memorial to the 81 victims of the ferry 'Goa' which capsized on on December 3, 1901. Dedicated by the Goan community of Aden.",
+            "historic": "memorial",
+            "inscription": "A’MEMORIA DAS INFELIZES 81 VICTIMAS DO SINISTRO A LANCHA “GOA” OCCORIDO A-3-12–1901 DEDICA ESTE SINGELO PADRAO A COLONIA GOEZA DE ADEN PEDINDO A TODOS OS QUE POR AQUI PASSAREM UMA PRECE PELO SEU ETERNO DESCANSO",
+            "material": "stone",
+            "memorial": "cross",
+            "name": "1901 Goa Ferry Disaster Memorial",
+            "start_date": "1904-03-12",
+            "website": "https://blog.parrikar.com/2009/12/20/december-03-1901/"
+          }
+        },
+        {
+          "name": "Moda Goa Museum & Research Centre",
+          "kind": "museum",
+          "lat": 15.6449534,
+          "lon": 73.8335967,
+          "tags": {
+            "name": "Moda Goa Museum & Research Centre",
+            "tourism": "museum",
+            "website": "https://www.modagoamuseum.org/"
+          }
+        },
+        {
+          "name": "Savoi Plantation",
+          "kind": "attraction",
+          "lat": 15.49274,
+          "lon": 73.9999815,
+          "tags": {
+            "alt_name": "Savoi Spice Plantation",
+            "landuse": "orchard",
+            "name": "Savoi Plantation",
+            "tourism": "attraction",
+            "website": "http://www.savoiplantation.com/"
+          }
+        },
+        {
+          "name": "Panjim city view point",
+          "kind": "viewpoint",
+          "lat": 15.4900856,
+          "lon": 73.828682,
+          "tags": {
+            "name": "Panjim city view point",
+            "tourism": "viewpoint"
+          }
+        },
+        {
+          "name": "Colva Beach",
+          "kind": "beach",
+          "lat": 15.2756507,
+          "lon": 73.9137265,
+          "tags": {
+            "name": "Colva Beach",
+            "natural": "beach"
+          }
+        },
+        {
+          "name": "Blue Whale Waterpark",
+          "kind": "theme_park",
+          "lat": 15.5688874,
+          "lon": 73.75334,
+          "tags": {
+            "name": "Blue Whale Waterpark",
+            "tourism": "theme_park"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Jardim A Mar",
+          "kind": "restaurant",
+          "lat": 15.0426208,
+          "lon": 73.9872009,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "name": "Jardim A Mar",
+            "website": "www.jardim-a-mar.com"
+          }
+        },
+        {
+          "name": "Bon Appetit",
+          "kind": "restaurant",
+          "lat": 15.4995595,
+          "lon": 73.7677115,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "international",
+            "name": "Bon Appetit",
+            "opening_hours": "Mo-Su 09:00-23:00",
+            "phone": "+918322479477",
+            "website": "http://www.bonappetitingoa.com/"
+          }
+        },
+        {
+          "name": "Crystal Goa",
+          "kind": "restaurant",
+          "lat": 15.0131818,
+          "lon": 74.0221684,
+          "tags": {
+            "addr:city": "Palolem",
+            "addr:housenumber": "274",
+            "addr:postcode": "403702",
+            "amenity": "restaurant",
+            "name": "Crystal Goa",
+            "website": "https://www.crystalgoa.com/"
+          }
+        },
+        {
+          "name": "Banan Republic Cavala",
+          "kind": "restaurant",
+          "lat": 15.5614229,
+          "lon": 73.7521292,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Banan Republic Cavala"
+          }
+        },
+        {
+          "name": "Britto's",
+          "kind": "restaurant",
+          "lat": 15.5613469,
+          "lon": 73.7494583,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Britto's"
+          }
+        },
+        {
+          "name": "Sussegad Souza",
+          "kind": "restaurant",
+          "lat": 15.5440238,
+          "lon": 73.7645342,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Sussegad Souza"
+          }
+        },
+        {
+          "name": "Dandey's Grill",
+          "kind": "restaurant",
+          "lat": 15.5440652,
+          "lon": 73.8145735,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Dandey's Grill"
+          }
+        },
+        {
+          "name": "Ice Cube",
+          "kind": "restaurant",
+          "lat": 15.4641285,
+          "lon": 73.8061277,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Ice Cube"
+          }
+        },
+        {
+          "name": "Poisson Rouge",
+          "kind": "restaurant",
+          "lat": 15.5655465,
+          "lon": 73.7499477,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "french",
+            "name": "Poisson Rouge"
+          }
+        },
+        {
+          "name": "Mayonna Creek Side Bar & Restaurant",
+          "kind": "restaurant",
+          "lat": 15.5671618,
+          "lon": 73.7512831,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "regional",
+            "name": "Mayonna Creek Side Bar & Restaurant"
+          }
+        },
+        {
+          "name": "St. Anthony's",
+          "kind": "restaurant",
+          "lat": 15.5615172,
+          "lon": 73.7492435,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "name": "St. Anthony's",
+            "outdoor_seating": "yes",
+            "smoking": "yes"
+          }
+        },
+        {
+          "name": "Sunset Restaurant & Bar",
+          "kind": "restaurant",
+          "lat": 15.563143,
+          "lon": 73.7479133,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Sunset Restaurant & Bar"
+          }
+        },
+        {
+          "name": "Stiff Waves",
+          "kind": "restaurant",
+          "lat": 15.3693362,
+          "lon": 73.834655,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Stiff Waves",
+            "source": "GPS"
+          }
+        },
+        {
+          "name": "VBR Goenkar Restaurant",
+          "kind": "restaurant",
+          "lat": 15.397018,
+          "lon": 73.9098168,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "VBR Goenkar Restaurant",
+            "source": "GPS"
+          }
+        },
+        {
+          "name": "Zeebop",
+          "kind": "restaurant",
+          "lat": 15.3207001,
+          "lon": 73.8990021,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Zeebop",
+            "name:ru": "Зеебар",
+            "source": "GPS"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "Santana Beach Resort",
+          "kind": "hotel",
+          "lat": 15.5060492,
+          "lon": 73.7700185,
+          "tags": {
+            "addr:city": "Candolim",
+            "addr:housenumber": "Shop No. P-1-2",
+            "addr:postcode": "403515",
+            "addr:street": "Quinta Costa Frias Complex",
+            "air_conditioning": "yes",
+            "description": "Бесплатный завтрак, бар, ресторан, бассейн, парковка, прачечная, трансфер.",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Santana Beach Resort",
+            "phone": "+919822484446",
+            "stars": "3",
+            "tourism": "hotel",
+            "website": "https://www.santana-goa.com/",
+            "wikidata": "Q111402548"
+          }
+        },
+        {
+          "name": "Holiday Inn",
+          "kind": "hotel",
+          "lat": 15.1586401,
+          "lon": 73.948136,
+          "tags": {
+            "name": "Holiday Inn",
+            "tourism": "hotel",
+            "website": "https://www.holidayinngoa.com/",
+            "wikidata": "Q111402585"
+          }
+        },
+        {
+          "name": "Shikara Beach Resort",
+          "kind": "hotel",
+          "lat": 15.1725498,
+          "lon": 73.9444654,
+          "tags": {
+            "name": "Shikara Beach Resort",
+            "phone": "+91 832-2871127",
+            "tourism": "hotel",
+            "website": "www.shikararesort.com",
+            "wikidata": "Q111331857"
+          }
+        },
+        {
+          "name": "Coconut Creek Hotel",
+          "kind": "hotel",
+          "lat": 15.3731432,
+          "lon": 73.833213,
+          "tags": {
+            "name": "Coconut Creek Hotel",
+            "tourism": "hotel",
+            "wikidata": "Q111861843"
+          }
+        },
+        {
+          "name": "Hotel Neelam Grand",
+          "kind": "hotel",
+          "lat": 15.5441857,
+          "lon": 73.7656586,
+          "tags": {
+            "name": "Hotel Neelam Grand",
+            "tourism": "hotel",
+            "wikidata": "Q111416010"
+          }
+        },
+        {
+          "name": "Nilufa",
+          "kind": "guest_house",
+          "lat": 15.691854,
+          "lon": 73.7024519,
+          "tags": {
+            "internet_access": "wlan",
+            "name": "Nilufa",
+            "tourism": "guest_house",
+            "wheelchair": "limited",
+            "wikidata": "Q111052595"
+          }
+        },
+        {
+          "name": "Oasis",
+          "kind": "guest_house",
+          "lat": 15.692625,
+          "lon": 73.6991098,
+          "tags": {
+            "internet_access": "wlan",
+            "name": "Oasis",
+            "tourism": "guest_house",
+            "wheelchair": "yes",
+            "wikidata": "Q111052395"
+          }
+        },
+        {
+          "name": "Goa Marriott Resort and Spa",
+          "kind": "hotel",
+          "lat": 15.4868443,
+          "lon": 73.8095296,
+          "tags": {
+            "name": "Goa Marriott Resort and Spa",
+            "tourism": "hotel",
+            "wikidata": "Q111402540"
+          }
+        },
+        {
+          "name": "Hilias Retreat",
+          "kind": "hotel",
+          "lat": 15.007471,
+          "lon": 74.027474,
+          "tags": {
+            "name": "Hilias Retreat",
+            "tourism": "hotel",
+            "wikidata": "Q111861877"
+          }
+        },
+        {
+          "name": "Jose Holiday Home",
+          "kind": "hotel",
+          "lat": 15.1779381,
+          "lon": 73.9483884,
+          "tags": {
+            "name": "Jose Holiday Home",
+            "tourism": "hotel",
+            "wikidata": "Q111052316"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "edge-ziro-sparse",
+  "requestHash": "e29daf1d537e",
+  "recordedAt": "2026-10-01T04:43:34.607Z",
+  "geocode": {
+    "Ziro, Arunachal Pradesh": {
+      "ok": true,
+      "value": {
+        "query": "Ziro, Arunachal Pradesh",
+        "name": "Ziro, Ziro HQ, Lower Subansiri, Arunachal Pradesh, 791120, India",
+        "lat": 27.538668,
+        "lon": 93.815355,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          27.378668,
+          27.698668,
+          93.655355,
+          93.975355
+        ]
+      }
+    },
+    "Guwahati": {
+      "ok": true,
+      "value": {
+        "query": "Guwahati",
+        "name": "Guwahati, Kamrup Metropolitan, Assam, 781001, India",
+        "lat": 26.1805978,
+        "lon": 91.753943,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          26.0205978,
+          26.3405978,
+          91.593943,
+          91.913943
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-03-25",
+        "tMax": 18.3,
+        "tMin": 8.6,
+        "precipMm": 3.5,
+        "rainChance": 67,
+        "summary": "Typically: showers",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-03-26",
+        "tMax": 17.2,
+        "tMin": 8.8,
+        "precipMm": 9.4,
+        "rainChance": 67,
+        "summary": "Typically: showers",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-03-27",
+        "tMax": 18.2,
+        "tMin": 9.3,
+        "precipMm": 2.8,
+        "rainChance": 33,
+        "summary": "Typically: showers",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-03-28",
+        "tMax": 17.2,
+        "tMin": 10.1,
+        "precipMm": 3.4,
+        "rainChance": 67,
+        "summary": "Typically: showers",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "Tale Valley WLS",
+          "kind": "nature_reserve",
+          "lat": 27.5731704,
+          "lon": 94.0370892,
+          "tags": {
+            "boundary": "protected_area",
+            "leisure": "nature_reserve",
+            "name": "Tale Valley WLS",
+            "protect_class": "4",
+            "wikidata": "Q17033744",
+            "wikipedia": "Talle Valley Wildlife Sanctuary"
+          }
+        },
+        {
+          "name": "Sikek",
+          "kind": "attraction",
+          "lat": 27.6135883,
+          "lon": 93.8235939,
+          "tags": {
+            "alt_name": "Siikhe Lake",
+            "alt_name:en": "Siikhe Lake",
+            "name": "Sikek",
+            "name:en": "Sikek",
+            "name:ko": "시케 호수",
+            "name:zh": "西客湖",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "District Museum",
+          "kind": "museum",
+          "lat": 27.5395092,
+          "lon": 93.8179974,
+          "tags": {
+            "name": "District Museum",
+            "name:en": "District Museum",
+            "tourism": "museum"
+          }
+        },
+        {
+          "name": "Talle Valley",
+          "kind": "viewpoint",
+          "lat": 27.5341444,
+          "lon": 93.9515305,
+          "tags": {
+            "name": "Talle Valley",
+            "tourism": "viewpoint"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Local paratha restaurant",
+          "kind": "restaurant",
+          "lat": 27.5530999,
+          "lon": 93.8256903,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Local paratha restaurant"
+          }
+        },
+        {
+          "name": "Apatani Kitchen",
+          "kind": "restaurant",
+          "lat": 27.5818107,
+          "lon": 93.8281185,
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "name": "Apatani Kitchen"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "Viewpoint Homestay",
+          "kind": "guest_house",
+          "lat": 27.5516592,
+          "lon": 93.8326156,
+          "tags": {
+            "name": "Viewpoint Homestay",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "Ziro Valley Homestay Cottage",
+          "kind": "guest_house",
+          "lat": 27.5698121,
+          "lon": 93.8276967,
+          "tags": {
+            "name": "Ziro Valley Homestay Cottage",
+            "tourism": "guest_house"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,937 @@
+{
+  "id": "core-kochi-balanced",
+  "requestHash": "24cda0b3e8e0",
+  "recordedAt": "2026-10-01T07:29:41.492Z",
+  "geocode": {
+    "Kochi, Kerala": {
+      "ok": true,
+      "value": {
+        "query": "Kochi, Kerala",
+        "name": "Kochi, Ernakulam, Kerala, 682001, India",
+        "lat": 9.9679032,
+        "lon": 76.2444378,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          9.8079032,
+          10.1279032,
+          76.0844378,
+          76.4044378
+        ]
+      }
+    },
+    "Mumbai": {
+      "ok": true,
+      "value": {
+        "query": "Mumbai",
+        "name": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",
+        "lat": 19.054999,
+        "lon": 72.8692035,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          18.894999,
+          19.214999,
+          72.7092035,
+          73.0292035
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-01-10",
+        "tMax": 30.5,
+        "tMin": 23.5,
+        "precipMm": 1.9,
+        "rainChance": 33,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-11",
+        "tMax": 30.5,
+        "tMin": 23.6,
+        "precipMm": 0.2,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-12",
+        "tMax": 31.1,
+        "tMin": 23.5,
+        "precipMm": 0.1,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-13",
+        "tMax": 30.3,
+        "tMin": 23.4,
+        "precipMm": 0.8,
+        "rainChance": 33,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-14",
+        "tMax": 30,
+        "tMin": 23.3,
+        "precipMm": 0.3,
+        "rainChance": 33,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-01-15",
+        "tMax": 29.9,
+        "tMin": 23.5,
+        "precipMm": 0.5,
+        "rainChance": 33,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "Hill Palace Complex",
+          "kind": "museum",
+          "lat": 9.9534277,
+          "lon": 76.3640289,
+          "tags": {
+            "name": "Hill Palace Complex",
+            "name:fr": "Complexe du Palais de la Colline",
+            "opening_hours": "Tu-Su 09:00-12:30, 14:00-16:30",
+            "tourism": "museum",
+            "website": "https://www.keralatourism.org/destination/hill-palace-museum/182",
+            "wikidata": "Q5762228",
+            "wikimedia_commons": "Category:Hill Palace, Tripunithura",
+            "wikipedia": "en:Hill Palace, Kochi"
+          }
+        },
+        {
+          "name": "Mattancherry Paradesi Synagogue",
+          "kind": "attraction",
+          "lat": 9.9574826,
+          "lon": 76.2593017,
+          "tags": {
+            "addr:city": "Mattancherry, Kochi",
+            "addr:street": "Palace Road",
+            "amenity": "place_of_worship",
+            "building": "synagogue",
+            "denomination": "orthodox",
+            "historic": "yes",
+            "name": "Mattancherry Paradesi Synagogue",
+            "name:ar": "كنيس باراديسي, كوتشي",
+            "name:en": "Mattancherry Paradesi Synagogue",
+            "name:he": "בית הכנסת פארדסי ,קוצ'ין",
+            "name:ml": "മട്ടാഞ്ചേരി പരദേശി ജൂതപ്പളളി",
+            "opening_hours": "10:00-12:00,15:00-17:00; Fr,Sa off",
+            "religion": "jewish",
+            "tourism": "attraction",
+            "website": "https://www.keralatourism.org/kochi/paradeso-synagogue-mattancherry.php",
+            "wikidata": "Q3495970",
+            "wikipedia": "en:Paradesi Synagogue"
+          }
+        },
+        {
+          "name": "Indo-Portuguese Museum",
+          "kind": "museum",
+          "lat": 9.9623143,
+          "lon": 76.2402724,
+          "tags": {
+            "name": "Indo-Portuguese Museum",
+            "name:en": "Indo-Portuguese Museum",
+            "name:ml": "ഇന്തോ-പോർച്ചുഗീസ് മ്യൂസിയം, ഫോർട്ട് കൊച്ചി",
+            "opening_hours": "Tu-Su 09:00-13:00, 14:00-18:00",
+            "tourism": "museum",
+            "wikidata": "Q6025543",
+            "wikipedia": "en:Indo-Portuguese Museum"
+          }
+        },
+        {
+          "name": "Fort Immanuel, Fort Kochi",
+          "kind": "ruins",
+          "lat": 9.9663159,
+          "lon": 76.2390124,
+          "tags": {
+            "historic": "ruins",
+            "name": "Fort Immanuel, Fort Kochi",
+            "name:en": "Fort Immanuel,Fort Kochi",
+            "name:ml": "ഫോർട്ട് ഇമ്മാനുവേൽ, ഫോർട്ട് കൊച്ചി",
+            "wikidata": "Q18355920",
+            "wikimedia_commons": "Category:Fort Emmanuel, Kochi, Kerala",
+            "wikipedia": "en:Fort Emmanuel"
+          }
+        },
+        {
+          "name": "Kerala Museum",
+          "kind": "museum",
+          "lat": 10.0379856,
+          "lon": 76.3147418,
+          "tags": {
+            "fee": "yes",
+            "name": "Kerala Museum",
+            "tourism": "museum",
+            "wikidata": "Q28153754",
+            "wikimedia_commons": "Category:Kerala Museum",
+            "wikipedia": "en:Kerala Museum"
+          }
+        },
+        {
+          "name": "Ernakulam Terminus",
+          "kind": "attraction",
+          "lat": 9.9882128,
+          "lon": 76.2742703,
+          "tags": {
+            "abandoned:railway": "station",
+            "alt_name": "Ernakulam Railway Goods Station",
+            "historic": "ruins",
+            "name": "Ernakulam Terminus",
+            "ref": "ERG",
+            "tourism": "attraction",
+            "train": "yes",
+            "wheelchair": "no",
+            "wikidata": "Q5392596",
+            "wikipedia": "en:Ernakulam Terminus railway station"
+          }
+        },
+        {
+          "name": "Marine Drive, Kochi",
+          "kind": "attraction",
+          "lat": 9.9784782,
+          "lon": 76.2757727,
+          "tags": {
+            "name": "Marine Drive, Kochi",
+            "name:en": "Marine Drive, Kochi",
+            "name:hi": "मरीन ड्राइव, कोच्चि",
+            "name:ml": "എറണാകുളം മറൈൻ ഡ്രൈവ്",
+            "tourism": "attraction",
+            "wikidata": "Q5122325",
+            "wikimedia_commons": "Category:Marine Drive, Kochi",
+            "wikipedia": "en:Marine Drive, Kochi"
+          }
+        },
+        {
+          "name": "Jawaharlal Nehru International Stadium",
+          "kind": "attraction",
+          "lat": 9.9972341,
+          "lon": 76.3008344,
+          "tags": {
+            "alt_name": "Nehru Stadium;Kaloor Stadium;JLN Stadium; International Stadium; JN Stadium",
+            "check_date": "2025-12-27",
+            "leisure": "stadium",
+            "name": "Jawaharlal Nehru International Stadium",
+            "name:etymology:wikidata": "Q1047",
+            "name:ml": "ജവാഹർലാൽ നെഹ്റു അന്താരാഷ്ട്ര സ്റ്റേഡിയം",
+            "tourism": "attraction",
+            "wikidata": "Q1684271",
+            "wikimedia_commons": "Category:Jawaharlal Nehru Stadium, Kochi",
+            "wikipedia": "en:Jawaharlal Nehru Stadium (Kochi)"
+          }
+        },
+        {
+          "name": "Changampuzha Park",
+          "kind": "attraction",
+          "lat": 10.0164826,
+          "lon": 76.3020269,
+          "tags": {
+            "leisure": "park",
+            "name": "Changampuzha Park",
+            "name:etymology:wikidata": "Q2956035",
+            "name:hi": "चंगमपुष़ा पार्क",
+            "name:ml": "ചങ്ങമ്പുഴ പാർക്ക്",
+            "tourism": "attraction",
+            "wikidata": "Q5071715",
+            "wikimedia_commons": "Category:Changampuzha Park",
+            "wikipedia": "en:Changampuzha Park"
+          }
+        },
+        {
+          "name": "St Francis Church",
+          "kind": "attraction",
+          "lat": 9.965938,
+          "lon": 76.2410679,
+          "tags": {
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "historic": "church",
+            "name": "St Francis Church",
+            "name:de": "Franziskanerkirche",
+            "name:ml": "സെന്റ് ഫ്രാൻസിസ് പള്ളി",
+            "religion": "christian",
+            "tourism": "attraction",
+            "wikidata": "Q3595372",
+            "wikimedia_commons": "Category:St. Francis Church, Kochi",
+            "wikipedia": "en:Church of Saint Francis, Kochi"
+          }
+        },
+        {
+          "name": "Bolgatty Palace",
+          "kind": "attraction",
+          "lat": 9.9851394,
+          "lon": 76.2675929,
+          "tags": {
+            "building": "yes",
+            "building:use": "hotel",
+            "castle_type": "palace",
+            "historic": "castle",
+            "name": "Bolgatty Palace",
+            "name:ml": "ബോൾഗാട്ടി പാലസ്",
+            "ruins": "no",
+            "tourism": "attraction",
+            "wikidata": "Q12053248",
+            "wikimedia_commons": "Category:Bolgatty Palace",
+            "wikipedia": "en:Bolgatty Palace"
+          }
+        },
+        {
+          "name": "Mattancherry Dutch Palace Complex",
+          "kind": "attraction",
+          "lat": 9.9584395,
+          "lon": 76.2589856,
+          "tags": {
+            "castle_type": "palace",
+            "historic": "castle",
+            "int_name": "Mattancherry Palace",
+            "name": "Mattancherry Dutch Palace Complex",
+            "tourism": "attraction",
+            "wikidata": "Q1267941",
+            "wikimedia_commons": "Category:Mattancherry Palace",
+            "wikipedia": "en:Mattancherry Palace"
+          }
+        },
+        {
+          "name": "Broadway",
+          "kind": "attraction",
+          "lat": 9.9786613,
+          "lon": 76.2775084,
+          "tags": {
+            "bus": "no",
+            "description": "Historic shopping street",
+            "foot": "designated",
+            "highway": "pedestrian",
+            "historic": "yes",
+            "lane_markings": "no",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motorcar": "discouraged",
+            "name": "Broadway",
+            "name:ml": "ബ്രോഡ്‌വേ",
+            "oneway": "yes",
+            "sidewalk": "both",
+            "sidewalk:both:surface": "paving_stones",
+            "surface": "paving_stones",
+            "tourism": "attraction",
+            "wikidata": "Q21684267"
+          }
+        },
+        {
+          "name": "Aluva Palace",
+          "kind": "castle",
+          "lat": 10.1135198,
+          "lon": 76.3557472,
+          "tags": {
+            "access": "permissive",
+            "castle_type": "fortress",
+            "historic": "castle",
+            "name": "Aluva Palace",
+            "wikipedia": "en:Aluva"
+          }
+        },
+        {
+          "name": "Fort Kochi Beach",
+          "kind": "beach",
+          "lat": 9.9671362,
+          "lon": 76.2398222,
+          "tags": {
+            "alt_name": "Mahatma Gandhi Beach",
+            "alt_name:en": "Mahatma Gandhi Beach",
+            "alt_name:ml": "മഹാത്മാഗാന്ധി ബീച്ച്",
+            "name": "Fort Kochi Beach",
+            "name:de": "Fort-Kochi-Strand",
+            "name:en": "Fort Kochi Beach",
+            "natural": "beach",
+            "wikimedia_commons": "Category:Fort Kochi Beach",
+            "wikipedia": "en:Fort Kochi Beach"
+          }
+        },
+        {
+          "name": "Kadavumbhagam Ernakulam Synagogue",
+          "kind": "attraction",
+          "lat": 9.9801962,
+          "lon": 76.2784041,
+          "tags": {
+            "amenity": "place_of_worship",
+            "building": "synagogue",
+            "denomination": "orthodox",
+            "historic": "yes",
+            "name": "Kadavumbhagam Ernakulam Synagogue",
+            "name:ml": "എറണാകുളം കടവുംഭാഗം ജൂതപ്പളളി",
+            "religion": "jewish",
+            "tourism": "attraction",
+            "website": "http://cochinsyn.com/page-kada-erna.html"
+          }
+        },
+        {
+          "name": "Mangalavanam Bird Sanctuary",
+          "kind": "attraction",
+          "lat": 9.9887741,
+          "lon": 76.2726534,
+          "tags": {
+            "addr:city": "Kochi",
+            "addr:district": "Ernakulam",
+            "addr:postcode": "682031",
+            "addr:street": "High Ct Rd, Marine Drive",
+            "description": "Quiet, forested nature refuge in the middle of the city attracting migratory birds & other animals.",
+            "name": "Mangalavanam Bird Sanctuary",
+            "name:ml": "മംഗളവനം പക്ഷി സങ്കേതം",
+            "tourism": "attraction",
+            "website": "https://www.keralatourism.org/kerala-article/mangalavanam-bird-sanctuary/181/"
+          }
+        },
+        {
+          "name": "Kerala Kathakali Centre",
+          "kind": "attraction",
+          "lat": 9.9638915,
+          "lon": 76.242808,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "addr:postcode": "682001",
+            "addr:street": "KB Jacob Road",
+            "air_conditioning": "yes",
+            "amenity": "theatre",
+            "building": "public",
+            "check_date": "2024-01-14",
+            "name": "Kerala Kathakali Centre",
+            "payment:cash": "only",
+            "tourism": "attraction",
+            "website": "https://kathakalicentre.com/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Kerala Folklore Museum",
+          "kind": "museum",
+          "lat": 9.933021,
+          "lon": 76.2991467,
+          "tags": {
+            "air_conditioning": "no",
+            "building": "commercial",
+            "building:colour": "#85552e",
+            "charge": "200 INR",
+            "check_date": "2025-05-06",
+            "email": "keralafolkloremuseum@gmail.com",
+            "fee": "yes",
+            "internet_access": "no",
+            "museum": "local",
+            "museum_type": "regional",
+            "name": "Kerala Folklore Museum",
+            "nohousenumber": "yes",
+            "operator:type": "private",
+            "payment:cash": "yes",
+            "payment:upi": "yes",
+            "phone": "+91 484 266 5452",
+            "source": "survey",
+            "toilets": "yes",
+            "toilets:access": "customers",
+            "toilets:wheelchair": "no",
+            "tourism": "museum",
+            "website": "https://www.keralafolkloremuseum.org",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Dredger Anchor",
+          "kind": "memorial",
+          "lat": 9.9678144,
+          "lon": 76.2412213,
+          "tags": {
+            "historic": "memorial",
+            "memorial": "sculpture",
+            "name": "Dredger Anchor",
+            "name:en": "Dredger Anchor"
+          }
+        },
+        {
+          "name": "Steam Boilers",
+          "kind": "memorial",
+          "lat": 9.9673945,
+          "lon": 76.2404786,
+          "tags": {
+            "historic": "memorial",
+            "memorial": "sculpture",
+            "name": "Steam Boilers",
+            "name:en": "Steam Boilers"
+          }
+        },
+        {
+          "name": "Vasco da Gama Square",
+          "kind": "attraction",
+          "lat": 9.9679554,
+          "lon": 76.2424324,
+          "tags": {
+            "name": "Vasco da Gama Square",
+            "name:en": "Vasco da Gama Square",
+            "name:ml": "വാസ്കൊ ഡ ഗാമ സ്ക്വയര്‍",
+            "place": "square",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Chinese Fishing Nets",
+          "kind": "attraction",
+          "lat": 9.9681914,
+          "lon": 76.2421678,
+          "tags": {
+            "name": "Chinese Fishing Nets",
+            "name:en": "Chinese Fishing Nets",
+            "name:ml": "ചീനവലകൾ, ഫോർട്ട് കൊച്ചി",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Police Museum",
+          "kind": "museum",
+          "lat": 9.95596,
+          "lon": 76.26,
+          "tags": {
+            "addr:postcode": "682002",
+            "fee": "no",
+            "name": "Police Museum",
+            "tourism": "museum"
+          }
+        },
+        {
+          "name": "Kovil Homestay",
+          "kind": "monument",
+          "lat": 9.9574961,
+          "lon": 76.2446409,
+          "tags": {
+            "historic": "monument",
+            "name": "Kovil Homestay"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Pizza Italia",
+          "kind": "restaurant",
+          "lat": 9.9672132,
+          "lon": 76.2433427,
+          "tags": {
+            "amenity": "restaurant",
+            "check_date": "2026-15-26",
+            "cuisine": "italian_pizza",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "level": "0",
+            "name": "Pizza Italia",
+            "opening_hours": "Mo-Su 09:00-22:30",
+            "outdoor_seating": "yes",
+            "website": "http://www.pizaitaliakichi.com",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "name": "Gokul Ootupura",
+          "kind": "restaurant",
+          "lat": 9.9580652,
+          "lon": 76.29636,
+          "tags": {
+            "addr:city": "Panampilly Nagar",
+            "addr:district": "Ernakulam",
+            "addr:postcode": "682036",
+            "addr:street": "East Service Road",
+            "air_conditioning": "no",
+            "amenity": "restaurant",
+            "cuisine": "indian;snack;dessert",
+            "diet:halal": "yes",
+            "diet:vegetarian": "only",
+            "indoor_seating": "yes",
+            "name": "Gokul Ootupura",
+            "outdoor_seating": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "smoking": "no",
+            "website": "https://gokuloottupura.in/",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "Rice &Fish Restaurant",
+          "kind": "restaurant",
+          "lat": 10.0143,
+          "lon": 76.33419,
+          "tags": {
+            "addr:city": "Padamugal,Kakkanad",
+            "addr:postcode": "682030",
+            "amenity": "restaurant",
+            "name": "Rice &Fish Restaurant"
+          }
+        },
+        {
+          "name": "Kerala Cafe",
+          "kind": "restaurant",
+          "lat": 9.9672179,
+          "lon": 76.2431551,
+          "tags": {
+            "amenity": "restaurant",
+            "check_date": "2024-10-16",
+            "name": "Kerala Cafe"
+          }
+        },
+        {
+          "name": "Koder House",
+          "kind": "restaurant",
+          "lat": 9.9672455,
+          "lon": 76.2426715,
+          "tags": {
+            "addr:city": "Fort Kochi",
+            "amenity": "restaurant",
+            "name": "Koder House"
+          }
+        },
+        {
+          "name": "Hotel Cochin Fort",
+          "kind": "restaurant",
+          "lat": 9.9680169,
+          "lon": 76.2454728,
+          "tags": {
+            "addr:city": "Ernakulam",
+            "addr:postcode": "682001",
+            "addr:street": "Bellar Road",
+            "air_conditioning": "no",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "brewery": "no",
+            "capacity": "80",
+            "check_date": "2026-06-08",
+            "cuisine": "indian;seafood;fish",
+            "delivery": "no",
+            "level": "0",
+            "microbrewery": "no",
+            "name": "Hotel Cochin Fort",
+            "opening_hours": "12:00-22:00",
+            "outdoor_seating": "yes",
+            "smoking": "outside",
+            "takeaway": "yes"
+          }
+        },
+        {
+          "name": "Tandoor",
+          "kind": "restaurant",
+          "lat": 9.9695938,
+          "lon": 76.2850737,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "diet:vegetarian": "yes",
+            "level": "0",
+            "name": "Tandoor",
+            "phone": "+91 94470 54938",
+            "takeaway": "yes",
+            "toilets": "yes",
+            "toilets:access": "customers"
+          }
+        },
+        {
+          "name": "Caza Maria",
+          "kind": "hotel",
+          "lat": 9.9586771,
+          "lon": 76.2595398,
+          "tags": {
+            "addr:housenumber": "6/125",
+            "addr:postcode": "682002",
+            "addr:street": "Jew Town Road",
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "email": "cazamaria1@gmail.com",
+            "internet_access": "wlan",
+            "name": "Caza Maria",
+            "operator": "Joseph",
+            "phone": "+919846050901",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "Ambatt Restaurant",
+          "kind": "restaurant",
+          "lat": 9.9783375,
+          "lon": 76.3340597,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Ambatt Restaurant"
+          }
+        },
+        {
+          "name": "Fish n Chips",
+          "kind": "restaurant",
+          "lat": 9.964454,
+          "lon": 76.24319,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "amenity": "restaurant",
+            "check_date": "2024-01-14",
+            "cuisine": "fish_and_chips",
+            "name": "Fish n Chips"
+          }
+        },
+        {
+          "name": "Upstairs Italian Restaurant",
+          "kind": "restaurant",
+          "lat": 9.9654331,
+          "lon": 76.2435872,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "air_conditioning": "no",
+            "amenity": "restaurant",
+            "bar": "no",
+            "check_date": "2022-12-09",
+            "cuisine": "italian;pizza",
+            "diet:non-vegetarian": "yes",
+            "highchair": "no",
+            "name": "Upstairs Italian Restaurant",
+            "phone": "+91 94961 86608",
+            "source": "survey",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Hotel Lucky Star",
+          "kind": "restaurant",
+          "lat": 9.9641498,
+          "lon": 76.2454957,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "amenity": "restaurant",
+            "name": "Hotel Lucky Star",
+            "opening_hours": "Mo-Su 09:00-23:00"
+          }
+        },
+        {
+          "name": "Sri Krishna Café",
+          "kind": "restaurant",
+          "lat": 9.9578571,
+          "lon": 76.2546772,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "diet:vegetarian": "yes",
+            "name": "Sri Krishna Café"
+          }
+        },
+        {
+          "name": "Talk of the Town",
+          "kind": "restaurant",
+          "lat": 9.9652413,
+          "lon": 76.2436927,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "amenity": "restaurant",
+            "name": "Talk of the Town"
+          }
+        },
+        {
+          "name": "Sarovaram",
+          "kind": "restaurant",
+          "lat": 9.9491504,
+          "lon": 76.3172271,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "name": "Sarovaram",
+            "name:ml": "സരോവരം"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "Old Harbour Hotel",
+          "kind": "hotel",
+          "lat": 9.967342,
+          "lon": 76.2424837,
+          "tags": {
+            "addr:city": "Cochin",
+            "addr:country": "IN",
+            "addr:housenumber": "1/328",
+            "addr:postcode": "682001",
+            "addr:street": "Tower Road",
+            "check_date": "2026-02-12",
+            "email": "raintree@fortcochin.com",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Old Harbour Hotel",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:upi": "yes",
+            "phone": "+91 484 221 8006",
+            "rooms": "13",
+            "source": "survey",
+            "stars": "4",
+            "tourism": "hotel",
+            "website": "http://www.oldharbourhotel.com/",
+            "wikidata": "Q111401837"
+          }
+        },
+        {
+          "name": "al maray",
+          "kind": "hotel",
+          "lat": 10.0009683,
+          "lon": 76.2942938,
+          "tags": {
+            "name": "al maray",
+            "name:en": "al maray",
+            "tourism": "hotel",
+            "wikidata": "Q111062197"
+          }
+        },
+        {
+          "name": "Grand Hotel",
+          "kind": "hotel",
+          "lat": 9.9705348,
+          "lon": 76.2852866,
+          "tags": {
+            "addr:city": "Ernakulam",
+            "internet_access": "wlan",
+            "name": "Grand Hotel",
+            "stars": "3.5",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "Bastian Homestay",
+          "kind": "guest_house",
+          "lat": 9.9616106,
+          "lon": 76.2445561,
+          "tags": {
+            "addr:city": "Fort Kochi",
+            "addr:housenumber": "1/1276",
+            "addr:neighbourhood": "Chirattapalam",
+            "addr:postcode": "682001",
+            "addr:state": "Kerala",
+            "addr:street": "K.B. Jacob Road",
+            "contact:email": "bastianhomestay@yahoo.com",
+            "contact:website": "https://bastianhomestay.com/",
+            "email": "bastianhomestay@yahoo.com",
+            "guest_house": "homestay",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Bastian Homestay",
+            "name:en": "Bastian Homestay",
+            "phone": "+91 94936 21591;+91 944712289",
+            "tourism": "guest_house",
+            "website": "https://www.bastianhomestay.com"
+          }
+        },
+        {
+          "name": "Eighth Bastion",
+          "kind": "hotel",
+          "lat": 9.964637,
+          "lon": 76.2389273,
+          "tags": {
+            "air_conditioning": "yes",
+            "check_date": "2024-01-19",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Eighth Bastion",
+            "name:en": "Eighth Bastion",
+            "payment:american_express": "yes",
+            "payment:cash": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_debit": "yes",
+            "reservation": "yes",
+            "stars": "4",
+            "tourism": "hotel",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "The Bungalow Heritage Homestay",
+          "kind": "hotel",
+          "lat": 9.9751576,
+          "lon": 76.2424341,
+          "tags": {
+            "name": "The Bungalow Heritage Homestay",
+            "tourism": "hotel",
+            "website": "https://www.thebungalow.in/"
+          }
+        },
+        {
+          "name": "Tea Bungalow",
+          "kind": "hotel",
+          "lat": 9.9629101,
+          "lon": 76.2456243,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "addr:housenumber": "1/1901",
+            "addr:street": "Kunumpuram",
+            "name": "Tea Bungalow",
+            "phone": "+91 484 2216337",
+            "tourism": "hotel",
+            "website": "http://www.teabungalow.in/"
+          }
+        },
+        {
+          "name": "Aaron's Home Stay",
+          "kind": "guest_house",
+          "lat": 9.9613223,
+          "lon": 76.2425054,
+          "tags": {
+            "addr:city": "Fort Cochin",
+            "name": "Aaron's Home Stay",
+            "tourism": "guest_house",
+            "website": "http://www.aaronshomestay.com"
+          }
+        },
+        {
+          "name": "Gramam Homestay",
+          "kind": "guest_house",
+          "lat": 9.8949998,
+          "lon": 76.2817696,
+          "tags": {
+            "addr:housenumber": "Gramam Neduveli House",
+            "description": "Gramam Homestay",
+            "name": "Gramam Homestay",
+            "tourism": "guest_house",
+            "website": "https://gramamhomestay.com/"
+          }
+        },
+        {
+          "name": "Caza Maria",
+          "kind": "hotel",
+          "lat": 9.9586771,
+          "lon": 76.2595398,
+          "tags": {
+            "addr:housenumber": "6/125",
+            "addr:postcode": "682002",
+            "addr:street": "Jew Town Road",
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "email": "cazamaria1@gmail.com",
+            "internet_access": "wlan",
+            "name": "Caza Maria",
+            "operator": "Joseph",
+            "phone": "+919846050901",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    }
+  }
+}

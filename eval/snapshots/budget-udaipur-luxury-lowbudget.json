@@ -1,0 +1,741 @@
+{
+  "id": "budget-udaipur-luxury-lowbudget",
+  "requestHash": "115fd0a5e229",
+  "recordedAt": "2026-10-01T04:39:26.743Z",
+  "geocode": {
+    "Udaipur": {
+      "ok": true,
+      "value": {
+        "query": "Udaipur",
+        "name": "Udaipur, Girwa Tehsil, Udaipur, Rajasthan, 313001, India",
+        "lat": 24.578721,
+        "lon": 73.6862571,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          24.418721,
+          24.738721,
+          73.5262571,
+          73.8462571
+        ]
+      }
+    },
+    "Delhi": {
+      "ok": true,
+      "value": {
+        "query": "Delhi",
+        "name": "Delhi, India",
+        "lat": 28.6328027,
+        "lon": 77.2197713,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          28.4046285,
+          28.8834464,
+          76.8388351,
+          77.3453379
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-02-05",
+        "tMax": 25.1,
+        "tMin": 13.9,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-02-06",
+        "tMax": 24.9,
+        "tMin": 12.2,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-02-07",
+        "tMax": 24.9,
+        "tMin": 12.2,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "SajjanGarh Biological Park",
+          "kind": "zoo",
+          "lat": 24.593921,
+          "lon": 73.6475513,
+          "tags": {
+            "barrier": "wall",
+            "name": "SajjanGarh Biological Park",
+            "name:etymology:wikidata": "Q12446066",
+            "opening_hours": "Mo-Su 09:00-17:00",
+            "phone": "+912942800009",
+            "tourism": "zoo",
+            "website": "http://www.sajjangarhbiologicalpark.com/",
+            "wikidata": "Q22080053",
+            "wikipedia": "en:Sajjangarh Biological Park"
+          }
+        },
+        {
+          "name": "Gangaur Ghat",
+          "kind": "attraction",
+          "lat": 24.5799938,
+          "lon": 73.6819466,
+          "tags": {
+            "name": "Gangaur Ghat",
+            "name:es": "Gangaur Ghat",
+            "tourism": "attraction",
+            "wheelchair": "limited",
+            "wikidata": "Q28154058",
+            "wikipedia": "en:Gangaur Ghat"
+          }
+        },
+        {
+          "name": "Vintage and Classic Car Collection",
+          "kind": "museum",
+          "lat": 24.576052,
+          "lon": 73.6945317,
+          "tags": {
+            "fee": "yes",
+            "name": "Vintage and Classic Car Collection",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "tourism": "museum",
+            "wikidata": "Q24952067",
+            "wikipedia": "en:Vintage and Classic Car Museum"
+          }
+        },
+        {
+          "name": "Ambrai Ghat",
+          "kind": "attraction",
+          "lat": 24.5777259,
+          "lon": 73.6799321,
+          "tags": {
+            "name": "Ambrai Ghat",
+            "tourism": "attraction",
+            "wikidata": "Q29467437",
+            "wikipedia": "en:Ambrai Ghat"
+          }
+        },
+        {
+          "name": "Saheliyon-Ki-Bari",
+          "kind": "attraction",
+          "lat": 24.60305,
+          "lon": 73.6854857,
+          "tags": {
+            "leisure": "park",
+            "name": "Saheliyon-Ki-Bari",
+            "tourism": "attraction",
+            "wikidata": "Q7399592",
+            "wikimedia_commons": "Category:Sahelion Ki Bari, Udaipur",
+            "wikipedia": "en:Saheliyon-ki-Bari"
+          }
+        },
+        {
+          "name": "Sajjan Garh - Monsoon Palace",
+          "kind": "attraction",
+          "lat": 24.5931974,
+          "lon": 73.6394582,
+          "tags": {
+            "building": "yes",
+            "historic": "yes",
+            "name": "Sajjan Garh - Monsoon Palace",
+            "tourism": "attraction",
+            "wikidata": "Q3321537",
+            "wikimedia_commons": "Category:Monsoon Palace",
+            "wikipedia": "fr:Monsoon Palace"
+          }
+        },
+        {
+          "name": "Rajiv Gandhi Garden",
+          "kind": "attraction",
+          "lat": 24.59709,
+          "lon": 73.6609788,
+          "tags": {
+            "addr:city": "Udaipur",
+            "addr:postcode": "313001",
+            "addr:street": "Rani Road",
+            "charge": "100 INR",
+            "fee": "yes",
+            "leisure": "park",
+            "name": "Rajiv Gandhi Garden",
+            "name:en": "Rajiv Gandhi Garden",
+            "name:etymology:wikidata": "Q4593",
+            "name:hi": "राजीव गांधी उद्यान",
+            "tourism": "attraction",
+            "wikidata": "Q24895427",
+            "wikipedia": "en:Rajiv Gandhi Garden"
+          }
+        },
+        {
+          "name": "Sajjangarh Wildlife Sanctuary",
+          "kind": "nature_reserve",
+          "lat": 24.6128312,
+          "lon": 73.6340874,
+          "tags": {
+            "alt_name": "Sajjangarh WLS",
+            "boundary": "protected_area",
+            "leisure": "nature_reserve",
+            "name": "Sajjangarh Wildlife Sanctuary",
+            "protect_class": "4",
+            "wikidata": "Q65068086",
+            "wikipedia": "en:Sajjangarh Wildlife Sanctuary"
+          }
+        },
+        {
+          "name": "Pratap Gaurav Kendra Rashtriya Tirth",
+          "kind": "museum",
+          "lat": 24.6252811,
+          "lon": 73.6715656,
+          "tags": {
+            "building": "yes",
+            "layer": "1",
+            "mobile": "+91-9468545516",
+            "museum": "history",
+            "name": "Pratap Gaurav Kendra Rashtriya Tirth",
+            "opening_hours": "Mo-Su 09:30-18:00",
+            "tourism": "museum",
+            "website": "https://pratapgauravkendra.org/"
+          }
+        },
+        {
+          "name": "Sunset Point",
+          "kind": "attraction",
+          "lat": 24.5690255,
+          "lon": 73.6838528,
+          "tags": {
+            "name": "Sunset Point",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "City Palace",
+          "kind": "museum",
+          "lat": 24.5764662,
+          "lon": 73.6835836,
+          "tags": {
+            "ele": "639.2",
+            "fee": "yes",
+            "name": "City Palace",
+            "opening_hours": "Mo-Su 09:30-21:00",
+            "toilets:wheelchair": "yes",
+            "tourism": "museum",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "Bharatiya Lok Kala Museum",
+          "kind": "museum",
+          "lat": 24.5943478,
+          "lon": 73.6917088,
+          "tags": {
+            "name": "Bharatiya Lok Kala Museum",
+            "tourism": "museum"
+          }
+        },
+        {
+          "name": "Kishan Pol",
+          "kind": "ruins",
+          "lat": 24.5674697,
+          "lon": 73.6918005,
+          "tags": {
+            "historic": "ruins",
+            "name": "Kishan Pol"
+          }
+        },
+        {
+          "name": "Hathi Pol (Elephant Gate)",
+          "kind": "ruins",
+          "lat": 24.5867389,
+          "lon": 73.6875335,
+          "tags": {
+            "historic": "ruins",
+            "name": "Hathi Pol (Elephant Gate)"
+          }
+        },
+        {
+          "name": "Chand Pol",
+          "kind": "ruins",
+          "lat": 24.5826417,
+          "lon": 73.6819528,
+          "tags": {
+            "historic": "ruins",
+            "name": "Chand Pol"
+          }
+        },
+        {
+          "name": "Daiji Bridge Pol",
+          "kind": "ruins",
+          "lat": 24.5811637,
+          "lon": 73.6816687,
+          "tags": {
+            "historic": "ruins",
+            "name": "Daiji Bridge Pol"
+          }
+        },
+        {
+          "name": "Sunset viewpoint",
+          "kind": "viewpoint",
+          "lat": 24.5775361,
+          "lon": 73.6795582,
+          "tags": {
+            "name": "Sunset viewpoint",
+            "tourism": "viewpoint",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Moti Magri Memorial",
+          "kind": "monument",
+          "lat": 24.6001998,
+          "lon": 73.6805131,
+          "tags": {
+            "historic": "monument",
+            "name": "Moti Magri Memorial"
+          }
+        },
+        {
+          "name": "Jagmandir Palace",
+          "kind": "castle",
+          "lat": 24.5676448,
+          "lon": 73.6785389,
+          "tags": {
+            "historic": "castle",
+            "name": "Jagmandir Palace"
+          }
+        },
+        {
+          "name": "Lal Ghat",
+          "kind": "attraction",
+          "lat": 24.5789237,
+          "lon": 73.6822604,
+          "tags": {
+            "name": "Lal Ghat",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Bagore-ki-Haveli",
+          "kind": "castle",
+          "lat": 24.5797365,
+          "lon": 73.6823966,
+          "tags": {
+            "historic": "castle",
+            "name": "Bagore-ki-Haveli"
+          }
+        },
+        {
+          "name": "Sunset View",
+          "kind": "viewpoint",
+          "lat": 24.5931575,
+          "lon": 73.6391747,
+          "tags": {
+            "direction": "270",
+            "name": "Sunset View",
+            "tourism": "viewpoint"
+          }
+        },
+        {
+          "name": "आर के सर्किल",
+          "kind": "monument",
+          "lat": 24.6070549,
+          "lon": 73.6997474,
+          "tags": {
+            "historic": "monument",
+            "name": "आर के सर्किल",
+            "name:en": "RK circle"
+          }
+        },
+        {
+          "name": "Bahubali viewpoint",
+          "kind": "viewpoint",
+          "lat": 24.624235,
+          "lon": 73.6174631,
+          "tags": {
+            "name": "Bahubali viewpoint",
+            "name:en": "Bahubali Viewpoint",
+            "name:ru": "Хвост Дракона",
+            "note": "Seems to be called Bahubali hills locally",
+            "tourism": "viewpoint"
+          }
+        },
+        {
+          "name": "Govindam art gallery & handicraft",
+          "kind": "gallery",
+          "lat": 24.5801917,
+          "lon": 73.6822073,
+          "tags": {
+            "addr:full": "60, Gangour Ghat, Opposite Bagore Ki Haveli, Udaipur 313001",
+            "email": "piyushmundaniya123@gmail.com",
+            "name": "Govindam art gallery & handicraft",
+            "phone": "+919413831203",
+            "tourism": "gallery"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Rainbow Restaurant",
+          "kind": "restaurant",
+          "lat": 24.5788816,
+          "lon": 73.6824168,
+          "tags": {
+            "addr:housenumber": "27-28",
+            "addr:postcode": "313001",
+            "addr:street": "Lal Ghat",
+            "amenity": "restaurant",
+            "cuisine": "italian_pizza;indian",
+            "email": "rainbowrestaurant@gmail.com",
+            "internet_access": "wlan",
+            "name": "Rainbow Restaurant",
+            "name:de": "Rainbow Restaurant",
+            "name:en": "Rainbow Restaurant",
+            "name:hi": "Rainbow Restaurant",
+            "operator": "Mr Veerendra Singh Rathore",
+            "phone": "00919828267234",
+            "website": "https://www.rainbowrestaurantudaipur.com/"
+          }
+        },
+        {
+          "name": "Chirag Roof Top Restaurant",
+          "kind": "restaurant",
+          "lat": 24.5818106,
+          "lon": 73.6817846,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian;chinese;pasta",
+            "internet_access": "wlan",
+            "name": "Chirag Roof Top Restaurant",
+            "website": "https://www.tripadvisor.com/Restaurant_Review-g297672-d3844326-Reviews-Chirag_Roof_Top_Restaurant-Udaipur_Rajasthan.html?m=19904"
+          }
+        },
+        {
+          "name": "Doctor Cafe",
+          "kind": "restaurant",
+          "lat": 24.5795616,
+          "lon": 73.6828439,
+          "tags": {
+            "addr:housenumber": "12",
+            "addr:postcode": "313001",
+            "addr:street": "Lal Ghat",
+            "amenity": "restaurant",
+            "cuisine": "regional;pancake;italian;breakfast;diner;italian_pizza;indian",
+            "diet:vegan": "yes",
+            "email": "sheikhk942@gmail.com",
+            "internet_access": "wlan",
+            "name": "Doctor Cafe",
+            "name:en": "Doctor Cafe",
+            "opening_hours": "Mo-Su 09:00-00:00",
+            "phone": "+919929507355",
+            "website": "https://www.tripadvisor.co.uk/7282430?m=19905"
+          }
+        },
+        {
+          "name": "Poonam Haveli",
+          "kind": "hotel",
+          "lat": 24.579998,
+          "lon": 73.6829165,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Poonam Haveli",
+            "stars": "3",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "Melange Restro and cafe",
+          "kind": "restaurant",
+          "lat": 24.5927571,
+          "lon": 73.6655332,
+          "tags": {
+            "addr:street": "Rani Road",
+            "amenity": "restaurant",
+            "cuisine": "fish;burger;sandwich;grill;local;asian;coffee_shop;chinese;pasta;italian;chicken;indian;curry",
+            "email": "melangecafeudr@gmail.com",
+            "internet_access": "wlan",
+            "name": "Melange Restro and cafe",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "operator": "Narendra & Lokesh",
+            "phone": "8209934897",
+            "website": "https://www.instagram.com/melange_cafe_udr"
+          }
+        },
+        {
+          "name": "Ambrai Restaurant",
+          "kind": "restaurant",
+          "lat": 24.5781623,
+          "lon": 73.6800374,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "name": "Ambrai Restaurant"
+          }
+        },
+        {
+          "name": "Lake View",
+          "kind": "guest_house",
+          "lat": 24.5800016,
+          "lon": 73.6830934,
+          "tags": {
+            "addr:city": "Udaipur",
+            "addr:country": "IN",
+            "addr:postcode": "313001",
+            "addr:state": "RJ",
+            "addr:street": "Lal Ghat",
+            "amenity": "restaurant",
+            "name": "Lake View",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "Neelam",
+          "kind": "restaurant",
+          "lat": 24.5800999,
+          "lon": 73.6830695,
+          "tags": {
+            "addr:city": "Udaipur",
+            "addr:country": "IN",
+            "addr:housenumber": "18",
+            "addr:postcode": "313001",
+            "addr:state": "RJ",
+            "addr:street": "Gangaur Ghat Marg",
+            "amenity": "restaurant",
+            "cuisine": "indian;local",
+            "diet:vegetarian": "yes",
+            "name": "Neelam",
+            "name:en": "Neelam Restaurant",
+            "opening_hours": "Mo-Su 08:00-22:00"
+          }
+        },
+        {
+          "name": "Om Sai Ram",
+          "kind": "restaurant",
+          "lat": 24.5663667,
+          "lon": 73.6850341,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Om Sai Ram"
+          }
+        },
+        {
+          "name": "Kitchen of Mewar",
+          "kind": "restaurant",
+          "lat": 24.5810871,
+          "lon": 73.6802524,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian;asian",
+            "diet:vegan": "yes",
+            "internet_access": "wlan",
+            "name": "Kitchen of Mewar",
+            "opening_hours": "Mo-Su 08:30-22:30"
+          }
+        },
+        {
+          "name": "Hari Garh Restaurant",
+          "kind": "restaurant",
+          "lat": 24.5796738,
+          "lon": 73.6803155,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Hari Garh Restaurant",
+            "name:fr": "Hari Garh Restaurant"
+          }
+        },
+        {
+          "name": "Natraj Dining Hall",
+          "kind": "restaurant",
+          "lat": 24.5720379,
+          "lon": 73.6996002,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Natraj Dining Hall"
+          }
+        },
+        {
+          "name": "Natraj",
+          "kind": "restaurant",
+          "lat": 24.5838464,
+          "lon": 73.6980074,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Natraj"
+          }
+        },
+        {
+          "name": "Parmeshwara",
+          "kind": "restaurant",
+          "lat": 24.6099217,
+          "lon": 73.679825,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Parmeshwara"
+          }
+        },
+        {
+          "name": "Black Pepper",
+          "kind": "restaurant",
+          "lat": 24.5807045,
+          "lon": 73.6826333,
+          "tags": {
+            "addr:city": "Udaipur",
+            "addr:housenumber": "24",
+            "addr:postcode": "313001",
+            "addr:street": "Panduvari Gangaur Ghat",
+            "amenity": "restaurant",
+            "name": "Black Pepper",
+            "opening_hours": "PH,Mo-Su 08:00-22:00"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "Taj Lake Palace",
+          "kind": "hotel",
+          "lat": 24.5754426,
+          "lon": 73.6801244,
+          "tags": {
+            "email": "lakepalace.udaipur@tajhotels.com",
+            "name": "Taj Lake Palace",
+            "stars": "5",
+            "tourism": "hotel",
+            "url": "www.tajhotels.com",
+            "wikipedia": "en:Lake Palace"
+          }
+        },
+        {
+          "name": "Poonam Haveli",
+          "kind": "hotel",
+          "lat": 24.579998,
+          "lon": 73.6829165,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Poonam Haveli",
+            "stars": "3",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "The Leela Palace Kempinski Udaipur",
+          "kind": "hotel",
+          "lat": 24.5781589,
+          "lon": 73.677216,
+          "tags": {
+            "name": "The Leela Palace Kempinski Udaipur",
+            "stars": "5",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "The Oberoi Udaivilas",
+          "kind": "hotel",
+          "lat": 24.5771831,
+          "lon": 73.6725331,
+          "tags": {
+            "name": "The Oberoi Udaivilas",
+            "stars": "5",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "Hotel Kumbha Palace",
+          "kind": "hotel",
+          "lat": 24.5766199,
+          "lon": 73.6846024,
+          "tags": {
+            "email": "kumbha01@hotmail.com",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Hotel Kumbha Palace",
+            "operator": "Dinesh and Francine Jain",
+            "phone": "+91 9828059506",
+            "tourism": "hotel",
+            "website": "http://www.hotelkumbhapalace.com/"
+          }
+        },
+        {
+          "name": "Ramada Hotel",
+          "kind": "hotel",
+          "lat": 24.5835058,
+          "lon": 73.6487603,
+          "tags": {
+            "name": "Ramada Hotel",
+            "tourism": "hotel",
+            "website": "https://www.ramadaudaipur.com/"
+          }
+        },
+        {
+          "name": "Golden Tulip",
+          "kind": "hotel",
+          "lat": 24.5973396,
+          "lon": 73.6938782,
+          "tags": {
+            "addr:street": "63rd Ave, Sardapura",
+            "name": "Golden Tulip",
+            "phone": "+912942424101",
+            "tourism": "hotel",
+            "website": "www.goldentulipudaipur.com"
+          }
+        },
+        {
+          "name": "Mewargarh Palace",
+          "kind": "hotel",
+          "lat": 24.5837818,
+          "lon": 73.6837775,
+          "tags": {
+            "name": "Mewargarh Palace",
+            "tourism": "hotel",
+            "website": "http://www.mewargarhpalace.com"
+          }
+        },
+        {
+          "name": "Govindam Palace",
+          "kind": "hotel",
+          "lat": 24.5788734,
+          "lon": 73.6838558,
+          "tags": {
+            "addr:housenumber": "169",
+            "name": "Govindam Palace",
+            "tourism": "hotel",
+            "website": "https://www.hotelgovindampalace.com/"
+          }
+        },
+        {
+          "name": "Kiran Palace",
+          "kind": "hotel",
+          "lat": 24.5784382,
+          "lon": 73.6852789,
+          "tags": {
+            "addr:housenumber": "19",
+            "addr:street": "Bhatiyani Chotta",
+            "email": "hotelkiranpalace@gmail.com",
+            "internet_access": "wlan",
+            "name": "Kiran Palace",
+            "phone": "9799722009",
+            "tourism": "hotel",
+            "website": "www.thekiranpalace.com"
+          }
+        }
+      ]
+    }
+  }
+}

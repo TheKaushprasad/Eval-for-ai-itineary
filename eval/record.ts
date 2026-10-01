@@ -3,6 +3,7 @@
  * research, exactly as runPipeline fetches them. Generation is skipped.
  *
  *   npm run eval:record -- [--only core,diet] [--ids a,b] [--limit 3] [--force] [--concurrency 2]
+ *                          [--no-research]      skip the (paid) OpenAI web-research step
  *                          [--allow-failures]   save snapshots even if a step failed transiently
  */
 import { runPipeline } from "@/lib/pipeline";
@@ -18,7 +19,7 @@ let skipped = 0;
 let failed = 0;
 
 /** Failures that say something about the input (worth replaying) rather than the network. */
-const DETERMINISTIC = /couldn't find|no airport near|share airport/i;
+const DETERMINISTIC = /couldn't find|no airport near|share airport|research (is )?disabled/i;
 
 function transientFailures(snap: Snapshot) {
   const steps = { ...Object.fromEntries(Object.entries(snap.geocode).map(([q, r]) => [`geocode "${q}"`, r])), weather: snap.weather, places: snap.places, flights: snap.flights, research: snap.research };
@@ -35,7 +36,7 @@ async function main() {
     const snap: Snapshot = { id: c.id, requestHash: hash, recordedAt: new Date().toISOString(), geocode: {}, flightProvider: null };
     const t0 = Date.now();
     try {
-      await runPipeline({ ...c.request, email: "" }, () => {}, recordingDeps(snap));
+      await runPipeline({ ...c.request, email: "" }, () => {}, recordingDeps(snap, { research: !args.has("no-research") }));
     } catch (e) {
       if (!(e instanceof RecordingDone)) {
         failed++;

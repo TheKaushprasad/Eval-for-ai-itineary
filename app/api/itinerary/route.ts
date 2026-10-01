@@ -1,3 +1,4 @@
+import { guardGeneration } from "@/lib/access";
 import { runPipeline } from "@/lib/pipeline";
 import { TripRequestSchema, type StreamEvent } from "@/lib/schema";
 
@@ -8,6 +9,9 @@ export async function POST(request: Request) {
   if (!parsed.success) {
     return Response.json({ error: "Invalid request", issues: parsed.error.issues }, { status: 400 });
   }
+  // Access code and daily limits: live generation spends API credit.
+  const denied = guardGeneration(request);
+  if (denied) return denied;
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream({

@@ -65,10 +65,14 @@ Every check returns pass, fail or n/a, a 0–1 partial-credit score, and a reaso
 | `transportSource` | when live Duffel fares were available, both legs use them |
 | `expectations` | the case's `mustMention` / `mustAvoid` |
 
-`grounding` is a heuristic. A real place the model knew but that wasn't in the context counts as ungrounded, which is intended: the app promises to use its data, not the model's memory. Read the `detail` field before blaming the model.
+`grounding` is a heuristic, and it measures *traceability to the data the model was given*, not "made up". A famous real place (Amber Fort) that the OSM list happened to miss counts as ungrounded. In v1 most ungrounded names were exactly that, which points at the data step (POI ranking) as much as the model.
+
+Grader fixes are part of the method: the first v1 pass flagged travel legs ("Arrive GOI"), sentence-case descriptions and Korean place names as ungrounded. After fixing the grader, `eval:rescore` re-graded the saved outputs (57% → 79%) without new model calls, so the change reflects the grader, not a different model sample.
+
+`grounding` is still a heuristic. A real place the model knew but that wasn't in the context counts as ungrounded, which is intended: the app promises to use its data, not the model's memory. Read the `detail` field before blaming the model.
 
 ### LLM judge (`graders/judge.ts`)
-The judge scores 1–5 on `styleMatch`, `pace`, `logistics`, `requirements` and `helpfulness`, using anchored rubrics and giving its reason before each score. It uses `EVAL_JUDGE_MODEL`, default `gpt-5-mini`, and refuses to run when that's the same model as the generator.
+The judge scores 1–5 on `styleMatch`, `pace`, `logistics`, `requirements` and `helpfulness`, using anchored rubrics and giving its reason before each score. It uses `EVAL_JUDGE_PROVIDER` / `EVAL_JUDGE_MODEL`, which default to the generator's provider with a different model (e.g. `gpt-5-mini` for OpenAI). It refuses to run when the judge is the same model as the generator; a judge from a different vendor is better still.
 
 ### Is the judge trustworthy? (`agreement.ts`)
 1. `npm run eval:agree -- --template` samples 20 itineraries across categories into `human/review.md` and `human/labels.csv`.
@@ -87,9 +91,28 @@ npm run eval:report                      # table for the latest run (also saved 
 npm run eval:report -- --compare         # latest two runs: Δ per metric, regressions and fixes per case
 npm run eval:check -- --update           # promote the latest run to results/baseline.json
 npm run eval:check                       # gate: exit 1 if a headline metric dropped past its tolerance
+npm run eval:rescore                     # re-run the code checks on the latest run's saved outputs (after a grader fix)
 ```
 
-Flags for `eval` and `eval:record`: `--only <category|id-prefix>,…` · `--ids a,b` · `--limit n` · `--concurrency n`.
+Flags for `eval` and `eval:record`: `--only <category|tag|id-prefix>,…` · `--ids a,b` · `--limit n` · `--concurrency n`. `eval` also takes `--max-cost <usd>` (stop starting new cases at that estimated spend) and `--no-judge`; `eval:record` takes `--no-research` (skip the paid OpenAI web-research step).
+
+### Running on a budget (or for free)
+
+`LLM_PROVIDER` / `EVAL_JUDGE_PROVIDER` choose the models (see the main README). A $0 setup:
+
+```bash
+# .env.local
+LLM_PROVIDER=gemini          GEMINI_API_KEY=…
+EVAL_JUDGE_PROVIDER=groq     GROQ_API_KEY=…
+
+npm run eval:record -- --only starter --no-research   # free APIs only (OSM, Open-Meteo)
+npm run eval -- --only starter --label v1-gemini      # the 20-case starter set
+```
+
+- The **`starter`** tag marks 20 cases (2–3 per category) for cheap, fast iterations. Run all 60 once things are stable.
+- Free tiers rate-limit hard. The client retries 429s with backoff, but keep `--concurrency 1–2`.
+- Recording only saves a snapshot when every failure in it is deterministic (e.g. a misspelled place that can't be found). Network errors, rate limits (Overpass 429s are common) and billing errors are never frozen into the test set. Re-run `eval:record` and it only retries the missing ones.
+- Cost for non-OpenAI providers is reported as 0 (free tier). With OpenAI, `--max-cost 0.50` keeps a run inside a small budget.
 
 The **headline metrics** gated by `eval:check` (see `HEADLINE` in `metrics.ts`) are:
 - success rate
@@ -108,4 +131,4 @@ Each run is stored in `results/` with its git SHA, model ids and every itinerary
 
 | Version | Change | Strict pass | Grounding | Within budget | Diet | Judge | p50 latency | Cost/itinerary |
 |---|---|---|---|---|---|---|---|---|
-| v1-baseline | prompts as shipped | – | – | – | – | – | – | – |
+| v1-baseline | prompts as shipped; `gpt-5-mini`, Qwen judge, 17 starter trips, no web research | 0% | 79% | 100% | 100% | 3.62 | 45s | $0.013 |

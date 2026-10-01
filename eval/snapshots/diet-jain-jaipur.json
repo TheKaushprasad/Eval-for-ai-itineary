@@ -1,0 +1,941 @@
+{
+  "id": "diet-jain-jaipur",
+  "requestHash": "9f3b06480efd",
+  "recordedAt": "2026-10-01T04:39:35.670Z",
+  "geocode": {
+    "Jaipur": {
+      "ok": true,
+      "value": {
+        "query": "Jaipur",
+        "name": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+        "lat": 26.9154576,
+        "lon": 75.8189817,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          26.7554576,
+          27.0754576,
+          75.6589817,
+          75.9789817
+        ]
+      }
+    },
+    "Ahmedabad": {
+      "ok": true,
+      "value": {
+        "query": "Ahmedabad",
+        "name": "Ahmedabad, Gujarat, 380001, India",
+        "lat": 23.0215374,
+        "lon": 72.5800568,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          22.8615374,
+          23.1815374,
+          72.4200568,
+          72.7400568
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2026-12-10",
+        "tMax": 23.7,
+        "tMin": 11.2,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2026-12-11",
+        "tMax": 23.8,
+        "tMin": 10.7,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2026-12-12",
+        "tMax": 23.5,
+        "tMin": 10.6,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2026-12-13",
+        "tMax": 23.3,
+        "tMin": 11.8,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "Neota Dam",
+          "kind": "attraction",
+          "lat": 26.8039663,
+          "lon": 75.6811564,
+          "tags": {
+            "alt_name": "nevta dam",
+            "name": "Neota Dam",
+            "tourism": "attraction",
+            "wikidata": "Q108439897",
+            "wikipedia": "en:Nevta Dam"
+          }
+        },
+        {
+          "name": "City Palace",
+          "kind": "attraction",
+          "lat": 26.9262372,
+          "lon": 75.8238122,
+          "tags": {
+            "alt_name": "The City Palace",
+            "castle_type": "palace",
+            "historic": "castle",
+            "museum": "history",
+            "name": "City Palace",
+            "tourism": "attraction",
+            "url": "https://www.royaljaipur.in/",
+            "wikidata": "Q2723395",
+            "wikipedia": "en:City Palace, Jaipur"
+          }
+        },
+        {
+          "name": "Nahargarh WLS",
+          "kind": "nature_reserve",
+          "lat": 26.9961313,
+          "lon": 75.831817,
+          "tags": {
+            "boundary": "protected_area",
+            "leisure": "nature_reserve",
+            "name": "Nahargarh WLS",
+            "name:hi": "नाहरगढ़ वन्यजीव अभयारण्य",
+            "protect_class": "4",
+            "wikidata": "Q134581467",
+            "wikipedia": "en:Nahargarh Wildlife Sanctuary"
+          }
+        },
+        {
+          "name": "Sisodiya Rani Bagh",
+          "kind": "castle",
+          "lat": 26.8993536,
+          "lon": 75.8587376,
+          "tags": {
+            "building": "yes",
+            "castle_type": "palace",
+            "historic": "castle",
+            "name": "Sisodiya Rani Bagh",
+            "wikidata": "Q7530898",
+            "wikipedia": "en:Sisodiya Rani Bagh"
+          }
+        },
+        {
+          "name": "जंतर मंतर, जयपुर",
+          "kind": "attraction",
+          "lat": 26.9247389,
+          "lon": 75.8244663,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:country": "IN",
+            "addr:state": "Rajasthan",
+            "heritage:operator": "whc",
+            "historic": "archaeological_site",
+            "is_in:city": "Jaipur",
+            "is_in:country": "India",
+            "is_in:country_code": "IN",
+            "is_in:iso_3166_2": "IN-RJ",
+            "is_in:state": "Rajasthan",
+            "name": "जंतर मंतर, जयपुर",
+            "name:ar": "جايبور",
+            "name:bg": "Джайпур",
+            "name:bn": "যন্তর মন্তর",
+            "name:en": "Jantar Mantar",
+            "name:hi": "जन्तर मन्तर, जयपुर",
+            "name:ja": "ジャンタルマンタル天文台",
+            "name:ka": "ჯანტარ-მანტარი",
+            "name:ml": "ജന്തർ മന്തർ, ജയ്‌പൂർ",
+            "name:or": "ଯନ୍ତର ମନ୍ତର",
+            "name:ru": "Джантар-Мантар",
+            "name:ta": "ஜந்தர் மந்தர்",
+            "name:th": "ชันตรมันตระ",
+            "name:uk": "Янтра-мантра",
+            "name:zh": "简塔·曼塔天文台",
+            "ref:whc": "1338",
+            "start_date": "Early 18th century",
+            "tourism": "attraction",
+            "whc:criteria": "(iii),(iv)",
+            "whc:inscription_date": "2010",
+            "wikidata": "Q508634",
+            "wikipedia:en": "Jantar Mantar"
+          }
+        },
+        {
+          "name": "Hawa Mahal",
+          "kind": "attraction",
+          "lat": 26.923932,
+          "lon": 75.8268652,
+          "tags": {
+            "access": "yes",
+            "alt_name:de": "Palast der Winde",
+            "alt_name:en": "Palace of winds",
+            "alt_name:es": "Palacio de los vientos",
+            "alt_name:fr": "Palais des vents",
+            "alt_name:it": "Palazzo dei venti",
+            "alt_name:ru": "Дворец ветров",
+            "fee": "yes",
+            "historic": "monument",
+            "name": "Hawa Mahal",
+            "name:de": "Hawa Mahal",
+            "name:en": "Hawa Mahal",
+            "name:es": "Hawa Mahal",
+            "name:fr": "Hawa Mahal",
+            "name:hi": "हवा महल",
+            "name:it": "Hawa Mahal",
+            "name:ru": "Хава-Махал",
+            "name:zh": "风之宫",
+            "opening_hours": "Mon-Su 09:00-18:30",
+            "tourism": "attraction",
+            "wikidata": "Q836531"
+          }
+        },
+        {
+          "name": "Jaighar Fort",
+          "kind": "attraction",
+          "lat": 26.9846903,
+          "lon": 75.8453997,
+          "tags": {
+            "castle_type": "fortress",
+            "check_date": "2026-02-20",
+            "check_date:opening_hours": "2026-02-20",
+            "historic": "castle",
+            "name": "Jaighar Fort",
+            "name:de": "Fort Jaighar",
+            "name:hi": "जयगढ़ दुर्ग",
+            "opening_hours": "Mo-Su 09:00-18:30",
+            "tourism": "attraction",
+            "wikidata": "Q2722759"
+          }
+        },
+        {
+          "name": "एल्बर्ट हॉल",
+          "kind": "museum",
+          "lat": 26.9117053,
+          "lon": 75.8194973,
+          "tags": {
+            "fee": "yes",
+            "name": "एल्बर्ट हॉल",
+            "name:en": "Albert Hall",
+            "name:hi": "एल्बर्ट हॉल",
+            "tourism": "museum",
+            "wikidata": "Q4710411"
+          }
+        },
+        {
+          "name": "Royal Gaitor",
+          "kind": "monument",
+          "lat": 26.9429134,
+          "lon": 75.8246611,
+          "tags": {
+            "barrier": "wall",
+            "historic": "monument",
+            "name": "Royal Gaitor",
+            "wikidata": "Q12424215"
+          }
+        },
+        {
+          "name": "Stepwell Panna Meena",
+          "kind": "monument",
+          "lat": 26.9912076,
+          "lon": 75.851227,
+          "tags": {
+            "historic": "monument",
+            "man_made": "water_well",
+            "man_made_1": "stepwell",
+            "name": "Stepwell Panna Meena",
+            "wikidata": "Q97119522"
+          }
+        },
+        {
+          "name": "Nahargah Fort",
+          "kind": "fort",
+          "lat": 26.9374923,
+          "lon": 75.8157287,
+          "tags": {
+            "alt_name": "Madhavendra Bhawan",
+            "building": "yes",
+            "historic": "fort",
+            "name": "Nahargah Fort",
+            "type": "multipolygon",
+            "wikipedia": "fr:Fort Nahargarh"
+          }
+        },
+        {
+          "name": "Iswari Minar Swarga Sali",
+          "kind": "viewpoint",
+          "lat": 26.9244425,
+          "lon": 75.8208167,
+          "tags": {
+            "amenity": "place_of_worship",
+            "check_date": "2026-02-21",
+            "check_date:opening_hours": "2026-02-21",
+            "name": "Iswari Minar Swarga Sali",
+            "name:en": "Iswari Minar Swarga Sali (Isarlat)",
+            "opening_hours": "Mo-Su 09:00-17:00",
+            "religion": "muslim",
+            "tourism": "viewpoint",
+            "website": "https://obms-tourist.rajasthan.gov.in/place-details/Isarlat"
+          }
+        },
+        {
+          "name": "Elefantastic",
+          "kind": "zoo",
+          "lat": 26.9874584,
+          "lon": 75.9006841,
+          "tags": {
+            "attraction": "animal",
+            "description": "Indian's first happy elephant farm",
+            "name": "Elefantastic",
+            "phone": "+91 8094253150",
+            "tourism": "zoo",
+            "website": "https://www.elefantastic.in/"
+          }
+        },
+        {
+          "name": "Jaipur Wax Museum",
+          "kind": "museum",
+          "lat": 26.9391114,
+          "lon": 75.8163025,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:postcode": "302001",
+            "addr:street": "Nahargarh Fort",
+            "fee": "yes",
+            "name": "Jaipur Wax Museum",
+            "opening_hours": "Mo-Su 10:00-18:30",
+            "phone": "+91 97832 31953",
+            "tourism": "museum",
+            "website": "https://jaipurwaxmuseum.com/"
+          }
+        },
+        {
+          "name": "Sheesh Mahal",
+          "kind": "monument",
+          "lat": 26.9854678,
+          "lon": 75.8500935,
+          "tags": {
+            "addr:city": "Amer",
+            "addr:housenumber": "Amber palace",
+            "addr:postcode": "302001",
+            "addr:street": "Delhi road",
+            "castle_type": "palace",
+            "historic": "monument",
+            "name": "Sheesh Mahal",
+            "phone": "+91 141 253 0293",
+            "website": "http://www.amberfort.org/"
+          }
+        },
+        {
+          "name": "Kalaneri Art Gallery",
+          "kind": "gallery",
+          "lat": 26.8693883,
+          "lon": 75.8082757,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:district": "Jaipur",
+            "addr:housenumber": "SB-1B",
+            "addr:postcode": "302017",
+            "addr:street": "JLN Marg",
+            "contact:facebook": "https://www.facebook.com/kalaneriartgallery",
+            "description": "A fully equipped and spacious art gallery crafted with idiosyncratic sculptures and foremost facilities for a gamut of art events since its inception in 2009.",
+            "email": "join.kalaneri@gmail.com",
+            "internet_access": "wlan",
+            "mobile": "+91-98285-08289",
+            "name": "Kalaneri Art Gallery",
+            "name:hi": "कलानेरी आर्ट गैलरी",
+            "opening_hours": "Mo-Sa 11:00-20:00",
+            "operator": "Kalaneri",
+            "payment:american_express": "yes",
+            "payment:app": "yes",
+            "payment:cash": "yes",
+            "payment:cheque": "yes",
+            "payment:coins": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:diners_club": "yes",
+            "payment:discover_card": "yes",
+            "payment:google_pay": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:notes": "yes",
+            "payment:paypal": "yes",
+            "payment:visa": "yes",
+            "payment:visa_debit": "yes",
+            "toilets": "yes",
+            "tourism": "gallery",
+            "website": "http://www.kalaneri.com"
+          }
+        },
+        {
+          "name": "Albert Hall Museum",
+          "kind": "museum",
+          "lat": 26.9116797,
+          "lon": 75.8195026,
+          "tags": {
+            "building": "yes",
+            "check_date": "2026-02-19",
+            "check_date:opening_hours": "2026-02-19",
+            "fee": "yes",
+            "layer": "1",
+            "museum": "history",
+            "name": "Albert Hall Museum",
+            "opening_hours": "Mo-Su 09:00-20:00",
+            "tourism": "museum",
+            "website": "https://obms-tourist.rajasthan.gov.in/place-details/Government-Central-Museum-Albert-Hall-Jaipur"
+          }
+        },
+        {
+          "name": "गुलाबी नगरी (पिंक सिटी)",
+          "kind": "attraction",
+          "lat": 26.9232015,
+          "lon": 75.8243929,
+          "tags": {
+            "name": "गुलाबी नगरी (पिंक सिटी)",
+            "name:en": "Pink City",
+            "name:hi": "गुलाबी नगरी (पिंक सिटी)",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Ninder Hill Point View",
+          "kind": "viewpoint",
+          "lat": 27.0125158,
+          "lon": 75.7489287,
+          "tags": {
+            "name": "Ninder Hill Point View",
+            "tourism": "viewpoint"
+          }
+        },
+        {
+          "name": "India gate",
+          "kind": "monument",
+          "lat": 26.7854254,
+          "lon": 75.8226628,
+          "tags": {
+            "historic": "monument",
+            "name": "India gate"
+          }
+        },
+        {
+          "name": "Ashok Vihar, Jagatpura",
+          "kind": "viewpoint",
+          "lat": 26.8296105,
+          "lon": 75.8425582,
+          "tags": {
+            "name": "Ashok Vihar, Jagatpura",
+            "tourism": "viewpoint"
+          }
+        },
+        {
+          "name": "Maharaniyon , Jaipur",
+          "kind": "attraction",
+          "lat": 26.9448268,
+          "lon": 75.8407405,
+          "tags": {
+            "name": "Maharaniyon , Jaipur",
+            "name:en": "Maharaniyon",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Sawai Mansingh Townhall",
+          "kind": "attraction",
+          "lat": 26.9255317,
+          "lon": 75.8272703,
+          "tags": {
+            "name": "Sawai Mansingh Townhall",
+            "name:en": "Sawai Mansingh Townhall",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Suraj Pol",
+          "kind": "attraction",
+          "lat": 26.9867232,
+          "lon": 75.8513569,
+          "tags": {
+            "historic": "city_gate",
+            "inscription": "Suraj Pol",
+            "name": "Suraj Pol",
+            "name:en": "Sun Gate",
+            "name:hi": "Suraj Pol",
+            "name:ru": "Солнечные ворота",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "Chand Pol",
+          "kind": "attraction",
+          "lat": 26.987223,
+          "lon": 75.8508634,
+          "tags": {
+            "historic": "city_gate",
+            "inscription": "Chand Pol",
+            "name": "Chand Pol",
+            "name:en": "Moon Gate",
+            "name:ru": "Лунные ворота",
+            "tourism": "attraction"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Doodh Misthan Bhandar",
+          "kind": "restaurant",
+          "lat": 26.9313342,
+          "lon": 75.800266,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:postcode": "302016",
+            "addr:street": "Meera Marg",
+            "amenity": "restaurant",
+            "check_date": "2026-07-28",
+            "contact:instagram": "https://www.instagram.com/doodhmisthanbhandar",
+            "diet:vegetarian": "only",
+            "name": "Doodh Misthan Bhandar",
+            "shop": "confectionery",
+            "short_name": "DMB",
+            "toilets": "yes",
+            "toilets:wheelchair": "no",
+            "website": "https://doodhmisthanbhandar.com/"
+          }
+        },
+        {
+          "name": "Roseberry",
+          "kind": "restaurant",
+          "lat": 26.8685465,
+          "lon": 75.7969727,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:housenumber": "Plot No. 1-A, 1st Floor, Jawahar Nagar Colony",
+            "addr:postcode": "302018",
+            "addr:street": "Tonk Road",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "cuisine": "indian;pizza;italian;chinese;mexican",
+            "delivery": "yes",
+            "diet:vegetarian": "yes",
+            "email": "roseberry.dine@gmail.com",
+            "name": "Roseberry",
+            "opening_hours": "Mo-Su 12:30 - 23:30",
+            "phone": "+91 78921022278",
+            "website": "https://www.theroseberry.in"
+          }
+        },
+        {
+          "name": "TVG AMER RESTAURANT",
+          "kind": "restaurant",
+          "lat": 26.9415187,
+          "lon": 75.8386718,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:district": "Rajasthan",
+            "addr:housenumber": "665",
+            "addr:postcode": "302002",
+            "addr:street": "Amer Road",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "branch": "Amer Road",
+            "brand": "TVG - The Vegetarian Grill",
+            "contact:facebook": "https://www.facebook.com/tvg.amerroad",
+            "cuisine": "north_indian;mexican;multicusion;pizza;italian;indian;kebab;ice_cream;fine_dining;regional;fries;pasta",
+            "delivery": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "email": "jaipurbitesamerroad@gmail.com",
+            "name": "TVG AMER RESTAURANT",
+            "opening_hours": "24/7",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:google_pay": "yes",
+            "payment:mastercard": "yes",
+            "payment:phonepe": "yes",
+            "payment:upi": "yes",
+            "payment:visa": "yes",
+            "payment:zomato_pay": "yes",
+            "phone": "+91 8955559670",
+            "takeaway": "yes",
+            "website": "https://www.zomato.com/jaipur/tvg-the-vegetarian-grill-amer-road"
+          }
+        },
+        {
+          "name": "Natraj vegetarian Restaurant",
+          "kind": "restaurant",
+          "lat": 26.9161855,
+          "lon": 75.8109776,
+          "tags": {
+            "amenity": "restaurant",
+            "diet:vegetarian": "only",
+            "name": "Natraj vegetarian Restaurant"
+          }
+        },
+        {
+          "name": "Green Restaurant Pure Vegetarian",
+          "kind": "restaurant",
+          "lat": 26.9170712,
+          "lon": 75.8047235,
+          "tags": {
+            "amenity": "restaurant",
+            "diet:vegetarian": "only",
+            "name": "Green Restaurant Pure Vegetarian"
+          }
+        },
+        {
+          "name": "Samode Haveli , Jaipur",
+          "kind": "restaurant",
+          "lat": 26.9331035,
+          "lon": 75.8372573,
+          "tags": {
+            "addr:street": "Gangapole",
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "diet:vegetarian": "yes",
+            "name": "Samode Haveli , Jaipur",
+            "name:en": "Samode Haveli"
+          }
+        },
+        {
+          "name": "Copper Chimney",
+          "kind": "restaurant",
+          "lat": 26.9169731,
+          "lon": 75.80407,
+          "tags": {
+            "addr:street": "Mirza Ismail Road",
+            "amenity": "restaurant",
+            "cuisine": "indian;asian",
+            "diet:vegetarian": "yes",
+            "name": "Copper Chimney",
+            "name:en": "Copper Chimney",
+            "opening_hours": "Mo-Su 18:30-23:00"
+          }
+        },
+        {
+          "name": "map Acres",
+          "kind": "restaurant",
+          "lat": 26.9289947,
+          "lon": 75.8252613,
+          "tags": {
+            "addr:full": "Near GovindTemple, Jalebi Chowk, Badi Chopad, J.D.A. Market, Jaipur",
+            "amenity": "restaurant",
+            "check_date": "2024-01-07",
+            "cuisine": "indian",
+            "diet:vegetarian": "yes",
+            "name": "map Acres",
+            "name:en": "Govindam Retreat",
+            "phone": "+91 99299 49258"
+          }
+        },
+        {
+          "name": "Chokha amer",
+          "kind": "restaurant",
+          "lat": 26.9898771,
+          "lon": 75.8537705,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "diet:vegetarian": "yes",
+            "name": "Chokha amer"
+          }
+        },
+        {
+          "name": "Chokhi Dhani - Tonk Road",
+          "kind": "restaurant",
+          "lat": 26.7675872,
+          "lon": 75.8361121,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:housenumber": "12 Miles",
+            "addr:street": "Tonk Road",
+            "amenity": "restaurant",
+            "cuisine": "Rajasthani",
+            "diet:vegetarian": "yes",
+            "name": "Chokhi Dhani - Tonk Road",
+            "not:name": "Choki_dhani;chhoki_dhani",
+            "opening_hours": "Mo-Su 17:00-23:00"
+          }
+        },
+        {
+          "name": "Punjab Rasoi Restaurant",
+          "kind": "restaurant",
+          "lat": 26.8265338,
+          "lon": 75.8492276,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian;punjabi",
+            "diet:vegetarian": "yes",
+            "name": "Punjab Rasoi Restaurant"
+          }
+        },
+        {
+          "name": "The Curry Spoon",
+          "kind": "restaurant",
+          "lat": 26.9361784,
+          "lon": 75.8348424,
+          "tags": {
+            "addr:city": "jaipur",
+            "addr:housenumber": "1782",
+            "addr:postcode": "302002",
+            "addr:street": "Amer Road",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "check_date": "2024-01-07",
+            "contact:email": "thecurryspoon@gmail.com",
+            "contact:phone": "+91 8094329710",
+            "cuisine": "indian",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "The Curry Spoon",
+            "operator": "Shabbir Khan",
+            "outdoor_seating": "no",
+            "reservation": "yes",
+            "toilets": "yes",
+            "toilets:access": "customers"
+          }
+        },
+        {
+          "name": "Roop Basant Pavitra Bhojanalaya",
+          "kind": "restaurant",
+          "lat": 26.92059,
+          "lon": 75.7888677,
+          "tags": {
+            "amenity": "restaurant",
+            "diet:vegetarian": "only",
+            "level": "0",
+            "name": "Roop Basant Pavitra Bhojanalaya",
+            "opening_hours": "24/7",
+            "takeaway": "yes",
+            "toilets:access": "customers",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Khandelwal",
+          "kind": "restaurant",
+          "lat": 26.9205952,
+          "lon": 75.7888436,
+          "tags": {
+            "amenity": "restaurant",
+            "diet:vegetarian": "only",
+            "level": "0",
+            "name": "Khandelwal",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Ganesh Resturent",
+          "kind": "restaurant",
+          "lat": 26.784195,
+          "lon": 75.8235447,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "delivery": "no",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "mobile": "+91 8824562810",
+            "name": "Ganesh Resturent",
+            "phone": "+91 9509848714"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "Bissau Palace Hotel",
+          "kind": "hotel",
+          "lat": 26.9298505,
+          "lon": 75.8085502,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:postcode": "302016",
+            "addr:street": "Chand Pole",
+            "name": "Bissau Palace Hotel",
+            "tourism": "hotel",
+            "wikidata": "Q20638819"
+          }
+        },
+        {
+          "name": "Trident Hotel , Jaipur",
+          "kind": "hotel",
+          "lat": 26.9569767,
+          "lon": 75.8429925,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:country": "IN",
+            "addr:postcode": "302002",
+            "addr:street": "Amer Road",
+            "air_conditioning": "yes",
+            "brand": "Trident Hotels",
+            "fax": "+91 141 267 0303",
+            "internet_access": "yes",
+            "internet_access:fee": "no",
+            "name": "Trident Hotel , Jaipur",
+            "phone": "+91 141 267 0101",
+            "stars": "5",
+            "tourism": "hotel",
+            "website": "https://www.tridenthotels.com/hotels-in-jaipur"
+          }
+        },
+        {
+          "name": "Umaid Bhawan",
+          "kind": "hotel",
+          "lat": 26.928392,
+          "lon": 75.7922242,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:postcode": "302016",
+            "breakfast": "buffet",
+            "check_date": "2024-12-15",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Umaid Bhawan",
+            "swimming_pool": "yes",
+            "tourism": "hotel",
+            "website": "https://www.umaidbhawan.com/"
+          }
+        },
+        {
+          "name": "The Oberoi  Rajvilas",
+          "kind": "hotel",
+          "lat": 26.8763394,
+          "lon": 75.8838128,
+          "tags": {
+            "name": "The Oberoi  Rajvilas",
+            "stars": "5",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "name": "Devi Niketan Heritage Hotel",
+          "kind": "hotel",
+          "lat": 26.912392,
+          "lon": 75.796346,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:full": "Devi Niketan,Near Chomu House Circle,Sardar Patel Road,Jaipur 302001India",
+            "email": "deviniketan@gmail.com",
+            "name": "Devi Niketan Heritage Hotel",
+            "phone": "+91 141 2370076",
+            "postal_code": "302001",
+            "source": "Yahoo",
+            "tourism": "hotel",
+            "website": "https://www.deviniketan.com/"
+          }
+        },
+        {
+          "name": "Shahpura House",
+          "kind": "hotel",
+          "lat": 26.9278442,
+          "lon": 75.7877823,
+          "tags": {
+            "addr:city": "Jaipur",
+            "internet_access": "yes",
+            "internet_access:fee": "no",
+            "name": "Shahpura House",
+            "smoking": "separated",
+            "stars": "5",
+            "tourism": "hotel",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "Dera Rawatsar - Heritage Hotel",
+          "kind": "hotel",
+          "lat": 26.9251714,
+          "lon": 75.8015332,
+          "tags": {
+            "addr:city": "Jaipur",
+            "beds": "30",
+            "internet_access": "yes",
+            "internet_access:fee": "no",
+            "name": "Dera Rawatsar - Heritage Hotel",
+            "rooms": "15",
+            "stars": "3",
+            "tourism": "hotel",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Jypore Saffron Inn And Suites",
+          "kind": "hotel",
+          "lat": 26.8766515,
+          "lon": 75.7179021,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:housename": "9 Green Avenue Nagar, Opposite Kamla Nehru Nagar",
+            "addr:postcode": "302024",
+            "addr:street": "Ajmer Road",
+            "name": "Jypore Saffron Inn And Suites",
+            "phone": "+919785400400",
+            "tourism": "hotel",
+            "website": "http://www.jyporesaffron.com"
+          }
+        },
+        {
+          "name": "Pearl Palace Heritage",
+          "kind": "hotel",
+          "lat": 26.9159152,
+          "lon": 75.792309,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:postcode": "302001",
+            "email": "reservation@pearlpalaceheritage.com",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Pearl Palace Heritage",
+            "phone": "+91-141-2375242",
+            "tourism": "hotel",
+            "website": "https://www.pearlpalaceheritage.com/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Royal orchid",
+          "kind": "hotel",
+          "lat": 26.844801,
+          "lon": 75.792943,
+          "tags": {
+            "addr:city": "Jaipur",
+            "addr:country": "IN",
+            "addr:state": "Rajasthan",
+            "addr:street": "Tonk road",
+            "name": "Royal orchid",
+            "stars": "5",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    }
+  }
+}

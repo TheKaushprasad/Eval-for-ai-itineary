@@ -2,14 +2,14 @@ import { execSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import type { Itinerary } from "@/lib/schema";
 import { TripRequestSchema, type TripRequest } from "@/lib/schema";
 import type { CheckResult } from "./graders/checks";
 import type { JudgeResult } from "./graders/judge";
 
-export const EVAL_DIR = dirname(fileURLToPath(import.meta.url));
+/** Scripts, tests and the Next app all run from the project root. */
+export const EVAL_DIR = join(process.cwd(), "eval");
 export const CASES_FILE = join(EVAL_DIR, "cases", "cases.jsonl");
 export const SNAPSHOT_DIR = join(EVAL_DIR, "snapshots");
 export const RESULTS_DIR = join(EVAL_DIR, "results");
@@ -80,14 +80,20 @@ export type CaseResult = {
   judge?: JudgeResult;
   /** Final itinerary as the pipeline returned it (budget recomputed). */
   itinerary?: Itinerary;
+  /** The model's own budget figures before the pipeline recomputed them (for re-grading budgetArithmetic). */
+  rawBudget?: Itinerary["budget"];
 };
 
 export type RunFile = {
   label: string;
+  /** Set when checks were re-run on the saved itineraries after a grader change (npm run eval:rescore). */
+  rescoredAt?: string;
   createdAt: string;
   gitSha: string;
   gitDirty: boolean;
   mode: "replay" | "live";
+  /** Missing in runs made before providers were configurable (those were OpenAI). */
+  provider?: string;
   model: string;
   judgeModel: string | null;
   cases: CaseResult[];
@@ -143,11 +149,11 @@ export function parseArgs(argv = process.argv.slice(2)) {
   return { flags, positional, str, num, has: (k: string) => k in flags };
 }
 
-/** Filters cases by --only (category or id prefix, comma-separated), --ids and --limit. */
+/** Filters cases by --only (category, tag or id prefix, comma-separated), --ids and --limit. */
 export function selectCases(cases: EvalCase[], args: ReturnType<typeof parseArgs>) {
   let out = cases;
   const only = args.str("only")?.split(",");
-  if (only) out = out.filter((c) => only.some((o) => c.category === o || c.id.startsWith(o)));
+  if (only) out = out.filter((c) => only.some((o) => c.category === o || c.tags.includes(o) || c.id.startsWith(o)));
   const ids = args.str("ids")?.split(",");
   if (ids) out = out.filter((c) => ids.includes(c.id));
   const limit = args.num("limit", Infinity);

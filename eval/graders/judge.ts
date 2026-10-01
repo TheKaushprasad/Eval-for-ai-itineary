@@ -1,9 +1,11 @@
-import { zodTextFormat } from "openai/helpers/zod";
 import { z } from "zod";
-import { MODEL, openai } from "@/lib/openai";
+import { parseProvider, PROVIDERS, structured } from "@/lib/ai";
+import { MODEL, PROVIDER } from "@/lib/openai";
 import type { Itinerary, TripRequest } from "@/lib/schema";
 
-export const JUDGE_MODEL = process.env.EVAL_JUDGE_MODEL || "gpt-5-mini";
+/** Defaults to the generator's provider with a different model; a different vendor is better still. */
+export const JUDGE_PROVIDER = parseProvider(process.env.EVAL_JUDGE_PROVIDER, PROVIDER);
+export const JUDGE_MODEL = process.env.EVAL_JUDGE_MODEL || PROVIDERS[JUDGE_PROVIDER].judgeModel;
 
 export const JUDGE_DIMENSIONS = ["styleMatch", "pace", "logistics", "requirements", "helpfulness"] as const;
 export type JudgeDimension = (typeof JUDGE_DIMENSIONS)[number];
@@ -52,37 +54,39 @@ Additional info: ${req.additionalInfo || "none"}`;
 }
 
 export function assertIndependentJudge() {
-  if (JUDGE_MODEL === MODEL && !process.env.EVAL_ALLOW_SAME_JUDGE) {
+  if (JUDGE_PROVIDER === PROVIDER && JUDGE_MODEL === MODEL && !process.env.EVAL_ALLOW_SAME_JUDGE) {
     throw new Error(
-      `EVAL_JUDGE_MODEL (${JUDGE_MODEL}) is the same as the itinerary model; models tend to favor their own output. ` +
-        `Pick a different judge or set EVAL_ALLOW_SAME_JUDGE=1.`,
+      `The judge (${JUDGE_PROVIDER}/${JUDGE_MODEL}) is the same as the itinerary model; models tend to favor their own output. ` +
+        `Set EVAL_JUDGE_PROVIDER / EVAL_JUDGE_MODEL to something else, or EVAL_ALLOW_SAME_JUDGE=1.`,
     );
   }
 }
 
 export async function judge(req: TripRequest, itinerary: Itinerary): Promise<JudgeResult> {
   const plan = { ...itinerary, sources: undefined };
-  const res = await openai().responses.parse({
+  const { data, usage } = await structured({
+    provider: JUDGE_PROVIDER,
     model: JUDGE_MODEL,
     input: [
       { role: "system", content: JUDGE_RUBRIC },
-      { role: "user", content: `Traveler request\n${describeRequest(req)}\n\nItinerary (JSON)\n${JSON.stringify(plan)}` },
+      { role: "user", content: `Traveler request
+${describeRequest(req)}
+
+Itinerary (JSON)
+${JSON.stringify(plan)}` },
     ],
-    text: { format: zodTextFormat(JudgeSchema, "itinerary_grade") },
+    schema: JudgeSchema,
+    name: "itinerary_grade",
   });
-  if (!res.output_parsed) throw new Error("Judge returned no grade");
   const scores = Object.fromEntries(
-    JUDGE_DIMENSIONS.map((d) => {
-      const s = res.output_parsed![d];
-      return [d, { score: Math.min(5, Math.max(1, Math.round(s.score))), reason: s.reason }];
-    }),
+    JUDGE_DIMENSIONS.map((d) => [d, { score: Math.min(5, Math.max(1, Math.round(data[d].score))), reason: data[d].reason }]),
   ) as JudgeResult["scores"];
   const mean = JUDGE_DIMENSIONS.reduce((a, d) => a + scores[d].score, 0) / JUDGE_DIMENSIONS.length;
   return {
-    model: JUDGE_MODEL,
+    model: `${JUDGE_PROVIDER}/${JUDGE_MODEL}`,
     scores,
     mean: Math.round(mean * 100) / 100,
-    inputTokens: res.usage?.input_tokens ?? 0,
-    outputTokens: res.usage?.output_tokens ?? 0,
+    inputTokens: usage?.inputTokens ?? 0,
+    outputTokens: usage?.outputTokens ?? 0,
   };
 }

@@ -16,3 +16,19 @@ body {
     background: #fff;
   }
 }
+
+/* Chart roles for /evals (validated reference palette; the app is light-only). */
+.viz-root {
+  --surface-1: #ffffff;
+  --grid: #e7e5e0;
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --text-muted: #78716c;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --status-good: #0ca30c;
+  --status-critical: #d03b3b;
+  --status-warning: #fab219;
+}

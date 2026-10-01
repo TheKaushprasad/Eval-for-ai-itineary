@@ -1,0 +1,1053 @@
+{
+  "id": "special-wheelchair-delhi",
+  "requestHash": "4700509ec985",
+  "recordedAt": "2026-10-01T04:49:37.676Z",
+  "geocode": {
+    "Delhi": {
+      "ok": true,
+      "value": {
+        "query": "Delhi",
+        "name": "Delhi, India",
+        "lat": 28.6328027,
+        "lon": 77.2197713,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          28.4046285,
+          28.8834464,
+          76.8388351,
+          77.3453379
+        ]
+      }
+    },
+    "Mumbai": {
+      "ok": true,
+      "value": {
+        "query": "Mumbai",
+        "name": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",
+        "lat": 19.054999,
+        "lon": 72.8692035,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          18.894999,
+          19.214999,
+          72.7092035,
+          73.0292035
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2026-11-28",
+        "tMax": 23.8,
+        "tMin": 13.2,
+        "precipMm": 0.9,
+        "rainChance": 33,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      },
+      {
+        "date": "2026-11-29",
+        "tMax": 24.9,
+        "tMin": 13.1,
+        "precipMm": 0.1,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2026-11-30",
+        "tMax": 23.2,
+        "tMin": 12.6,
+        "precipMm": 0.5,
+        "rainChance": 33,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      },
+      {
+        "date": "2026-12-01",
+        "tMax": 24.4,
+        "tMin": 12.7,
+        "precipMm": 0.2,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry, light rain possible",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "Kiran Nadar Museum of Art",
+          "kind": "gallery",
+          "lat": 28.5288757,
+          "lon": 77.2203738,
+          "tags": {
+            "addr:housename": "DLF South Court",
+            "addr:place": "Saket",
+            "addr:state": "DL",
+            "addr:unit": "145",
+            "branch": "Saket",
+            "email": "knma@shivnadarfoundation.in",
+            "name": "Kiran Nadar Museum of Art",
+            "opening_hours": "Tu-Su 10:30-18:30; PH closed",
+            "phone": "+91 11 4916 0000",
+            "short_name": "KNMA",
+            "tourism": "gallery",
+            "website": "https://knma.in/",
+            "wikidata": "Q55616048",
+            "wikipedia": "en:Kiran Nadar Museum of Art"
+          }
+        },
+        {
+          "name": "Shanker's International Doll Museum",
+          "kind": "museum",
+          "lat": 28.6303917,
+          "lon": 77.2416988,
+          "tags": {
+            "fee": "yes",
+            "name": "Shanker's International Doll Museum",
+            "opening_hours": "Tu-Su 10:00-18:00; Mo off",
+            "tourism": "museum",
+            "website": "https://www.childrensbooktrust.com/dm.htm",
+            "wikidata": "Q2721827",
+            "wikipedia": "en:Shankar's International Dolls Museum"
+          }
+        },
+        {
+          "name": "Madame Tussaud’s Museum",
+          "kind": "museum",
+          "lat": 28.630885,
+          "lon": 77.2169466,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:housenumber": "44",
+            "addr:postcode": "110001",
+            "addr:street": "Hanuman Road",
+            "name": "Madame Tussaud’s Museum",
+            "tourism": "museum",
+            "website": "http://MadameTussauds.com",
+            "wikidata": "Q48782907",
+            "wikipedia": "en:Madame Tussauds Delhi"
+          }
+        },
+        {
+          "name": "भारतीय राष्ट्रीय विज्ञान अकादमी",
+          "kind": "attraction",
+          "lat": 28.6288361,
+          "lon": 77.2406835,
+          "tags": {
+            "addr:housenumber": "2",
+            "addr:postcode": "110002",
+            "addr:street": "Bahadur Shah Zafar Marg",
+            "name": "भारतीय राष्ट्रीय विज्ञान अकादमी",
+            "name:en": "Indian National Science Academy",
+            "phone": "+91 11 2322 1947",
+            "tourism": "attraction",
+            "website": "https://www.insaindia.res.in/",
+            "wikidata": "Q2095524",
+            "wikipedia": "en:Indian National Science Academy"
+          }
+        },
+        {
+          "name": "National Zoological Park",
+          "kind": "zoo",
+          "lat": 28.6044368,
+          "lon": 77.2463433,
+          "tags": {
+            "fee": "yes",
+            "name": "National Zoological Park",
+            "name:hi": "राष्ट्रीय प्राणी उद्यान",
+            "opening_hours": "Apr 01-Oct 15 08:30-17:30; Oct 16-Mar 31 09:00-17:00; Fr closed",
+            "tourism": "zoo",
+            "website": "https://nzpnewdelhi.gov.in",
+            "wheelchair": "yes",
+            "wikidata": "Q3364809",
+            "wikimedia_commons": "Category:National Zoological Park Delhi",
+            "wikipedia": "en:National Zoological Park Delhi",
+            "zoo": "enclosure"
+          }
+        },
+        {
+          "name": "Kisan Ghat",
+          "kind": "memorial",
+          "lat": 28.6396119,
+          "lon": 77.2528353,
+          "tags": {
+            "historic": "memorial",
+            "name": "Kisan Ghat",
+            "name:hi": "किसान घाट",
+            "wikidata": "Q125577728",
+            "wikipedia": "en:Kisan Ghat"
+          }
+        },
+        {
+          "name": "Diwan-e-Aam",
+          "kind": "attraction",
+          "lat": 28.6557818,
+          "lon": 77.2423117,
+          "tags": {
+            "alt_name": "Diwan-e-Am",
+            "name": "Diwan-e-Aam",
+            "name:hi": "दीवान-ए-आम",
+            "tourism": "attraction",
+            "wheelchair": "yes",
+            "wikidata": "Q16829863",
+            "wikimedia_commons": "Category:Diwan-i-Am (Red Fort)",
+            "wikipedia": "en:Diwan-i-Am (Red Fort)"
+          }
+        },
+        {
+          "name": "Jamali Kamali Tomb",
+          "kind": "monument",
+          "lat": 28.5198643,
+          "lon": 77.1871761,
+          "tags": {
+            "historic": "monument",
+            "name": "Jamali Kamali Tomb",
+            "name:hi": "जमाली कमाली मकबरा",
+            "wikidata": "Q4292384",
+            "wikimedia_commons": "Category:Jamali Kamali mosque and tomb",
+            "wikipedia": "en:Jamali Kamali Mosque and Tomb"
+          }
+        },
+        {
+          "name": "Iron Pillar",
+          "kind": "monument",
+          "lat": 28.5247493,
+          "lon": 77.1849651,
+          "tags": {
+            "height": "7",
+            "historic": "monument",
+            "name": "Iron Pillar",
+            "name:ar": "العمود الحديدي",
+            "name:de": "Eiserne Säule",
+            "name:fa": "ستون آهنی دهلی",
+            "name:he": "עמוד הברזל של דלהי",
+            "name:hi": "लौह स्तंभ",
+            "name:ja": "ｱｼｮｶ･ﾋﾟﾗｰ",
+            "name:ml": "ഇരുമ്പ് സ്തംഭം",
+            "name:pt": "Pilar de ferro",
+            "name:ru": "Железная колонна в Дели",
+            "wikidata": "Q543419",
+            "wikimedia_commons": "Category:Iron pillar",
+            "wikipedia": "en:Iron pillar of Dehli"
+          }
+        },
+        {
+          "name": "Tomb of Abdul Rahim Khan-i-Khanan",
+          "kind": "monument",
+          "lat": 28.5880612,
+          "lon": 77.2480222,
+          "tags": {
+            "fee": "yes",
+            "historic": "monument",
+            "name": "Tomb of Abdul Rahim Khan-i-Khanan",
+            "name:hi": "खानजादा मिरजा खान अब्दुल रहीम का मकबरा",
+            "wikidata": "Q317364",
+            "wikipedia": "en:Abdul Rahim Khan-i-Khanan"
+          }
+        },
+        {
+          "name": "Chhota Qutub Minar",
+          "kind": "monument",
+          "lat": 28.6338063,
+          "lon": 77.0572483,
+          "tags": {
+            "alt_name": "Hatsal Minar",
+            "historic": "monument",
+            "name": "Chhota Qutub Minar",
+            "wikidata": "Q60744808",
+            "wikimedia_commons": "Category:Hashtsal Minar",
+            "wikipedia": "en:Mini Qutub Minar"
+          }
+        },
+        {
+          "name": "Ajitgarh",
+          "kind": "monument",
+          "lat": 28.6713618,
+          "lon": 77.2107618,
+          "tags": {
+            "historic": "monument",
+            "name": "Ajitgarh",
+            "name:hi": "अजीतगढ़",
+            "old_name": "Mutiny Memorial",
+            "wikidata": "Q6943944",
+            "wikimedia_commons": "Category:Mutiny Memorial",
+            "wikipedia": "en:Mutiny Memorial"
+          }
+        },
+        {
+          "name": "Ashoka Pillar",
+          "kind": "monument",
+          "lat": 28.6738428,
+          "lon": 77.2118819,
+          "tags": {
+            "alt_name": "Delhi-Meerut Pillar",
+            "historic": "monument",
+            "name": "Ashoka Pillar",
+            "name:hi": "अशोक स्तंभ",
+            "name:zh": "阿育王石柱",
+            "wikidata": "Q4805809",
+            "wikipedia": "en:Ashokan Edicts in Delhi#Pillar edicts in Delhi"
+          }
+        },
+        {
+          "name": "Chandni Chowk",
+          "kind": "attraction",
+          "lat": 28.6559834,
+          "lon": 77.2321937,
+          "tags": {
+            "addr:postcode": "110006",
+            "name": "Chandni Chowk",
+            "name:hi": "चांदनी चौक",
+            "name:ur": "چاندنی چوک",
+            "place": "neighbourhood",
+            "tourism": "attraction",
+            "wikidata": "Q3236763",
+            "wikipedia": "en:Chandni Chowk"
+          }
+        },
+        {
+          "name": "Jahaz Mahal",
+          "kind": "monument",
+          "lat": 28.5143722,
+          "lon": 77.1785585,
+          "tags": {
+            "historic": "monument",
+            "name": "Jahaz Mahal",
+            "name:en": "Jahaz Mahal",
+            "name:hi": "जहाज़ महल",
+            "wikidata": "Q6123216",
+            "wikimedia_commons": "Category:Jahaz Mahal, Delhi",
+            "wikipedia": "en:Jahaz Mahal"
+          }
+        },
+        {
+          "name": "Siri Fort",
+          "kind": "castle",
+          "lat": 28.5521464,
+          "lon": 77.2246983,
+          "tags": {
+            "historic": "castle",
+            "name": "Siri Fort",
+            "name:hi": "सिरी किला",
+            "wikidata": "Q12069185",
+            "wikipedia": "en:Siri Fort"
+          }
+        },
+        {
+          "name": "Lodhi Art District",
+          "kind": "attraction",
+          "lat": 28.5840648,
+          "lon": 77.2213286,
+          "tags": {
+            "name": "Lodhi Art District",
+            "place": "neighbourhood",
+            "tourism": "attraction",
+            "wikidata": "Q113426962",
+            "wikimedia_commons": "Category:Lodhi Art District",
+            "wikipedia": "en:Lodhi Art District"
+          }
+        },
+        {
+          "name": "Mahatma Gandhi",
+          "kind": "memorial",
+          "lat": 28.6178986,
+          "lon": 77.209002,
+          "tags": {
+            "artist:wikidata": "Q7288610",
+            "artist:wikipedia": "hi:राम सुतार",
+            "artist_name": "Ram V. Sutar",
+            "height": "4.9",
+            "historic": "memorial",
+            "material": "bronze",
+            "memorial": "statue",
+            "name": "Mahatma Gandhi",
+            "name:hi": "महात्मा गांधी",
+            "start_date": "1993-10-02",
+            "subject:wikidata": "Q1001",
+            "subject:wikipedia": "hi:महात्मा गांधी",
+            "wikidata": "Q113540779",
+            "wikipedia": "hi:स्टैच्यू ऑफ महात्मा गाँधी, भारत की सांसद"
+          }
+        },
+        {
+          "name": "Delhi-Topra Pillar",
+          "kind": "attraction",
+          "lat": 28.6357803,
+          "lon": 77.2453544,
+          "tags": {
+            "name": "Delhi-Topra Pillar",
+            "name:hi": "दिल्ली-टोपरा स्तंभ",
+            "tourism": "attraction",
+            "wikidata": "Q22806981",
+            "wikipedia": "en:Delhi-Topra pillar"
+          }
+        },
+        {
+          "name": "Indira Gandhi Assassination Point",
+          "kind": "memorial",
+          "lat": 28.6006552,
+          "lon": 77.2062126,
+          "tags": {
+            "description": "The spot where Gandhi was shot down is marked by a glass opening in the crystal pathway at the Indira Gandhi Memorial.",
+            "historic": "memorial",
+            "name": "Indira Gandhi Assassination Point",
+            "wikidata": "Q3347903",
+            "wikimedia_commons": "File:PathOfMartyrdom.JPG",
+            "wikipedia": "en:Assassination of Indira Gandhi"
+          }
+        },
+        {
+          "name": "Partition Museum",
+          "kind": "museum",
+          "lat": 28.6635146,
+          "lon": 77.2330733,
+          "tags": {
+            "addr:country": "IN",
+            "addr:housename": "Dara Shukoh Library",
+            "addr:place": "Ambedkar University",
+            "addr:state": "DL",
+            "email": "infopartitionmuseumdsl@gmail.com",
+            "mobile": "+91 81300 01947",
+            "museum": "history",
+            "museum_type": "municipal",
+            "name": "Partition Museum",
+            "name:hi": "विभाजन संग्रहालय",
+            "nohousenumber": "yes",
+            "opening_hours": "tu-su 10:00-17:00",
+            "operator": "The Arts and Cultural Heritage Trust",
+            "tourism": "museum",
+            "wikidata": "Q120913042",
+            "wikipedia": "en:Partition Museum, Delhi"
+          }
+        },
+        {
+          "name": "Teen Murti Bhavan",
+          "kind": "attraction",
+          "lat": 28.6027862,
+          "lon": 77.1987686,
+          "tags": {
+            "name": "Teen Murti Bhavan",
+            "name:hi": "तीन मूर्ति भवन",
+            "tourism": "attraction",
+            "wikidata": "Q3595320",
+            "wikipedia": "en:Teen Murti Bhavan"
+          }
+        },
+        {
+          "name": "Sikandar Lodhi's grave",
+          "kind": "monument",
+          "lat": 28.5962198,
+          "lon": 77.2215535,
+          "tags": {
+            "historic": "monument",
+            "name": "Sikandar Lodhi's grave",
+            "name:fa": "قبر سکندر لودی",
+            "name:hi": "सिकंदर लोधी की कब्र",
+            "wikidata": "Q2597227",
+            "wikipedia": "en:Sikandar Khan Lodi"
+          }
+        },
+        {
+          "name": "Muhammad Shah Sayyid's grave",
+          "kind": "monument",
+          "lat": 28.5909401,
+          "lon": 77.2183041,
+          "tags": {
+            "historic": "monument",
+            "name": "Muhammad Shah Sayyid's grave",
+            "name:fa": "قبر محمد شاه سید",
+            "name:hi": "मुहम्मद शाह सैय्यद का कब्र",
+            "wikidata": "Q11947897",
+            "wikipedia": "en:Muhammad Shah IV"
+          }
+        },
+        {
+          "name": "Okhla Bird Sanctuary",
+          "kind": "nature_reserve",
+          "lat": 28.5584914,
+          "lon": 77.3076163,
+          "tags": {
+            "boundary": "protected_area",
+            "leisure": "nature_reserve",
+            "name": "Okhla Bird Sanctuary",
+            "name:fa": "پناهگاه پرندگان اوخلا",
+            "name:hi": "ओखला पक्षी विहार",
+            "operator": "Forest Department Government of Uttar Pradesh",
+            "protect_class": "4",
+            "wikidata": "Q7081968",
+            "wikipedia": "en:Okhla Sanctuary"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Lotus Leaf",
+          "kind": "restaurant",
+          "lat": 28.7124929,
+          "lon": 77.1359995,
+          "tags": {
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "building:levels": "1",
+            "check_date": "2026-06-04",
+            "delivery": "yes",
+            "diet:vegetarian": "yes",
+            "indoor_seating": "yes",
+            "level": "1",
+            "name": "Lotus Leaf",
+            "outdoor_seating": "no",
+            "phone": "+91 98180 26026",
+            "stars": "4",
+            "toilets": "yes",
+            "website": "https://www.lotusleaf.in/"
+          }
+        },
+        {
+          "name": "Bikanervala",
+          "kind": "restaurant",
+          "lat": 28.6532866,
+          "lon": 77.3427559,
+          "tags": {
+            "amenity": "restaurant",
+            "diet:vegetarian": "only",
+            "name": "Bikanervala",
+            "website": "https://bikanervala.com/family-restaurant/north-indian-cuisine.aspx/9-0-499-0"
+          }
+        },
+        {
+          "name": "Indian Coffee House",
+          "kind": "restaurant",
+          "lat": 28.6306895,
+          "lon": 77.2160507,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:housename": "Mohan Singh Place",
+            "addr:postcode": "110001",
+            "addr:street": "Baba Kharak Singh Marg",
+            "addr:suburb": "Connaught Place",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "brand": "Indian Coffee House",
+            "brand:wikidata": "Q3595301",
+            "check_date": "2026-01-11",
+            "contact:mobile": "+91-79823-69693",
+            "contact:phone": "+91-11-2334-2994",
+            "cuisine": "coffee_shop;indian",
+            "diet:vegetarian": "yes",
+            "indoor_seating": "yes",
+            "level": "2",
+            "name": "Indian Coffee House",
+            "opening_hours": "08:30-21:00",
+            "operator": "Indian Coffee Workers' Cooperative Society Limited",
+            "outdoor_seating": "yes",
+            "panoramax": "4cede3d9-4fe1-44fe-bd98-58305ec63ba5",
+            "reservation": "no",
+            "service:electricity": "ask",
+            "short_name": "ICH",
+            "start_date": "1957",
+            "toilets": "yes",
+            "toilets:access": "yes",
+            "toilets:wheelchair": "no",
+            "website": "http://indiancoffeehouse.com/",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "Adyar Ananda Bhavan",
+          "kind": "restaurant",
+          "lat": 28.5572536,
+          "lon": 77.2023928,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:postcode": "110016",
+            "addr:street": "Green Park Main Market",
+            "alt_name": "A2B",
+            "amenity": "restaurant",
+            "brand": "Adyar Ananda Bhavan",
+            "brand:wikidata": "Q15178238",
+            "cuisine": "regional",
+            "diet:vegetarian": "only",
+            "email": "info@aabsweets.com",
+            "name": "Adyar Ananda Bhavan",
+            "operator": "Adyar Ananda Bhavan",
+            "phone": "+91 11 4608 2303",
+            "smoking": "no",
+            "website": "https://aabsweets.com"
+          }
+        },
+        {
+          "name": "Fa Yian The Chinese Restaurant",
+          "kind": "restaurant",
+          "lat": 28.6327733,
+          "lon": 77.2173651,
+          "tags": {
+            "addr:city": "New Delhi",
+            "amenity": "restaurant",
+            "check_date": "2026-03-14",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Fa Yian The Chinese Restaurant",
+            "website": "http://www.fayian.com"
+          }
+        },
+        {
+          "name": "Sagar Ratna",
+          "kind": "restaurant",
+          "lat": 28.6353922,
+          "lon": 77.2203937,
+          "tags": {
+            "addr:block": "K",
+            "addr:city": "New Delhi",
+            "addr:housenumber": "15",
+            "addr:neighbourhood": "Connaught Place",
+            "addr:postcode": "110001",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "no",
+            "branch": "Connaught Place",
+            "brand": "Sagar Ratna",
+            "check_date": "2026-03-14",
+            "contact:facebook": "sagarratnaofficial",
+            "cuisine": "indian",
+            "diet:lactose_free": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "image:menu": "d5c7fef7-7a20-4fee-92e2-b98c9c8bf758",
+            "image:menu:0": "d1e87968-6f95-4826-87a7-221a8199360b",
+            "image:menu:1": "3c754826-eb60-42b1-a0d8-67023b2329f4",
+            "image:menu:2": "91010955-0ee4-4ed5-a373-df46286f6d81",
+            "image:menu:3": "31813afa-4dbb-48eb-a5b0-64e602a9f843",
+            "image:menu:4": "7c962b49-4088-4b14-bd86-bcee4ea70d98",
+            "image:menu:5": "cd0420cc-d125-47ac-8bdb-3a6ee352b415",
+            "image:menu:6": "a18ef6e5-43ee-4b5b-bdf6-e2a35b11bbe1",
+            "image:menu:7": "da144236-2143-4bb6-979b-b2ecc69864b6",
+            "internet_access": "no",
+            "level": "0;1",
+            "name": "Sagar Ratna",
+            "name:en": "Sagar Ratna",
+            "name:hi": "सागर रत्ना",
+            "opening_hours": "08:00-23:00",
+            "operator": "M/s Sagar Ratna Restaurants Pvt Ltd",
+            "outdoor_seating": "no",
+            "panoramax": "0429c2c4-bab1-44a4-88bd-43afbcde61b9",
+            "panoramax:0": "1fd58a46-2970-4414-b75c-954acc43cc66",
+            "panoramax:1": "aaca5a4b-377f-4651-bc28-12d3407a01c2",
+            "panoramax:2": "2b440358-fb82-4a12-bb6d-b7a3dbe3e0bc",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:upi": "yes",
+            "phone": "+91 11 4737 7300",
+            "smoking": "no",
+            "source": "survey",
+            "start_date": "1986",
+            "takeaway": "yes",
+            "toilets": "yes",
+            "toilets:access": "customers",
+            "toilets:fee": "no",
+            "toilets:level": "1",
+            "toilets:wheelchair": "no",
+            "website": "https://www.sagarratna.in",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Juggernaut",
+          "kind": "restaurant",
+          "lat": 28.552896,
+          "lon": 77.2408823,
+          "tags": {
+            "addr:block": "HS",
+            "addr:city": "New Delhi",
+            "addr:housenumber": "16",
+            "addr:place": "Kailash Colony Market",
+            "addr:postcode": "110048",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "cuisine": "south_indian",
+            "delivery": "yes",
+            "diet:vegetarian": "only",
+            "level": "0;2;3",
+            "name": "Juggernaut",
+            "opening_hours": "Mo-Su 06:00-24:00",
+            "phone": "+91-7777-97-4444;+91-11-4131-9991;+91-11-4131-9992",
+            "website": "https://juggernaut.online",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "Xero Degrees",
+          "kind": "restaurant",
+          "lat": 28.6337234,
+          "lon": 77.216992,
+          "tags": {
+            "addr:housename": "G",
+            "addr:place": "Connaught Place",
+            "addr:postcode": "110001",
+            "addr:unit": "9",
+            "amenity": "restaurant",
+            "diet:vegetarian": "yes",
+            "name": "Xero Degrees",
+            "website": "https://www.xerodegrees.com/"
+          }
+        },
+        {
+          "name": "Black Mambaa",
+          "kind": "restaurant",
+          "lat": 28.4691501,
+          "lon": 77.0636443,
+          "tags": {
+            "addr:city": "Gurugram",
+            "addr:housenumber": "SCO 6/7, 3 Floor",
+            "addr:postcode": "122007",
+            "addr:street": "Sector 29",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "cuisine": "italian;indian;chinese;pizza;chicken",
+            "diet:non-vegetarian": "yes",
+            "diet:vegetarian": "yes",
+            "ele": "3",
+            "microbrewery": "yes",
+            "name": "Black Mambaa",
+            "opening_hours": "Everyday 12:00 PM to 1:00 AM",
+            "reservation": "yes",
+            "smoking": "isolated",
+            "stars": "4.5",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "Talli Station Naraina",
+          "kind": "restaurant",
+          "lat": 28.6293409,
+          "lon": 77.1370155,
+          "tags": {
+            "addr:city": "Delhi Cantonment",
+            "addr:housenumber": "C-127",
+            "addr:postcode": "110028",
+            "addr:street": "Girdhari Lal Goswami Marg",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "cuisine": "indian;chinese",
+            "delivery": "yes",
+            "diet:halal": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "image": "https://tallistation.in",
+            "name": "Talli Station Naraina",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "opening_hours:covid19": "Mo-Su 12:00-20:00",
+            "phone": "+91 9911054940",
+            "takeaway": "yes",
+            "website": "https://tallistation.in"
+          }
+        },
+        {
+          "name": "Talli Station Rajendra Place",
+          "kind": "restaurant",
+          "lat": 28.6433841,
+          "lon": 77.1777613,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:housenumber": "Unit No 167",
+            "addr:postcode": "110008",
+            "addr:street": "Rajendra Bhawan, Rajendra Place, New Delhi, Delhi",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "cuisine": "chinese;indian",
+            "delivery": "yes",
+            "diet:halal": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "image": "https://tallistation.in",
+            "name": "Talli Station Rajendra Place",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "opening_hours:covid19": "Mo-Su 12:00-20:00",
+            "phone": "+91 9911054940",
+            "takeaway": "yes",
+            "website": "https://tallistation.in"
+          }
+        },
+        {
+          "name": "Talli Station Rajouri Garden",
+          "kind": "restaurant",
+          "lat": 28.6473,
+          "lon": 77.1194981,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:housenumber": "J2, 11, Block J,",
+            "addr:postcode": "110027",
+            "addr:street": "Rajouri Garden, New Delhi, Delhi",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "brand": "Talli Station",
+            "capacity": "60",
+            "cuisine": "chinese;italian;indian",
+            "delivery": "yes",
+            "diet:halal": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Talli Station Rajouri Garden",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "opening_hours:covid19": "Mo-Su 12:00-20:00",
+            "phone": "+91 9911054940",
+            "website": "https://tallistation.in"
+          }
+        },
+        {
+          "name": "Talli Station Janakpuri",
+          "kind": "restaurant",
+          "lat": 28.6292748,
+          "lon": 77.0827141,
+          "tags": {
+            "addr:city": "new Delhi",
+            "addr:housenumber": "G-38 to 42,",
+            "addr:postcode": "110058",
+            "addr:street": "ground floor, Suneja Tower-1-Plot-7, Janakpuri District Center, Janakpuri",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "bar": "yes",
+            "brand": "Talli station",
+            "capacity": "50",
+            "cuisine": "indian;chinese;italian",
+            "delivery": "yes",
+            "diet:halal": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Talli Station Janakpuri",
+            "opening_hours": "Mo-Su 12:00-23:00",
+            "opening_hours:covid19": "Mo-Su 12:00-20:00",
+            "phone": "+91 9911054940",
+            "takeaway": "yes",
+            "website": "https://tallistation.in"
+          }
+        },
+        {
+          "name": "Kuki Kathi Junction",
+          "kind": "restaurant",
+          "lat": 28.6117272,
+          "lon": 77.3358126,
+          "tags": {
+            "addr:city": "Delhi",
+            "addr:postcode": "110096",
+            "addr:street": "Mayur Vihar Phase 3 Road, Pocket A2",
+            "amenity": "restaurant",
+            "cuisine": "indian;kebab;chicken",
+            "diet:non-vegetarian": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Kuki Kathi Junction",
+            "opening_hours": "Mo-Su 16:00-23:00",
+            "phone": "+91 9953828506",
+            "website": "https://kukikathijunction.com"
+          }
+        },
+        {
+          "name": "Veg Gulati",
+          "kind": "restaurant",
+          "lat": 28.6077855,
+          "lon": 77.2299247,
+          "tags": {
+            "addr:housenumber": "8",
+            "addr:street": "Pandara Road Market",
+            "amenity": "restaurant",
+            "check_date": "2026-03-14",
+            "cuisine": "indian",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "only",
+            "name": "Veg Gulati",
+            "phone": "+91 11 2338 8830;+91 112338862",
+            "takeaway": "yes",
+            "website": "www.veggulati.in"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "Hotel City Star",
+          "kind": "hotel",
+          "lat": 28.6447365,
+          "lon": 77.214923,
+          "tags": {
+            "addr:housenumber": "8718",
+            "addr:street": "Deshbandu Gupta Road",
+            "name": "Hotel City Star",
+            "opening_hours": "Mo-Su 00:00-23:59",
+            "tourism": "hotel",
+            "website": "https://www.hotel-citystar.com/",
+            "wikidata": "Q111402172"
+          }
+        },
+        {
+          "name": "Silver Ferns",
+          "kind": "hotel",
+          "lat": 28.5229836,
+          "lon": 77.2081097,
+          "tags": {
+            "name": "Silver Ferns",
+            "tourism": "hotel",
+            "wikidata": "Q111861279"
+          }
+        },
+        {
+          "name": "sunstar heights",
+          "kind": "hotel",
+          "lat": 28.645239,
+          "lon": 77.1834003,
+          "tags": {
+            "name": "sunstar heights",
+            "tourism": "hotel",
+            "wikidata": "Q111119735"
+          }
+        },
+        {
+          "name": "Glow Inn",
+          "kind": "hotel",
+          "lat": 28.6421818,
+          "lon": 77.2149252,
+          "tags": {
+            "addr:postcode": "110055",
+            "name": "Glow Inn",
+            "tourism": "hotel",
+            "wikidata": "Q111119751"
+          }
+        },
+        {
+          "name": "Radisson Blu Marina Hotel",
+          "kind": "hotel",
+          "lat": 28.6339659,
+          "lon": 77.2171659,
+          "tags": {
+            "addr:block": "G",
+            "addr:city": "New Delhi",
+            "addr:district": "New Delhi",
+            "addr:housenumber": "59",
+            "addr:place": "Connaught Circus",
+            "addr:postcode": "110001",
+            "addr:streetname": "D00",
+            "addr:subdistrict": "Connaught Place",
+            "addr:suburb": "Connaught Place",
+            "air_conditioning": "yes",
+            "brand": "Radisson",
+            "brand:wikidata": "Q1751979",
+            "internet_access": "wlan",
+            "name": "Radisson Blu Marina Hotel",
+            "name:bn": "রেডিসন ব্লু মেরিনা হোটেল কনট প্লেস",
+            "name:hi": "रैडिसन ब्लू मरीना होटल कनॉट प्लेस",
+            "operator": "Radisson Hotels",
+            "panoramax": "c6cda21b-0b8a-4ef9-9400-a5432d083e0f",
+            "phone": "+91 11 4690 9090",
+            "stars": "4",
+            "tourism": "hotel",
+            "website": "https://www.radissonblu.com/en/marinahotel-newdelhi?s_cid=os.apac-IN-blu-INDNEDL-gmb"
+          }
+        },
+        {
+          "name": "The Ambassador",
+          "kind": "hotel",
+          "lat": 28.6017391,
+          "lon": 77.228846,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:postcode": "110003",
+            "addr:street": "Subramania Bharti Marg",
+            "name": "The Ambassador",
+            "operator": "Vivanta by Taj",
+            "phone": "+91 11 6626 1000",
+            "tourism": "hotel",
+            "website": "https://www.vivantabytaj.com/Ambassador-New-Delhi/Overview.html"
+          }
+        },
+        {
+          "name": "Ibis Hotel",
+          "kind": "hotel",
+          "lat": 28.4467365,
+          "lon": 77.0996929,
+          "tags": {
+            "air_conditioning": "yes",
+            "brand": "Ibis",
+            "brand:wikidata": "Q920166",
+            "check_date": "2025-02-23",
+            "name": "Ibis Hotel",
+            "stars": "3",
+            "tourism": "hotel",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "name": "Master Guest House",
+          "kind": "guest_house",
+          "lat": 28.6346805,
+          "lon": 77.185038,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:country": "IN",
+            "addr:housenumber": "R-500",
+            "addr:postcode": "110060",
+            "addr:street": "Pamposh Road",
+            "name": "Master Guest House",
+            "phone": "+ 91 (11) 28741089",
+            "smoking": "outside",
+            "source": "local knowledge",
+            "tourism": "guest_house",
+            "website": "https://master-guesthouse.com/"
+          }
+        },
+        {
+          "name": "Hare Krishna Guest House",
+          "kind": "hotel",
+          "lat": 28.6409675,
+          "lon": 77.2121571,
+          "tags": {
+            "addr:city": "New Delhi",
+            "addr:country": "IN",
+            "addr:housenumber": "1572-73",
+            "addr:place": "Pahar Ganj",
+            "addr:postcode": "110055",
+            "addr:street": "Main Bazaar",
+            "email": "reservationhotelharekrishna@gmail.com",
+            "name": "Hare Krishna Guest House",
+            "phone": "011 41541340",
+            "phone2": "011 41541341",
+            "phone3": "011 43598427",
+            "tourism": "hotel",
+            "website": "http://www.hotelharekrishna.com/"
+          }
+        },
+        {
+          "name": "The Leela",
+          "kind": "hotel",
+          "lat": 28.5058141,
+          "lon": 77.0962567,
+          "tags": {
+            "brand": "The Leela",
+            "brand:wikidata": "Q7746610",
+            "name": "The Leela",
+            "opening_hours": "24/7",
+            "source": "local knowledge",
+            "tourism": "hotel",
+            "website": "https://www.theleela.com/"
+          }
+        }
+      ]
+    }
+  }
+}

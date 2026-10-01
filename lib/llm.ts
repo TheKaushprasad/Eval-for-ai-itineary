@@ -1,5 +1,5 @@
-import { zodTextFormat } from "openai/helpers/zod";
-import { openai, MODEL } from "./openai";
+import { structured, type Message, type Usage } from "./ai";
+import { MODEL, PROVIDER, REASONING_EFFORT } from "./openai";
 import { ItinerarySchema, type Itinerary, type TripRequest } from "./schema";
 
 const STYLE_PACE: Record<TripRequest["tripStyle"], string> = {
@@ -54,19 +54,21 @@ ${JSON.stringify(context)}
 Write the itinerary in ${req.currency}.`;
 }
 
-export type Usage = { model: string; inputTokens: number; outputTokens: number };
+export type { Usage };
 /** Optional token-usage hook; the eval harness uses it to track cost. */
 export type OnUsage = (u: Usage) => void;
 
-async function call(input: { role: "system" | "user" | "assistant"; content: string }[], onUsage?: OnUsage): Promise<Itinerary> {
-  const res = await openai().responses.parse({
+async function call(input: Message[], onUsage?: OnUsage): Promise<Itinerary> {
+  const { data, usage } = await structured({
+    provider: PROVIDER,
     model: MODEL,
     input,
-    text: { format: zodTextFormat(ItinerarySchema, "itinerary") },
+    schema: ItinerarySchema,
+    name: "itinerary",
+    effort: REASONING_EFFORT,
   });
-  if (res.usage) onUsage?.({ model: MODEL, inputTokens: res.usage.input_tokens, outputTokens: res.usage.output_tokens });
-  if (!res.output_parsed) throw new Error("The model returned no itinerary");
-  return res.output_parsed;
+  if (usage) onUsage?.(usage);
+  return data;
 }
 
 export function generateItinerary(req: TripRequest, context: unknown, limit: number, onUsage?: OnUsage) {

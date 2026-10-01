@@ -38,7 +38,7 @@ const snapshot = (c: EvalCase): Snapshot => ({
 /** A fake itinerary model that follows the request and bills some tokens. */
 function fakeModel(over: (req: TripRequest) => Partial<Itinerary> = () => ({})) {
   const generateItinerary = vi.fn(async (req: TripRequest, _ctx: unknown, _limit: number, onUsage?: OnUsage) => {
-    onUsage?.({ model: "gpt-5", inputTokens: 10_000, outputTokens: 5_000 });
+    onUsage?.({ provider: "openai", model: "gpt-5", inputTokens: 10_000, outputTokens: 5_000 });
     const base = sampleItinerary();
     const days = tripDates(req.startDate, req.days).map((date, i) => ({
       ...base.days[0],

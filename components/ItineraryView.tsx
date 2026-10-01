@@ -1,3 +1,5 @@
+"use client";
+
 import { formatMoney } from "@/lib/budget";
 import type { Itinerary, ItineraryResult } from "@/lib/schema";
 import BudgetBreakdown from "./BudgetBreakdown";
@@ -28,7 +30,7 @@ function Card({ title, children, aside }: { title: string; children: React.React
 
 type Leg = Itinerary["transport"]["outbound"];
 
-export default function ItineraryView({ result, onReset }: { result: ItineraryResult; onReset: () => void }) {
+export default function ItineraryView({ result, onReset }: { result: ItineraryResult; onReset?: () => void }) {
   const it = result.itinerary;
   const money = (n: number) => formatMoney(n, it.currency);
   const legs: [string, Leg][] = [
@@ -45,9 +47,11 @@ export default function ItineraryView({ result, onReset }: { result: ItineraryRe
           <button onClick={() => window.print()} className="rounded-lg bg-white/15 px-3 py-1.5 hover:bg-white/25">
             Print / save PDF
           </button>
-          <button onClick={onReset} className="rounded-lg bg-white/15 px-3 py-1.5 hover:bg-white/25">
-            Plan another trip
-          </button>
+          {onReset && (
+            <button onClick={onReset} className="rounded-lg bg-white/15 px-3 py-1.5 hover:bg-white/25">
+              Plan another trip
+            </button>
+          )}
           {result.emailed === "sent" && <span className="rounded-lg bg-white/10 px-3 py-1.5">✓ Emailed</span>}
           {result.emailed === "failed" && <span className="rounded-lg bg-white/10 px-3 py-1.5">Email failed</span>}
           {result.revised && <span className="rounded-lg bg-white/10 px-3 py-1.5">Adjusted to fit budget</span>}
@@ -112,7 +116,8 @@ export default function ItineraryView({ result, onReset }: { result: ItineraryRe
                 <span className="text-teal-700">Day {d.day}</span> · {d.theme}
               </h3>
               <span className="text-sm text-stone-500">
-                {new Date(`${d.date}T00:00:00`).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short" })}
+                {/* Fixed locale and zone so server and browser render the same text. */}
+                {new Date(`${d.date}T00:00:00Z`).toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" })}
               </span>
             </div>
             <p className="mt-1 inline-block rounded-full bg-sky-50 px-2.5 py-0.5 text-xs text-sky-800">{d.weather}</p>

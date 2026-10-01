@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { zodTextFormat } from "openai/helpers/zod";
-import { openai, RESEARCH_MODEL } from "../openai";
+import { openai, RESEARCH_ENABLED, RESEARCH_MODEL } from "../openai";
 import type { TripRequest } from "../schema";
 
 export const ResearchSchema = z.object({
@@ -56,6 +56,7 @@ List the pages you relied on in sources. Use null when you can't find a number.`
 }
 
 export async function research(req: TripRequest, returnDate: string, countryCode: string | null): Promise<Research> {
+  if (!RESEARCH_ENABLED) throw new Error("web research is disabled (needs OpenAI; set RESEARCH=on to enable)");
   const res = await openai().responses.parse({
     model: RESEARCH_MODEL,
     tools: [

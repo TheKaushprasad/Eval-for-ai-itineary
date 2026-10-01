@@ -1,0 +1,951 @@
+{
+  "id": "diet-halal-seoul",
+  "requestHash": "3168f9c50f28",
+  "recordedAt": "2026-10-01T04:40:18.801Z",
+  "geocode": {
+    "Seoul": {
+      "ok": true,
+      "value": {
+        "query": "Seoul",
+        "name": "Seoul, South Korea",
+        "lat": 37.5666791,
+        "lon": 126.9782914,
+        "country": "South Korea",
+        "countryCode": "KR",
+        "bbox": [
+          37.4285424,
+          37.7014794,
+          126.7644328,
+          127.1837702
+        ]
+      }
+    },
+    "Mumbai": {
+      "ok": true,
+      "value": {
+        "query": "Mumbai",
+        "name": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",
+        "lat": 19.054999,
+        "lon": 72.8692035,
+        "country": "India",
+        "countryCode": "IN",
+        "bbox": [
+          18.894999,
+          19.214999,
+          72.7092035,
+          73.0292035
+        ]
+      }
+    }
+  },
+  "flightProvider": null,
+  "research": {
+    "ok": false,
+    "error": "web research disabled for this snapshot (--no-research)"
+  },
+  "weather": {
+    "ok": true,
+    "value": [
+      {
+        "date": "2027-05-01",
+        "tMax": 18.3,
+        "tMin": 9.9,
+        "precipMm": 6.2,
+        "rainChance": 33,
+        "summary": "Typically: showers",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-05-02",
+        "tMax": 21.2,
+        "tMin": 7.8,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-05-03",
+        "tMax": 21.6,
+        "tMin": 9.3,
+        "precipMm": 3.3,
+        "rainChance": 33,
+        "summary": "Typically: showers",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-05-04",
+        "tMax": 23.7,
+        "tMin": 10.6,
+        "precipMm": 0,
+        "rainChance": 0,
+        "summary": "Typically: mostly dry",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-05-05",
+        "tMax": 17.7,
+        "tMin": 12.4,
+        "precipMm": 42.1,
+        "rainChance": 67,
+        "summary": "Typically: heavy rain",
+        "kind": "typical"
+      },
+      {
+        "date": "2027-05-06",
+        "tMax": 15.4,
+        "tMin": 10.2,
+        "precipMm": 14.4,
+        "rainChance": 67,
+        "summary": "Typically: heavy rain",
+        "kind": "typical"
+      }
+    ]
+  },
+  "places": {
+    "ok": true,
+    "value": {
+      "attractions": [
+        {
+          "name": "가회민화박물관",
+          "kind": "museum",
+          "lat": 37.5815454,
+          "lon": 126.985237,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "52",
+            "addr:postcode": "03056",
+            "addr:street": "북촌로",
+            "addr:subdistrict": "가회동",
+            "name": "가회민화박물관",
+            "name:en": "Gahoe Museum",
+            "name:ja": "嘉会博物館",
+            "name:ko": "가회민화박물관",
+            "phone": "+82 2-741-0466",
+            "tourism": "museum",
+            "website": "https://www.gahoemuseum.org/new",
+            "wheelchair": "yes",
+            "wikidata": "Q5516945",
+            "wikipedia": "ko:가회민화박물관"
+          }
+        },
+        {
+          "name": "목인박물관",
+          "kind": "museum",
+          "lat": 37.5738145,
+          "lon": 126.9834979,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "20",
+            "addr:postcode": "03145",
+            "addr:street": "인사동11길",
+            "addr:subdistrict": "견지동",
+            "name": "목인박물관",
+            "name:en": "Mokin Museum",
+            "name:ja": "木人博物館",
+            "name:ko": "목인박물관",
+            "name:ko-Latn": "Mokinbangmulgwan",
+            "phone": "+82 02-722-5066",
+            "tourism": "museum",
+            "website": "www.mokinmuseum.com",
+            "wheelchair": "limited",
+            "wikidata": "Q11240953",
+            "wikipedia": "ko:목인박물관"
+          }
+        },
+        {
+          "name": "서대문형무소역사관",
+          "kind": "museum",
+          "lat": 37.5745368,
+          "lon": 126.9563173,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "서대문구",
+            "addr:housenumber": "251",
+            "addr:postcode": "03732",
+            "addr:street": "통일로",
+            "addr:subdistrict": "현저동",
+            "description:en": "Museum and former prison (1908-1897),",
+            "name": "서대문형무소역사관",
+            "name:en": "Seodaemun Prison History Hall",
+            "name:ja": "西大門刑務所歴史館",
+            "name:ko": "서대문형무소역사관",
+            "name:ko-Latn": "Seodaemunhyeongmusoyeoksagwan",
+            "opening_hours": "Tu-Su 09:00-18:00",
+            "phone": "+82 2 360 8590",
+            "tourism": "museum",
+            "website": "http://www.sscmc.or.kr/newhistory/index_culture.asp",
+            "wikidata": "Q488571",
+            "wikipedia": "en:Seodaemun Prison"
+          }
+        },
+        {
+          "name": "한국가구박물관",
+          "kind": "museum",
+          "lat": 37.6002497,
+          "lon": 126.9936621,
+          "tags": {
+            "name": "한국가구박물관",
+            "name:en": "Korea Furniture Museum",
+            "name:ja": "韓国家具博物館",
+            "name:ko": "한국가구박물관 ( Korea Furniture Museum)",
+            "source:name:en": "survey",
+            "tourism": "museum",
+            "website": "www.kofum.com/",
+            "wikidata": "Q6431636",
+            "wikipedia": "ko:한국가구박물관"
+          }
+        },
+        {
+          "name": "한국영화박물관",
+          "kind": "museum",
+          "lat": 37.5803695,
+          "lon": 126.8900089,
+          "tags": {
+            "name": "한국영화박물관",
+            "name:en": "Korean Film Museum",
+            "name:ja": "韓国映画博物館",
+            "name:ko": "한국영화박물관",
+            "source": "survey",
+            "tourism": "museum",
+            "website": "https://www.koreafilm.or.kr/museum/main",
+            "wikidata": "Q12623451",
+            "wikipedia": "en:Korean Film Museum"
+          }
+        },
+        {
+          "name": "남한산성",
+          "kind": "attraction",
+          "lat": 37.4791368,
+          "lon": 127.1801588,
+          "tags": {
+            "castle_type": "defensive",
+            "heritage": "1",
+            "heritage:operator": "whc",
+            "historic": "castle",
+            "historic:civilization": "korean",
+            "material": "stone",
+            "name": "남한산성",
+            "name:en": "Namhansanseong Fortress",
+            "name:ja": "南漢山城(ナムハンサンソン)",
+            "name:ko": "남한산성",
+            "name:ru": "Намхансансон",
+            "name:zh": "南漢山城",
+            "ref:whc": "1439",
+            "tourism": "attraction",
+            "whc:criteria": "(ii),(iv)",
+            "whc:inscription_date": "2014",
+            "wikidata": "Q562529",
+            "wikipedia": "ko:남한산성"
+          }
+        },
+        {
+          "name": "북촌한옥마을 ДЕРЕВНЯ",
+          "kind": "attraction",
+          "lat": 37.5823919,
+          "lon": 126.9858648,
+          "tags": {
+            "description:en": "Area of preserved tradtional wooden houses (hanok).",
+            "name": "북촌한옥마을 ДЕРЕВНЯ",
+            "name:en": "Bukchon Hanok Village",
+            "name:es": "Bukchon Hanok Village",
+            "name:ja": "北村韓屋村",
+            "name:ko": "북촌한옥마을",
+            "name:zh": "北村韩屋村",
+            "tourism": "attraction",
+            "wikidata": "Q490981",
+            "wikipedia": "en:Bukchon Hanok Village"
+          }
+        },
+        {
+          "name": "혼천의",
+          "kind": "monument",
+          "lat": 37.5726418,
+          "lon": 126.9769139,
+          "tags": {
+            "historic": "monument",
+            "name": "혼천의",
+            "name:en": "Armillary Sphere",
+            "name:ja": "渾天儀",
+            "name:ko": "혼천의",
+            "technical_monument": "armillary_sphere",
+            "wikidata": "Q328720",
+            "wikipedia": "en:Armillary sphere"
+          }
+        },
+        {
+          "name": "측우기",
+          "kind": "monument",
+          "lat": 37.5726769,
+          "lon": 126.9769134,
+          "tags": {
+            "historic": "monument",
+            "name": "측우기",
+            "name:en": "Cheugugi(Rain Gauge)",
+            "name:ja": "測雨器",
+            "name:ko": "측우기",
+            "technical_monument": "rain_gauge",
+            "wikidata": "Q5094226",
+            "wikipedia": "en:Cheugugi"
+          }
+        },
+        {
+          "name": "앙부일구",
+          "kind": "monument",
+          "lat": 37.5727148,
+          "lon": 126.9769116,
+          "tags": {
+            "display": "sundial",
+            "historic": "monument",
+            "name": "앙부일구",
+            "name:en": "Sundial(Angbu Ilgu)",
+            "name:ja": "日時計(仰釜日晷)",
+            "support": "ground",
+            "technical_monument": "sundial",
+            "visibility": "house",
+            "wikidata": "Q31179914",
+            "wikipedia": "ko:앙부일구"
+          }
+        },
+        {
+          "name": "풍납토성",
+          "kind": "castle",
+          "lat": 37.5388342,
+          "lon": 127.1212912,
+          "tags": {
+            "historic": "castle",
+            "name": "풍납토성",
+            "name:en": "Pungnaptoseong",
+            "name:ja": "風納土城",
+            "name:ko": "풍납토성",
+            "name:zh": "风纳土城",
+            "wikidata": "Q11282530",
+            "wikipedia": "ko:서울 풍납동 토성"
+          }
+        },
+        {
+          "name": "사비나 미술관",
+          "kind": "museum",
+          "lat": 37.5765557,
+          "lon": 126.984592,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "49-4",
+            "addr:postcode": "03060",
+            "addr:street": "율곡로",
+            "addr:subdistrict": "안국동",
+            "amenity": "arts_centre",
+            "name": "사비나 미술관",
+            "name:en": "Savina Museum of Contemporary Art",
+            "name:ja": "サビナ美術館",
+            "name:ko-Latn": "Sabina Misulgwan",
+            "phone": "+82 02-736-4371",
+            "tourism": "museum",
+            "website": "http://www.savinamuseum.com/",
+            "wikidata": "Q7428260"
+          }
+        },
+        {
+          "name": "초전섬유 퀼트박물관",
+          "kind": "museum",
+          "lat": 37.558144,
+          "lon": 126.984157,
+          "tags": {
+            "name": "초전섬유 퀼트박물관",
+            "name:en": "Chojun textile quilt Museum",
+            "name:ja": "草田繊維･キルト博物館",
+            "name:ko": "초전섬유 퀼트박물관",
+            "name:ko-Latn": "Chojeonseomyu Kwilteubangmulgwan",
+            "tourism": "museum",
+            "website": "http://www.jculture.co.kr/museum/index1.htm",
+            "wikidata": "Q5104180"
+          }
+        },
+        {
+          "name": "한양도성박물관",
+          "kind": "museum",
+          "lat": 37.5727362,
+          "lon": 127.008569,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "283",
+            "addr:postcode": "03098",
+            "addr:street": "율곡로",
+            "addr:subdistrict": "종로6가",
+            "name": "한양도성박물관",
+            "name:en": "Seoul City Wall Museum",
+            "name:ja": "韓陽都城博物館",
+            "name:zh": "汉阳都城博物馆",
+            "phone": "+82 02-724-0243",
+            "tourism": "museum",
+            "website": "www.museum.seoul.kr/scwm/NR_index.do",
+            "wikidata": "Q21060745"
+          }
+        },
+        {
+          "name": "국립서울과학관",
+          "kind": "museum",
+          "lat": 37.5821858,
+          "lon": 126.9973575,
+          "tags": {
+            "name": "국립서울과학관",
+            "name:en": "National Children's Science Center",
+            "name:ja": "国立ソウル科学館",
+            "name:ko": "국립서울과학관",
+            "name:ko-Latn": "Gungnipseoulgwahakgwan",
+            "tourism": "museum",
+            "wikidata": "Q10855565"
+          }
+        },
+        {
+          "name": "옹기민속박물관",
+          "kind": "museum",
+          "lat": 37.654535,
+          "lon": 127.014639,
+          "tags": {
+            "name": "옹기민속박물관",
+            "name:en": "Onggi Folk Museum",
+            "name:ja": "オンギ民俗博物館",
+            "name:ko": "옹기민속박물관",
+            "name:ko-Latn": "Onggiminsokbangmulgwan",
+            "tourism": "museum",
+            "wikidata": "Q7093835"
+          }
+        },
+        {
+          "name": "평강성서유물박물관",
+          "kind": "museum",
+          "lat": 37.4921151,
+          "lon": 126.8449499,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:country": "KR",
+            "addr:district": "구로구",
+            "addr:subdistrict": "오류동",
+            "name": "평강성서유물박물관",
+            "name:en": "The Abraham Park Kenneth Vine Collection",
+            "name:ja": "平康聖書遺物博物館",
+            "name:ko": "평강성서유물박물관",
+            "name:ko-Latn": "Pyeonggangseongseoyumulbangmulgwan",
+            "tourism": "museum",
+            "wikidata": "Q7712137"
+          }
+        },
+        {
+          "name": "고려대학교박물관",
+          "kind": "museum",
+          "lat": 37.5892568,
+          "lon": 127.0346783,
+          "tags": {
+            "name": "고려대학교박물관",
+            "name:en": "Korea University Museum",
+            "name:ja": "高麗大学校博物館",
+            "name:ko": "고려대학교박물관",
+            "name:ko-Latn": "Goryeodaehakgyobangmulgwan",
+            "tourism": "museum",
+            "wikidata": "Q6431745"
+          }
+        },
+        {
+          "name": "충현박물관",
+          "kind": "museum",
+          "lat": 37.4336934,
+          "lon": 126.878416,
+          "tags": {
+            "addr:city": "광명시",
+            "addr:housenumber": "5-6",
+            "addr:province": "경기도",
+            "addr:street": "오리로347번길",
+            "name": "충현박물관",
+            "name:en": "Chunghyeon Museum",
+            "tourism": "museum",
+            "wikidata": "Q5116372"
+          }
+        },
+        {
+          "name": "떡 박물관",
+          "kind": "museum",
+          "lat": 37.574915,
+          "lon": 126.990576,
+          "tags": {
+            "name": "떡 박물관",
+            "name:en": "Ddeok Museum",
+            "name:ja": "餅博物館",
+            "name:ko": "떡 박물관",
+            "name:ko-Latn": "Ddeok Bangmulgwan",
+            "name:zh": "年糕博物馆",
+            "tourism": "museum",
+            "wikidata": "Q625749"
+          }
+        },
+        {
+          "name": "짚풀생활사박물관",
+          "kind": "museum",
+          "lat": 37.584932,
+          "lon": 126.999624,
+          "tags": {
+            "name": "짚풀생활사박물관",
+            "name:en": "Jippulsaenghwalsa Museum",
+            "name:ko": "짚풀생활사박물관",
+            "name:ko-Latn": "Jippulsaenghwalsabangmulgwan",
+            "tourism": "museum",
+            "wikidata": "Q6940908"
+          }
+        },
+        {
+          "name": "삼성출판박물관",
+          "kind": "museum",
+          "lat": 37.6086975,
+          "lon": 126.9570713,
+          "tags": {
+            "name": "삼성출판박물관",
+            "name:en": "Samseong Museum of Publishing",
+            "name:ja": "三省出版博物館",
+            "name:ko": "삼성출판박물관",
+            "name:ko-Latn": "Samseongchulpanbangmulgwan",
+            "tourism": "museum",
+            "wikidata": "Q7410331"
+          }
+        },
+        {
+          "name": "풋볼 팬타지움",
+          "kind": "museum",
+          "lat": 37.5684953,
+          "lon": 126.896336,
+          "tags": {
+            "alt_name:ko": "2002월드컵기념관",
+            "contact:instagram": "thekfa_faentasium",
+            "name": "풋볼 팬타지움",
+            "name:en": "FOOTBALL faentasium",
+            "name:ja": "フットボールファンタジウム",
+            "name:ko": "풋볼 팬타지움",
+            "opening_hours": "Tu-Su 10:00-18:00",
+            "tourism": "museum",
+            "website": "https://www.faentasium.com/"
+          }
+        },
+        {
+          "name": "백악미술관",
+          "kind": "gallery",
+          "lat": 37.5736343,
+          "lon": 126.9841489,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "16",
+            "addr:postcode": "03145",
+            "addr:street": "인사동9길",
+            "addr:subdistrict": "관훈동",
+            "name": "백악미술관",
+            "name:en": "Baekak Art Museum",
+            "name:ko": "백악미술관",
+            "name:ko-Latn": "Baekangmisulgwan",
+            "phone": "+82 02-734-4205",
+            "tourism": "gallery",
+            "website": "https://www.baegak.co.kr",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "name": "아르코미술관",
+          "kind": "gallery",
+          "lat": 37.5803835,
+          "lon": 127.0032472,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "3",
+            "addr:postcode": "03087",
+            "addr:street": "동숭길",
+            "addr:subdistrict": "동숭동",
+            "name": "아르코미술관",
+            "name:en": "Areuko Art Museum",
+            "name:ja": "アルコ美術館",
+            "name:ko": "아르코미술관",
+            "name:ko-Latn": "Areukomisulgwan",
+            "phone": "+82 02-760-4850",
+            "tourism": "gallery",
+            "website": "www.arkoartcenter.or.kr"
+          }
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "안싱",
+          "kind": "museum",
+          "lat": 37.5704008,
+          "lon": 126.9334973,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "chinese",
+            "internet_access": "wlan",
+            "name": "안싱",
+            "name:en": "Yanjing",
+            "name:ko": "연경",
+            "tourism": "museum"
+          }
+        },
+        {
+          "name": "까치분식24시간",
+          "kind": "attraction",
+          "lat": 37.5342885,
+          "lon": 126.9007513,
+          "tags": {
+            "amenity": "restaurant",
+            "name": "까치분식24시간",
+            "name:en": "kkachibunsik",
+            "name:ja": "カッチ粉食",
+            "name:ko": "까치분식24시간",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "name": "할랄부산집",
+          "kind": "restaurant",
+          "lat": 37.5631484,
+          "lon": 126.9848016,
+          "tags": {
+            "amenity": "restaurant",
+            "diet:halal": "yes",
+            "name": "할랄부산집",
+            "name:en": "Halal Busan Jib",
+            "name:ko": "할랄부산집"
+          }
+        },
+        {
+          "name": "마리푸드",
+          "kind": "restaurant",
+          "lat": 37.5330873,
+          "lon": 126.9966375,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "용산구",
+            "addr:housenumber": "20",
+            "addr:postcode": "04407",
+            "addr:street": "우사단로10길",
+            "addr:subdistrict": "이태원동",
+            "amenity": "restaurant",
+            "cuisine": "pakistani",
+            "description": "할랄 고기를 쓴 한국음식점",
+            "diet:halal": "yes",
+            "name": "마리푸드",
+            "name:en": "MARREE FOOD",
+            "name:ko": "마리푸드",
+            "phone": "+82 2 3785 1436",
+            "source": "공공데이터포털"
+          }
+        },
+        {
+          "name": "봄베그릴",
+          "kind": "restaurant",
+          "lat": 37.533199,
+          "lon": 126.9962347,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "용산구",
+            "addr:housenumber": "11",
+            "addr:postcode": "04405",
+            "addr:street": "우사단로10길",
+            "addr:subdistrict": "이태원동",
+            "amenity": "restaurant",
+            "cuisine": "indian;pakistani",
+            "description": "탄두리 바비큐를 추천",
+            "diet:halal": "yes",
+            "level": "1",
+            "name": "봄베그릴",
+            "phone": "+82 2 792 7155",
+            "source": "공공데이터포털"
+          }
+        },
+        {
+          "name": "더 할랄 가이즈",
+          "kind": "restaurant",
+          "lat": 37.5347271,
+          "lon": 126.9947819,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "용산구",
+            "addr:housenumber": "187",
+            "addr:postcode": "04350",
+            "addr:street": "이태원로",
+            "addr:subdistrict": "이태원동",
+            "amenity": "restaurant",
+            "cuisine": "pakistani",
+            "description": "뉴욕 최고의 스트릿 푸드",
+            "diet:halal": "only",
+            "level": "2",
+            "name": "더 할랄 가이즈",
+            "phone": "+82 2 794 8308",
+            "source": "공공데이터포털"
+          }
+        },
+        {
+          "name": "Om Restaurant",
+          "kind": "restaurant",
+          "lat": 37.5705318,
+          "lon": 126.9760937,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "103",
+            "addr:postcode": "03183",
+            "addr:street": "새문안로",
+            "addr:subdistrict": "신문로1가",
+            "amenity": "restaurant",
+            "check_date": "2023-11-28",
+            "cuisine": "indian",
+            "diet:halal": "yes",
+            "diet:vegetarian": "yes",
+            "level": "-1",
+            "name": "Om Restaurant",
+            "name:ko": "옴레스토랑",
+            "opening_hours": "11:00-22:00",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "고고인디안쿠진",
+          "kind": "restaurant",
+          "lat": 37.5837073,
+          "lon": 127.0299077,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "성북구",
+            "addr:floor": "-1",
+            "amenity": "restaurant",
+            "check_date": "2024-05-19",
+            "cuisine": "indian",
+            "diet:halal": "yes",
+            "diet:vegetarian": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "고고인디안쿠진",
+            "name:ko": "고고인디안쿠진",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "name": "호지보보",
+          "kind": "restaurant",
+          "lat": 37.53398,
+          "lon": 126.9894239,
+          "tags": {
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "cuisine": "steak_house",
+            "diet:halal": "yes",
+            "level": "2",
+            "level:ref": "3층",
+            "name": "호지보보",
+            "name:en": "Hoji Bobo Uzbek Restaurant",
+            "name:ko": "호지보보"
+          }
+        },
+        {
+          "name": "Poke All day",
+          "kind": "restaurant",
+          "lat": 37.4553462,
+          "lon": 126.9519824,
+          "tags": {
+            "amenity": "restaurant",
+            "cuisine": "salad",
+            "diet:halal": "yes",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Poke All day",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:kakaopay": "yes",
+            "payment:naver_pay": "yes",
+            "payment:payco": "yes"
+          }
+        },
+        {
+          "name": "Islamic Facility",
+          "kind": "restaurant",
+          "lat": 37.5332352,
+          "lon": 126.997608,
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "diet:halal": "yes",
+            "email": "zakee613@gmail.com",
+            "internet_access": "wlan",
+            "name": "Islamic Facility",
+            "name:ko": "Salam Turkish Restaurant",
+            "opening_hours": "Mo-Sa 12:00-22:00; Su 12:00-22:00",
+            "operator": "Zakee Jeong",
+            "phone": "+82 2 793 4323"
+          }
+        }
+      ],
+      "stays": [
+        {
+          "name": "골든폰드 게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.5822042,
+          "lon": 126.999124,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "240-15",
+            "addr:postcode": "03079",
+            "addr:street": "창경궁로",
+            "addr:subdistrict": "명륜4가",
+            "name": "골든폰드 게스트하우스",
+            "name:en": "Goldenpond Guest House",
+            "name:ja": "ゴールデン ポンド ゲスト ハウス",
+            "name:ko": "골든폰드 게스트하우스",
+            "name:ko-Latn": "Goldeunpondeugeseuteuhauseu",
+            "tourism": "guest_house",
+            "website": "www.goldenpond.co.kr"
+          }
+        },
+        {
+          "name": "우리집게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.5790149,
+          "lon": 126.986088,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "33-13",
+            "addr:postcode": "03059",
+            "addr:street": "계동길",
+            "addr:subdistrict": "계동",
+            "name": "우리집게스트하우스",
+            "name:en": "Urijip Guest House",
+            "name:ja": "ウリジプゲストハウス",
+            "name:ko": "우리집게스트하우스",
+            "name:ko-Latn": "Urijipgeseuteuhauseu",
+            "phone": "+82 02-744-0536",
+            "tourism": "guest_house",
+            "website": "www.facebook.com/wooriguest"
+          }
+        },
+        {
+          "name": "코리아게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.6605003,
+          "lon": 126.7681079,
+          "tags": {
+            "name": "코리아게스트하우스",
+            "name:en": "Korea Guest House",
+            "name:ko": "코리아게스트하우스",
+            "name:ko-Latn": "Koriageseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "북촌게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.5813359,
+          "lon": 126.9865747,
+          "tags": {
+            "addr:city": "서울특별시",
+            "addr:district": "종로구",
+            "addr:housenumber": "89",
+            "addr:postcode": "03056",
+            "addr:street": "계동길",
+            "addr:subdistrict": "계동",
+            "name": "북촌게스트하우스",
+            "name:en": "Bukchon Guest House",
+            "name:ja": "プクチョン(北村) ゲスト ハウス",
+            "name:ko": "북촌게스트하우스",
+            "name:ko-Latn": "Bukchongeseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "남산 게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.5580701,
+          "lon": 126.9897477,
+          "tags": {
+            "name": "남산 게스트하우스",
+            "name:en": "Namsan Guest House",
+            "name:ja": "南山ゲストハウス",
+            "name:ko": "남산 게스트하우스",
+            "name:ko-Latn": "Namsan Geseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "비원게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.576081,
+          "lon": 126.989858,
+          "tags": {
+            "name": "비원게스트하우스",
+            "name:en": "Beewon Guest House",
+            "name:ko": "비원게스트하우스",
+            "name:ko-Latn": "Biwongeseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "리앤노 게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.5614036,
+          "lon": 126.9210206,
+          "tags": {
+            "name": "리앤노 게스트하우스",
+            "name:en": "Riaenno Guest House",
+            "name:ko": "리앤노 게스트하우스",
+            "name:ko-Latn": "Riaenno Geseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "카르페디엠 게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.558078,
+          "lon": 126.921788,
+          "tags": {
+            "guest_house": "guest_house",
+            "name": "카르페디엠 게스트하우스",
+            "name:en": "Kareupediem Guest House",
+            "name:ja": "カーペディアム ゲスト ハウス",
+            "name:ko": "카르페디엠 게스트하우스",
+            "name:ko-Latn": "Kareupediem Geseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "와우게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.567113,
+          "lon": 126.927352,
+          "tags": {
+            "name": "와우게스트하우스",
+            "name:en": "Wau Guest House",
+            "name:ko": "와우게스트하우스",
+            "name:ko-Latn": "Waugeseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "name": "명동게스트하우스",
+          "kind": "guest_house",
+          "lat": 37.560413,
+          "lon": 126.987103,
+          "tags": {
+            "name": "명동게스트하우스",
+            "name:en": "Myeongdong Guest House",
+            "name:ja": "明洞ゲストハウス",
+            "name:ko": "명동게스트하우스",
+            "name:ko-Latn": "Myeongdonggeseuteuhauseu",
+            "tourism": "guest_house"
+          }
+        }
+      ]
+    }
+  }
+}

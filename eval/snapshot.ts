@@ -50,7 +50,13 @@ async function record<T>(fn: () => Promise<T>, save: (r: Recorded<T>) => void): 
 export class RecordingDone extends Error {}
 
 /** Live deps that write every data-source result into `snap` and stop before generation. */
-export function recordingDeps(snap: Snapshot): Deps {
+export function recordingDeps(snap: Snapshot, opts: { research?: boolean } = {}): Deps {
+  const research: Deps["research"] =
+    opts.research === false
+      ? async () => {
+          throw new Error("web research disabled for this snapshot (--no-research)");
+        }
+      : defaultDeps.research;
   return {
     ...defaultDeps,
     geocode: (q) => record(() => defaultDeps.geocode(q), (r) => (snap.geocode[q] = r)),
@@ -61,7 +67,7 @@ export function recordingDeps(snap: Snapshot): Deps {
       snap.flightProvider = provider?.name ?? null;
       return provider && { ...provider, search: (q) => record(() => provider.search(q), (r) => (snap.flights = r)) };
     },
-    research: (...a) => record(() => defaultDeps.research(...a), (r) => (snap.research = r)),
+    research: (...a) => record(() => research(...a), (r) => (snap.research = r)),
     generateItinerary: async () => {
       throw new RecordingDone();
     },
