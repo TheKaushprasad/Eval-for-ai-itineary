@@ -1,0 +1,315 @@
+{
+  "id": "special-wheelchair-delhi",
+  "title": "4-day Accessible Cultural Trip: Mumbai → Delhi (Nov 28–Dec 1, 2026)",
+  "blurb": "4 days · Mumbai → Delhi · cultural · vegetarian",
+  "source": "eval run v1-baseline (openai/gpt-5-mini)",
+  "request": {
+    "startDate": "2026-11-28",
+    "days": 4,
+    "destination": "Delhi",
+    "origin": "Mumbai",
+    "adults": 2,
+    "children": 0,
+    "childAges": [],
+    "budgetPerPerson": 20000,
+    "currency": "INR",
+    "travelMode": "flight",
+    "food": "vegetarian",
+    "tripStyle": "cultural",
+    "accommodation": "mid-range",
+    "specialRequirements": "One of us uses a wheelchair. We need step-free access at sights and an accessible hotel room.",
+    "additionalInfo": "",
+    "email": ""
+  },
+  "result": {
+    "itinerary": {
+      "title": "4-day Accessible Cultural Trip: Mumbai → Delhi (Nov 28–Dec 1, 2026)",
+      "summary": "Compact, accessible cultural itinerary for 2 adults (no children). Mid‑range, step‑free hotel; flights estimated; all meals at vegetarian or pure‑veg restaurants. 3 cultural activities per day (museums, monuments, heritage walks). Budget kept well under the INR 40,000 group limit with ~8% contingency.",
+      "currency": "INR",
+      "transport": {
+        "outbound": {
+          "mode": "flight",
+          "description": "Mumbai (BOM) → Delhi (DEL). Economy round-trip fare estimate; request wheelchair assistance at booking and at check‑in.",
+          "departure": "Morning (suggest 07:00–10:00) - book an early flight so you have time for afternoon sightseeing",
+          "arrival": "Late morning/early afternoon (approx)",
+          "cost": 4500,
+          "source": "estimate"
+        },
+        "return": {
+          "mode": "flight",
+          "description": "Delhi (DEL) → Mumbai (BOM). Return flight; request wheelchair assistance for boarding and arrival.",
+          "departure": "Afternoon (allow 2–3 hours from hotel to airport for accessible transfer & check‑in)",
+          "arrival": "Evening (approx)",
+          "cost": 4500,
+          "source": "estimate"
+        },
+        "local": "Use pre-booked accessible taxis (app or hotel car) for airport transfers and longer hops; use accessible/flat-route metro where possible (ask station staff for step-free access). For short intra‑city trips prefer accessible taxis rather than crowded buses/old markets.",
+        "localCost": 2000
+      },
+      "accommodation": {
+        "name": "Ibis Hotel (central New Delhi) — request accessible room on booking",
+        "area": "Central New Delhi / near Connaught Place",
+        "type": "hotel (mid-range)",
+        "nights": 3,
+        "nightlyRate": 3000,
+        "total": 9000,
+        "why": "Mid‑range, central location for shorter transfers between heritage and museum areas; hotels in this category commonly offer accessible rooms on request — confirm step-free access & roll‑in shower when booking.",
+        "source": "estimate"
+      },
+      "days": [
+        {
+          "day": 1,
+          "date": "2026-11-28",
+          "theme": "Arrival + modern art & city walk (flexible for light rain)",
+          "weather": "Typically: mostly dry, light rain possible (tMax 23.8°C / tMin 13.2°C)",
+          "activities": [
+            {
+              "time": "13:30",
+              "name": "Hotel check-in & short rest",
+              "description": "Arrive, complete accessible check‑in, leave luggage in room. Confirm accessible room features with front desk.",
+              "durationHours": 1,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "15:00",
+              "name": "Kiran Nadar Museum of Art",
+              "description": "Contemporary art museum with accessible entrances and lifts (confirm on arrival). Good introduction to modern Indian art.",
+              "durationHours": 1.5,
+              "cost": 250,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "17:00",
+              "name": "Lodhi Art District (outdoor walk)",
+              "description": "Short, level outdoor walk among accessible streets to see public murals and sculptures. Do only if weather is dry; otherwise relax at the hotel or enjoy a longer museum visit.",
+              "durationHours": 1,
+              "cost": 250,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "lunch",
+              "place": "Adyar Ananda Bhavan (A2B) or similar pure‑veg South Indian restaurant",
+              "cuisine": "South Indian / vegetarian",
+              "dietOk": true,
+              "cost": 700
+            },
+            {
+              "meal": "dinner",
+              "place": "Bikanervala (pure veg sweets & north Indian dishes)",
+              "cuisine": "North Indian / vegetarian",
+              "dietOk": true,
+              "cost": 700
+            }
+          ],
+          "notes": "Ask the museum and hotel ahead to confirm step‑free access and lifts. Short public walks can be skipped if it starts raining; use the time for an extra museum or rest."
+        },
+        {
+          "day": 2,
+          "date": "2026-11-29",
+          "theme": "Delhi’s older monuments and Lutyens-era museums (clear day)",
+          "weather": "Typically: mostly dry (tMax 24.9°C / tMin 13.1°C)",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Jamali Kamali Tomb (Mehrauli) & nearby Iron Pillar (Qutub area)",
+              "description": "Visit the Jamali‑Kamali tomb (historic monument) and the nearby Iron Pillar in the Qutub area. Paths in the Qutub area are partly paved — check for step-free access; the Iron Pillar itself is in a mostly level open area.",
+              "durationHours": 2,
+              "cost": 250,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "12:30",
+              "name": "Lunch at Veg Gulati or similar pure‑veg restaurant",
+              "description": "Well known vegetarian restaurant for classic North Indian dishes.",
+              "durationHours": 1,
+              "cost": 700,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "15:00",
+              "name": "Teen Murti Bhavan (museum)",
+              "description": "Museum and memorial in Lutyens' Delhi; largely step‑free interiors and accessible pathways (confirm access at entrance).",
+              "durationHours": 2,
+              "cost": 250,
+              "indoor": true,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel breakfast (vegetarian options)",
+              "cuisine": "Indian / Continental (veg)",
+              "dietOk": true,
+              "cost": 0
+            },
+            {
+              "meal": "lunch",
+              "place": "Veg Gulati (or similar pure veg)",
+              "cuisine": "North Indian / vegetarian",
+              "dietOk": true,
+              "cost": 700
+            },
+            {
+              "meal": "dinner",
+              "place": "Bikanervala (or another pure‑veg sweet & casual dining)",
+              "cuisine": "North Indian / vegetarian",
+              "dietOk": true,
+              "cost": 700
+            }
+          ],
+          "notes": "Qutub/Jamali area has some uneven surfaces; bring a companion to assist on short rough patches. Teen Murti is in central Delhi making transfers short."
+        },
+        {
+          "day": 3,
+          "date": "2026-11-30",
+          "theme": "Museums & memorials — indoor day (light rain possible)",
+          "weather": "Typically: mostly dry, light rain possible (tMax 23.2°C / tMin 12.6°C)",
+          "activities": [
+            {
+              "time": "09:30",
+              "name": "Partition Museum (New Delhi location)",
+              "description": "Museum focused on the Partition story — indoor exhibits and galleries; request step‑free routing at the entry.",
+              "durationHours": 2,
+              "cost": 250,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "12:30",
+              "name": "Madame Tussaud’s Museum",
+              "description": "Wax museum with accessible areas and lifts; good indoor activity for a light‑rain day.",
+              "durationHours": 1.5,
+              "cost": 250,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "15:30",
+              "name": "Diwan‑e‑Aam (Red Fort area, external visit)",
+              "description": "View the Hall of Public Audience and adjacent areas (some parts level and accessible; confirm step‑free routes at the entry gate).",
+              "durationHours": 1.5,
+              "cost": 250,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel breakfast (vegetarian options)",
+              "cuisine": "Indian / Continental (veg)",
+              "dietOk": true,
+              "cost": 0
+            },
+            {
+              "meal": "lunch",
+              "place": "Adyar Ananda Bhavan (pure veg)",
+              "cuisine": "South Indian / vegetarian",
+              "dietOk": true,
+              "cost": 700
+            },
+            {
+              "meal": "dinner",
+              "place": "Bikanervala or local pure‑veg restaurant near hotel",
+              "cuisine": "North Indian / vegetarian",
+              "dietOk": true,
+              "cost": 700
+            }
+          ],
+          "notes": "Indoor museums are prioritized today in case of light rain. For the Red Fort external visit, confirm accessible entrance points in advance."
+        },
+        {
+          "day": 4,
+          "date": "2026-12-01",
+          "theme": "Short morning visit & return travel",
+          "weather": "Typically: mostly dry, light rain possible (tMax 24.4°C / tMin 12.7°C)",
+          "activities": [
+            {
+              "time": "08:30",
+              "name": "National Zoological Park (short accessible walk / viewing)",
+              "description": "Paved routes in many parts of the zoo; plan a short 1.5–2 hour visit focused on accessible enclosures and viewpoints.",
+              "durationHours": 2,
+              "cost": 250,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "11:00",
+              "name": "Return to hotel, check‑out",
+              "description": "Pack, settle bills, and prepare for accessible transfer to airport. Allow buffer time for traffic and accessible transfer.",
+              "durationHours": 1.5,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "13:00",
+              "name": "Transfer to airport & depart",
+              "description": "Accessible taxi to Delhi airport for return flight home.",
+              "durationHours": 2,
+              "cost": 400,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel breakfast (vegetarian)",
+              "cuisine": "Indian / Continental (veg)",
+              "dietOk": true,
+              "cost": 0
+            },
+            {
+              "meal": "lunch",
+              "place": "Airport restaurant with vegetarian menu (e.g., Adyar Ananda Bhavan outlet or similar)",
+              "cuisine": "Vegetarian",
+              "dietOk": true,
+              "cost": 700
+            }
+          ],
+          "notes": "Allow ample time for accessible transfer and airport formalities. Confirm wheelchair assistance when booking flights and reconfirm 24–48 hours before travel."
+        }
+      ],
+      "budget": {
+        "transport": 9000,
+        "accommodation": 9000,
+        "food": 4900,
+        "activities": 3100,
+        "localTransport": 2000,
+        "buffer": 3200,
+        "total": 31200
+      },
+      "packingTips": [
+        "Bring a small umbrella or light rain jacket (light rain possible on 28th & 30th).",
+        "Portable seat cushion and a small bag for museum brochures; some older monuments have uneven surfaces so a companion may be needed for short transfers.",
+        "Copies of medical ID and any mobility aid details; request airline and hotel wheelchair assistance in writing/email and save confirmations.",
+        "Comfortable shoes for the companion (some outdoor sites have short uneven patches)."
+      ],
+      "tips": [
+        "When booking the hotel and flights, explicitly request an accessible room and wheelchair assistance for both departure and arrival. Ask the hotel to confirm a roll‑in shower or grab bars if needed.",
+        "Carry physical copies of reservation confirmations and a local contact number in case drivers need directions to accessible entrances.",
+        "Prefer pre‑booked accessible taxis for airport transfers rather than relying on finding a vehicle on the street; apps usually allow adding 'assistance required' notes.",
+        "Most listed restaurants (Bikanervala, Veg Gulati, Adyar Ananda Bhavan) are vegetarian or have extensive veg menus; still reconfirm no egg/meat is served if you want pure‑veg kitchen assurance."
+      ],
+      "sources": []
+    },
+    "budgetLimit": 40000,
+    "computedTotal": 31200,
+    "withinBudget": true,
+    "revised": false,
+    "emailed": "skipped",
+    "warnings": [
+      "research: web research disabled for this snapshot (--no-research)"
+    ]
+  }
+}

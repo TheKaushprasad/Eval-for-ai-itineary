@@ -1,0 +1,271 @@
+{
+  "id": "core-jaipur-cultural",
+  "title": "3-day cultural weekend: Delhi → Jaipur (Pink City)",
+  "blurb": "3 days · Delhi → Jaipur · cultural · vegetarian",
+  "source": "eval run v1-baseline (openai/gpt-5-mini)",
+  "request": {
+    "startDate": "2026-11-14",
+    "days": 3,
+    "destination": "Jaipur",
+    "origin": "Delhi",
+    "adults": 2,
+    "children": 0,
+    "childAges": [],
+    "budgetPerPerson": 15000,
+    "currency": "INR",
+    "travelMode": "train",
+    "food": "vegetarian",
+    "tripStyle": "cultural",
+    "accommodation": "mid-range",
+    "specialRequirements": "",
+    "additionalInfo": "",
+    "email": ""
+  },
+  "result": {
+    "itinerary": {
+      "title": "3-day cultural weekend: Delhi → Jaipur (Pink City)",
+      "summary": "A relaxed, cultural 3-day trip for 2 adults by train: forts, palaces, museums and local markets, staying in a mid-range heritage hotel in central Jaipur. All meals vegetarian (pure-veg options). Weather: dry, warm days (~27°C), cool mornings (~15°C).",
+      "currency": "INR",
+      "transport": {
+        "outbound": {
+          "mode": "train",
+          "description": "Estimated daytime intercity/express (AC chair/AC 2-tier option). Depart Delhi in the morning, arrive Jaipur same day — leaves early to allow a full first day of sightseeing.",
+          "departure": "2026-11-14 06:00 (approx.)",
+          "arrival": "2026-11-14 10:30 (approx.)",
+          "cost": 1600,
+          "source": "estimate"
+        },
+        "return": {
+          "mode": "train",
+          "description": "Evening intercity/express from Jaipur to Delhi on 2026-11-16, arrive same night.",
+          "departure": "2026-11-16 18:00 (approx.)",
+          "arrival": "2026-11-16 22:30 (approx.)",
+          "cost": 1600,
+          "source": "estimate"
+        },
+        "local": "Pre-booked taxi for airport/station transfers + taxi/auto-rickshaw rides or app-based cabs for intra-city sightseeing (group hires for half-day sightseeing recommended).",
+        "localCost": 2000
+      },
+      "accommodation": {
+        "name": "Devi Niketan Heritage Hotel (or similar mid-range heritage hotel, central/Pink City area)",
+        "area": "Pink City / MI Road area (central, walkable to markets)",
+        "type": "Mid-range heritage hotel, double room",
+        "nights": 2,
+        "nightlyRate": 3000,
+        "total": 6000,
+        "why": "Central location for quick access to City Palace, Hawa Mahal and markets; heritage character that fits cultural trip style; mid-range price with likely breakfast included.",
+        "source": "estimate"
+      },
+      "days": [
+        {
+          "day": 1,
+          "date": "2026-11-14",
+          "theme": "Arrival + City Palace, Observatory & Markets",
+          "weather": "Mostly dry; high ~27°C, low ~16°C — comfortable for walking.",
+          "activities": [
+            {
+              "time": "12:00",
+              "name": "City Palace (guided walk)",
+              "description": "Explore the courtyards, palace museum and royal collections — a core heritage stop that gives history of Jaipur's ruling family and architecture.",
+              "durationHours": 2,
+              "cost": 600,
+              "indoor": true,
+              "kidFriendly": false
+            },
+            {
+              "time": "14:30",
+              "name": "Jantar Mantar",
+              "description": "Visit the historic astronomical observatory — quick and fascinating outdoor/indoor displays.",
+              "durationHours": 1,
+              "cost": 200,
+              "indoor": false,
+              "kidFriendly": false
+            },
+            {
+              "time": "16:00",
+              "name": "Johari / Bapu Bazaar (Pink City market walk + light shopping)",
+              "description": "Stroll the Pink City bazaars for textiles, jewelry, lacwork and traditional crafts — cultural shopping and photography.",
+              "durationHours": 1.5,
+              "cost": 600,
+              "indoor": false,
+              "kidFriendly": false
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "On train / station (veg)",
+              "cuisine": "Indian (vegetarian)",
+              "dietOk": true,
+              "cost": 200
+            },
+            {
+              "meal": "lunch",
+              "place": "Natraj Vegetarian Restaurant (pure-veg)",
+              "cuisine": "Rajasthani / North Indian (vegetarian)",
+              "dietOk": true,
+              "cost": 600
+            },
+            {
+              "meal": "dinner",
+              "place": "Doodh Misthan Bhandar (DMR) or similar pure-veg restaurant",
+              "cuisine": "Rajasthani / North Indian / sweets",
+              "dietOk": true,
+              "cost": 600
+            }
+          ],
+          "notes": "Check in on arrival (approx late morning). Keep a water bottle and hat — November days are warm but mornings can be cool."
+        },
+        {
+          "day": 2,
+          "date": "2026-11-15",
+          "theme": "Amer Fort, Stepwell & Museum day",
+          "weather": "Mostly dry; high ~27°C — great day for forts and gardens.",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Amer (Amber) Fort & Sheesh Mahal",
+              "description": "Full morning at Amer Fort: ramparts, palace halls and Sheesh Mahal (mirror palace). Arrive early to avoid crowds and midday heat.",
+              "durationHours": 3,
+              "cost": 500,
+              "indoor": false,
+              "kidFriendly": false
+            },
+            {
+              "time": "12:30",
+              "name": "Panna Meena Ka Kund (stepwell)",
+              "description": "Short visit to this nearby historic stepwell — good for photos and local architecture appreciation.",
+              "durationHours": 0.75,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": false
+            },
+            {
+              "time": "15:00",
+              "name": "Albert Hall Museum",
+              "description": "Visit Jaipur's state museum with art, textiles and regional artifacts — indoor and culturally rich.",
+              "durationHours": 1.5,
+              "cost": 200,
+              "indoor": true,
+              "kidFriendly": false
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel (vegetarian)",
+              "cuisine": "Indian (vegetarian)",
+              "dietOk": true,
+              "cost": 300
+            },
+            {
+              "meal": "lunch",
+              "place": "Chokhi Dhani (Tonk Road) or similar Rajasthani pure-veg option",
+              "cuisine": "Rajasthani thali / traditional cuisine (vegetarian)",
+              "dietOk": true,
+              "cost": 700
+            },
+            {
+              "meal": "dinner",
+              "place": "Green Restaurant Pure Vegetarian or similar",
+              "cuisine": "North Indian / Rajasthani (vegetarian)",
+              "dietOk": true,
+              "cost": 700
+            }
+          ],
+          "notes": "Start early for Amer Fort. Wear comfortable shoes for steps and uneven surfaces. Bring sunscreen and water."
+        },
+        {
+          "day": 3,
+          "date": "2026-11-16",
+          "theme": "Viewpoints, gardens & local market — return to Delhi",
+          "weather": "Mostly dry; high ~27°C — pleasant for morning viewpoint and garden visit.",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Nahargarh Fort viewpoint (morning visit)",
+              "description": "Panoramic views over Jaipur from Nahargarh; morning light is great for photos and a relaxed walk.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": false
+            },
+            {
+              "time": "11:30",
+              "name": "Sisodiya Rani Bagh (garden/palace)",
+              "description": "Visit the landscaped garden and palatial pavilions built for the queen — quieter and scenic.",
+              "durationHours": 1.5,
+              "cost": 300,
+              "indoor": false,
+              "kidFriendly": false
+            },
+            {
+              "time": "13:30",
+              "name": "Bapu / Nehru Bazaar market walk & small purchases",
+              "description": "Final market stroll for textiles, block-printed fabrics and handicrafts; cultural shopping and street photography.",
+              "durationHours": 1.5,
+              "cost": 600,
+              "indoor": false,
+              "kidFriendly": false
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel (vegetarian)",
+              "cuisine": "Indian (vegetarian)",
+              "dietOk": true,
+              "cost": 300
+            },
+            {
+              "meal": "lunch",
+              "place": "Local pure-veg restaurant near markets (e.g., Roop Basant Pavitra Bhojanalaya or similar)",
+              "cuisine": "North Indian (vegetarian)",
+              "dietOk": true,
+              "cost": 500
+            },
+            {
+              "meal": "dinner",
+              "place": "On train (return) / light dinner at station (vegetarian)",
+              "cuisine": "Indian (vegetarian)",
+              "dietOk": true,
+              "cost": 300
+            }
+          ],
+          "notes": "Check out mid-afternoon, keep luggage at hotel if needed, then transfer to station for evening train to Delhi."
+        }
+      ],
+      "budget": {
+        "transport": 3200,
+        "accommodation": 6000,
+        "food": 4200,
+        "activities": 3000,
+        "localTransport": 2000,
+        "buffer": 2400,
+        "total": 20800
+      },
+      "packingTips": [
+        "Light layers for cool mornings and warm afternoons (Nov: ~15–27°C).",
+        "Comfortable walking shoes for forts, markets and uneven surfaces.",
+        "Sun protection: hat, sunglasses, sunscreen.",
+        "Reusable water bottle (refillable) — stay hydrated while sightseeing."
+      ],
+      "tips": [
+        "Book train seats early (book AC chair/2A return) to secure preferred timings.",
+        "Carry small cash for markets; many shops prefer UPI but small vendors may take only cash.",
+        "All meals planned are vegetarian; confirm 'pure-veg' at restaurants when you arrive.",
+        "Start early at Amer Fort and Nahargarh for cooler temperatures and fewer crowds.",
+        "Negotiate taxi fares for half-day hires or use app-based cabs with day-packages for convenience."
+      ],
+      "sources": []
+    },
+    "budgetLimit": 30000,
+    "computedTotal": 20800,
+    "withinBudget": true,
+    "revised": false,
+    "emailed": "skipped",
+    "warnings": [
+      "research: web research disabled for this snapshot (--no-research)"
+    ]
+  }
+}

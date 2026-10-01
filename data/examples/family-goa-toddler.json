@@ -1,0 +1,391 @@
+{
+  "id": "family-goa-toddler",
+  "title": "Family 5-day Goa (Candolim/Central Goa) — beach, gentle sightseeing & kid-friendly fun",
+  "blurb": "5 days · Mumbai → Goa · family · no-preference",
+  "source": "eval run v1-baseline (openai/gpt-5-mini)",
+  "request": {
+    "startDate": "2026-12-20",
+    "days": 5,
+    "destination": "Goa",
+    "origin": "Mumbai",
+    "adults": 2,
+    "children": 2,
+    "childAges": [
+      3,
+      7
+    ],
+    "budgetPerPerson": 20000,
+    "currency": "INR",
+    "travelMode": "flight",
+    "food": "no-preference",
+    "tripStyle": "family",
+    "accommodation": "mid-range",
+    "specialRequirements": "",
+    "additionalInfo": "",
+    "email": ""
+  },
+  "result": {
+    "itinerary": {
+      "title": "Family 5-day Goa (Candolim/Central Goa) — beach, gentle sightseeing & kid-friendly fun",
+      "summary": "5 days, 2 adults + 2 children (ages 3 & 7). Fly Mumbai → Goa, base in Candolim area (mid-range family-friendly hotel). Mix of beaches, short boat/park trip and easy sightseeing. Early evenings and rest breaks each day. Budget-conscious estimates keep total within 80,000 INR.",
+      "currency": "INR",
+      "transport": {
+        "outbound": {
+          "mode": "flight",
+          "description": "Estimated round-trip flights for 4 (Mumbai ↔ Goa) — economy, direct enough for family comfort. Price is an estimate for the whole group (round-trip).",
+          "departure": null,
+          "arrival": null,
+          "cost": 24000,
+          "source": "estimate"
+        },
+        "return": {
+          "mode": "flight",
+          "description": "See outbound — return included in the round-trip estimate above.",
+          "departure": null,
+          "arrival": null,
+          "cost": 0,
+          "source": "estimate"
+        },
+        "local": "Taxi/ride-share for airport transfers + day taxis or a short-term car with driver for day trips (recommended for family with small kids). Walk to nearby beaches and restaurants from the hotel.",
+        "localCost": 4000
+      },
+      "accommodation": {
+        "name": "Santana Beach Resort",
+        "area": "Candolim",
+        "type": "hotel",
+        "nights": 4,
+        "nightlyRate": 3500,
+        "total": 14000,
+        "why": "Mid-range, family-friendly option close to Candolim beach and easy drive to north/central Goa attractions; suitable for kids and early evenings.",
+        "source": "osm"
+      },
+      "days": [
+        {
+          "day": 1,
+          "date": "2026-12-20",
+          "theme": "Travel, settle in, easy beach time",
+          "weather": "Typically: hot and sunny (tMax ~33.7°C)",
+          "activities": [
+            {
+              "time": "07:00-11:00",
+              "name": "Flight from Mumbai to Goa and airport transfer",
+              "description": "Morning flight to Goa. Taxi from GOI to hotel in Candolim; check-in and settle.",
+              "durationHours": 4,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "12:00-15:00",
+              "name": "Relax at Candolim / Santana Beach",
+              "description": "Easy beach time and play in the sand, short swim supervised. Breaks and shaded rest for the younger child.",
+              "durationHours": 3,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "16:00-18:00",
+              "name": "Pool / nap time at hotel",
+              "description": "Short pool session for kids and rest before early evening.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "On-flight / hotel",
+              "cuisine": "light",
+              "dietOk": true,
+              "cost": 400
+            },
+            {
+              "meal": "lunch",
+              "place": "Hotel restaurant / beach shack",
+              "cuisine": "Goan / Indian",
+              "dietOk": true,
+              "cost": 800
+            },
+            {
+              "meal": "dinner",
+              "place": "Britto's (Baga) or hotel dinner",
+              "cuisine": "seafood & family-friendly",
+              "dietOk": true,
+              "cost": 1200
+            }
+          ],
+          "notes": "Arrival day kept light — early evening to allow kids to adjust."
+        },
+        {
+          "day": 2,
+          "date": "2026-12-21",
+          "theme": "Gentle boat trip and beach time",
+          "weather": "Typically: hot and sunny (tMax ~33.4°C)",
+          "activities": [
+            {
+              "time": "08:00-10:00",
+              "name": "Breakfast & short rest",
+              "description": "Leisurely breakfast at the hotel; sunscreen and water; prepare for boat trip.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "10:30-13:00",
+              "name": "Short family boat/dolphin-spotting trip (coastal)",
+              "description": "Short, family-oriented coastal boat ride (calm, 1–2 hours) to spot dolphins and see the coast. Operator will use child life-jackets; keep trip short for the 3-year-old.",
+              "durationHours": 2.5,
+              "cost": 2500,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "14:00-17:00",
+              "name": "Shallow beach play & rest",
+              "description": "Return to Candolim/Baga area for relaxed beach time, ice-cream, and shade breaks. Early evening back to hotel.",
+              "durationHours": 3,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel",
+              "cuisine": "continental / Indian",
+              "dietOk": true,
+              "cost": 400
+            },
+            {
+              "meal": "lunch",
+              "place": "Beach shack or Mayonna Creek Side Bar & Restaurant (if open)",
+              "cuisine": "Goan / seafood / kid options",
+              "dietOk": true,
+              "cost": 800
+            },
+            {
+              "meal": "dinner",
+              "place": "Local family restaurant (hotel or nearby)",
+              "cuisine": "Indian / international",
+              "dietOk": true,
+              "cost": 1200
+            }
+          ],
+          "notes": "Boat trip arranged to be short and family-friendly; sunscreen and hats advised."
+        },
+        {
+          "day": 3,
+          "date": "2026-12-22",
+          "theme": "Day trip to central/south Goa attraction (gentle nature)",
+          "weather": "Typically: mostly dry (tMax ~32.6°C)",
+          "activities": [
+            {
+              "time": "07:30-12:30",
+              "name": "Dudhsagar-style excursion (train/jeep option or scenic waterfall viewing)",
+              "description": "Organise a family-friendly excursion to see waterfalls / scenic spice plantations. For a family with a 3-year-old choose shorter, less strenuous options (viewing points or easy jeep arrangements). Keep time in shade and avoid long treks.",
+              "durationHours": 5,
+              "cost": 2000,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "13:30-16:30",
+              "name": "Relaxed lunch and pool time at hotel",
+              "description": "Return to hotel for lunch and quiet pool/play time.",
+              "durationHours": 3,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "17:00-18:30",
+              "name": "Short evening walk to nearby beach",
+              "description": "Evening sand-play and shell collecting near the hotel; early night for kids.",
+              "durationHours": 1.5,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel",
+              "cuisine": "family-friendly",
+              "dietOk": true,
+              "cost": 400
+            },
+            {
+              "meal": "lunch",
+              "place": "Local restaurant during excursion (simple, kid-friendly)",
+              "cuisine": "Indian / Goan",
+              "dietOk": true,
+              "cost": 800
+            },
+            {
+              "meal": "dinner",
+              "place": "Hotel or nearby restaurant",
+              "cuisine": "Indian / seafood / child options",
+              "dietOk": true,
+              "cost": 1200
+            }
+          ],
+          "notes": "Pick the gentlest excursion option (viewpoint/jeep with little walking) so it suits the 3-year-old."
+        },
+        {
+          "day": 4,
+          "date": "2026-12-23",
+          "theme": "Kid-focused fun park & easy sightseeing",
+          "weather": "Typically: hot and sunny (tMax ~33.3°C)",
+          "activities": [
+            {
+              "time": "09:00-12:00",
+              "name": "Blue Whale Waterpark (or similar small family waterpark)",
+              "description": "Morning at a small waterpark suitable for young children (shallow pools, play areas). Keep sessions short and include shade breaks.",
+              "durationHours": 3,
+              "cost": 1000,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "13:00-15:00",
+              "name": "Lunch and siesta",
+              "description": "Return to hotel for lunch and a rest to avoid hottest part of day.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "16:00-18:00",
+              "name": "Local short sightseeing: Reis Magos Fort / Panjim viewpoint (choice)",
+              "description": "Late afternoon short visit to a nearby fort/viewpoint (photographs, short walk). Keep visit under 90 minutes and avoid steep climbs with children.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel",
+              "cuisine": "continental / Indian",
+              "dietOk": true,
+              "cost": 400
+            },
+            {
+              "meal": "lunch",
+              "place": "Hotel or family restaurant",
+              "cuisine": "Indian / international",
+              "dietOk": true,
+              "cost": 800
+            },
+            {
+              "meal": "dinner",
+              "place": "Sunset Restaurant & Bar or similar",
+              "cuisine": "seafood / family options",
+              "dietOk": true,
+              "cost": 1200
+            }
+          ],
+          "notes": "Midday rest is built in to avoid heat and tired children; keep evening short."
+        },
+        {
+          "day": 5,
+          "date": "2026-12-24",
+          "theme": "Easy local culture, pack & return travel",
+          "weather": "Typically: mostly dry (tMax ~32.9°C)",
+          "activities": [
+            {
+              "time": "08:00-10:00",
+              "name": "Leisurely breakfast & pack",
+              "description": "Breakfast at hotel, final beach/pool quick play if time allows; check out.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "10:30-12:30",
+              "name": "Short visit to Museum of Goa or Goa Chitra (optional, short visit)",
+              "description": "Short cultural stop that is stroller-friendly with exhibits suitable for short family visits. Keep visit to an hour or so for youngest child.",
+              "durationHours": 2,
+              "cost": 0,
+              "indoor": true,
+              "kidFriendly": true
+            },
+            {
+              "time": "13:00-18:00",
+              "name": "Airport transfer and flight back to Mumbai",
+              "description": "Taxi to Goa airport and flight home. Allow time for check-in and a relaxed departure so children are comfortable.",
+              "durationHours": 5,
+              "cost": 0,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Hotel",
+              "cuisine": "light",
+              "dietOk": true,
+              "cost": 400
+            },
+            {
+              "meal": "lunch",
+              "place": "Airport / en route",
+              "cuisine": "mixed",
+              "dietOk": true,
+              "cost": 800
+            },
+            {
+              "meal": "dinner",
+              "place": "On-flight / at home (post-arrival)",
+              "cuisine": "light",
+              "dietOk": true,
+              "cost": 1200
+            }
+          ],
+          "notes": "Keep last day unhurried; plan airport transfer with wiggle room for family needs."
+        }
+      ],
+      "budget": {
+        "transport": 24000,
+        "accommodation": 14000,
+        "food": 12000,
+        "activities": 5500,
+        "localTransport": 4000,
+        "buffer": 6000,
+        "total": 65500
+      },
+      "packingTips": [
+        "Light cotton clothes, hats and sunscreen for hot, sunny days.",
+        "Swimwear, small floaties and a towel for the kids; waterproof bag for phones.",
+        "Basic first-aid and children's medicines (for fever, motion sickness).",
+        "Copies of kids' ID/birth proof if needed for flights; snacks and favourite small toys for flights and boat rides."
+      ],
+      "tips": [
+        "Book family-friendly morning flights to keep days relaxed on arrival and departure.",
+        "Pre-book boat trip and waterpark tickets to lock family-friendly slots (short trips recommended for the 3-year-old).",
+        "Ask hotel for a family room or interconnecting rooms and a baby cot if needed.",
+        "Carry refillable water bottles and keep activities short during mid-day heat."
+      ],
+      "sources": []
+    },
+    "budgetLimit": 80000,
+    "computedTotal": 65500,
+    "withinBudget": true,
+    "revised": false,
+    "emailed": "skipped",
+    "warnings": [
+      "research: web research disabled for this snapshot (--no-research)"
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "dur-1day-agra",
+  "title": "One-day cultural trip to Agra (from Delhi) — 27 Feb 2027",
+  "blurb": "1 day · Delhi → Agra · cultural · vegetarian",
+  "source": "eval run v1-baseline (openai/gpt-5-mini)",
+  "request": {
+    "startDate": "2027-02-27",
+    "days": 1,
+    "destination": "Agra",
+    "origin": "Delhi",
+    "adults": 1,
+    "children": 0,
+    "childAges": [],
+    "budgetPerPerson": 3000,
+    "currency": "INR",
+    "travelMode": "train",
+    "food": "vegetarian",
+    "tripStyle": "cultural",
+    "accommodation": "budget",
+    "specialRequirements": "",
+    "additionalInfo": "",
+    "email": ""
+  },
+  "result": {
+    "itinerary": {
+      "title": "One-day cultural trip to Agra (from Delhi) — 27 Feb 2027",
+      "summary": "Day trip from Delhi to Agra focused on heritage: Taj Mahal viewpoint, Agra Fort and Itmad‑ud‑Daula (Baby Taj). Pure-vegetarian meals, budget travel by train, no overnight stay.",
+      "currency": "INR",
+      "transport": {
+        "outbound": {
+          "mode": "train",
+          "description": "Estimated early-morning reserved express/Intercity (Delhi → Agra) to reach Agra for morning sightseeing. Book a second-class reserved/CC/cheap Intercity to keep costs low.",
+          "departure": "approx 06:00 from New Delhi station / Hazrat Nizamuddin (choose an early Intercity)",
+          "arrival": "approx 09:00 — Agra Cantt / Agra Fort station",
+          "cost": 600,
+          "source": "estimate"
+        },
+        "return": {
+          "mode": "train",
+          "description": "Estimated evening return train (Agra → Delhi). Book a reserved seat on an evening Intercity/express.",
+          "departure": "approx 18:30 from Agra Cantt / Agra Fort station",
+          "arrival": "approx 22:00 — Delhi (approx)",
+          "cost": 0,
+          "source": "estimate"
+        },
+        "local": "Auto-rickshaw and short cycle-rickshaw/foot transfers within Agra (station ↔ Taj complex ↔ Agra Fort ↔ Itmad-ud-Daula ↔ local market)",
+        "localCost": 400
+      },
+      "accommodation": {
+        "name": "No accommodation — day trip (return to Delhi same day)",
+        "area": "N/A",
+        "type": "day-trip / no-stay",
+        "nights": 0,
+        "nightlyRate": 0,
+        "total": 0,
+        "why": "Travel is planned as a same-day return to Delhi, so no hotel night is required.",
+        "source": "estimate"
+      },
+      "days": [
+        {
+          "day": 1,
+          "date": "2027-02-27",
+          "theme": "Heritage: monuments, museum and local market",
+          "weather": "Mostly dry, day max ~28°C — good for outdoor monument visits in the morning and late afternoon.",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Taj Mahal — main view & Taj complex (use View Point if shorter visit)",
+              "description": "Arrive early to see the Taj Mahal in the morning light. Walk the gardens, visit the main viewpoint and the Taj museum if time permits.",
+              "durationHours": 2.5,
+              "cost": 50,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "12:00",
+              "name": "Agra Fort",
+              "description": "Explore Agra Fort's Diwan-i-Khas, Jahangir's Palace and other Mughal-era structures; good for history and photos.",
+              "durationHours": 1.5,
+              "cost": 60,
+              "indoor": false,
+              "kidFriendly": true
+            },
+            {
+              "time": "15:00",
+              "name": "Itmad‑ud‑Daula (Baby Taj) and nearby local market stroll",
+              "description": "Visit the smaller marble tomb (Itmad‑ud‑Daula). Afterward browse a nearby market for handicrafts and sweets (pure-veg snacks available).",
+              "durationHours": 1.5,
+              "cost": 40,
+              "indoor": false,
+              "kidFriendly": true
+            }
+          ],
+          "meals": [
+            {
+              "meal": "breakfast",
+              "place": "Station / nearby pure-veg stall or Bikanerwala (takeaway)",
+              "cuisine": "Indian - vegetarian",
+              "dietOk": true,
+              "cost": 100
+            },
+            {
+              "meal": "lunch",
+              "place": "Bikanerwala (pure-veg restaurant / local vegetarian eatery)",
+              "cuisine": "North Indian / sweets & snacks (pure veg)",
+              "dietOk": true,
+              "cost": 300
+            },
+            {
+              "meal": "dinner",
+              "place": "Bikanerwala or similar pure-veg restaurant near station before return",
+              "cuisine": "North Indian / Thali / snacks (pure veg)",
+              "dietOk": true,
+              "cost": 300
+            }
+          ],
+          "notes": "Start early to avoid midday heat and crowds at the Taj. Carry original photo ID for Indian-entry tickets. Allocate time for tiffin / chai breaks between sites."
+        }
+      ],
+      "budget": {
+        "transport": 600,
+        "accommodation": 0,
+        "food": 700,
+        "activities": 150,
+        "localTransport": 400,
+        "buffer": 240,
+        "total": 2090
+      },
+      "packingTips": [
+        "Carry original photo ID for ticket checks (Aadhaar/driving licence/passport).",
+        "Comfortable walking shoes and a hat/sunglasses for midday sun.",
+        "Small bottle of water and hand sanitiser.",
+        "Light daypack for camera, tickets and purchases."
+      ],
+      "tips": [
+        "Buy/browse Taj Mahal and Agra Fort tickets early (Indian citizen ticket counters are inexpensive).",
+        "Prefer pure-veg chains like Bikanerwala listed in OSM for assured vegetarian meals.",
+        "Negotiate auto-rickshaw fares beforehand or ask your train station prepaid counter for a taxi to reduce haggling.",
+        "Keep about 30–60 minutes cushion before train departures — Agra station can be busy."
+      ],
+      "sources": []
+    },
+    "budgetLimit": 3000,
+    "computedTotal": 2090,
+    "withinBudget": true,
+    "revised": false,
+    "emailed": "skipped",
+    "warnings": [
+      "research: web research disabled for this snapshot (--no-research)"
+    ]
+  }
+}
